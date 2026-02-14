@@ -1,0 +1,1262 @@
+UID	PID	PPID	LWP	C	NLWP	%CPU	%MEM	VSZ	RSS	TTY	STAT	START	TIME	COMMAND
+root	1	0	1	2	1	2.0	0.1	45060	23112	?	Ss	12:10	0:02	/usr/lib/systemd/systemd --switched-root --system --deserialize=60 rhgb
+root	2	0	2	0	1	0.0	0.0	0	0	?	S	12:10	0:00	[kthreadd]
+root	3	2	3	0	1	0.0	0.0	0	0	?	S	12:10	0:00	[pool_workqueue_release]
+root	4	2	4	0	1	0.0	0.0	0	0	?	I<	12:10	0:00	[kworker/R-rcu_gp]
+root	5	2	5	0	1	0.0	0.0	0	0	?	I<	12:10	0:00	[kworker/R-sync_wq]
+root	6	2	6	0	1	0.0	0.0	0	0	?	I<	12:10	0:00	[kworker/R-kvfree_rcu_reclaim]
+root	7	2	7	0	1	0.0	0.0	0	0	?	I<	12:10	0:00	[kworker/R-slub_flushwq]
+root	8	2	8	0	1	0.0	0.0	0	0	?	I<	12:10	0:00	[kworker/R-netns]
+root	9	2	9	0	1	0.0	0.0	0	0	?	I	12:10	0:00	[kworker/0:0-cgroup_free]
+root	10	2	10	0	1	0.0	0.0	0	0	?	I<	12:10	0:00	[kworker/0:0H-events_highpri]
+root	11	2	11	0	1	0.0	0.0	0	0	?	I	12:10	0:00	[kworker/0:1-mm_percpu_wq]
+root	12	2	12	0	1	0.0	0.0	0	0	?	I	12:10	0:00	[kworker/u64:0-events_unbound]
+root	13	2	13	0	1	0.0	0.0	0	0	?	I<	12:10	0:00	[kworker/R-mm_percpu_wq]
+root	14	2	14	0	1	0.2	0.0	0	0	?	I	12:10	0:00	[kworker/u64:1-events_unbound]
+root	15	2	15	0	1	0.0	0.0	0	0	?	S	12:10	0:00	[ksoftirqd/0]
+root	16	2	16	0	1	0.1	0.0	0	0	?	I	12:10	0:00	[rcu_preempt]
+root	17	2	17	0	1	0.0	0.0	0	0	?	S	12:10	0:00	[rcu_exp_par_gp_kthread_worker/0]
+root	18	2	18	0	1	0.0	0.0	0	0	?	S	12:10	0:00	[rcu_exp_gp_kthread_worker]
+root	19	2	19	0	1	0.0	0.0	0	0	?	S	12:10	0:00	[migration/0]
+root	20	2	20	0	1	0.0	0.0	0	0	?	S	12:10	0:00	[idle_inject/0]
+root	21	2	21	0	1	0.0	0.0	0	0	?	S	12:10	0:00	[cpuhp/0]
+root	22	2	22	0	1	0.0	0.0	0	0	?	S	12:10	0:00	[cpuhp/2]
+root	23	2	23	0	1	0.0	0.0	0	0	?	S	12:10	0:00	[idle_inject/2]
+root	24	2	24	0	1	0.0	0.0	0	0	?	S	12:10	0:00	[migration/2]
+root	25	2	25	0	1	0.0	0.0	0	0	?	S	12:10	0:00	[ksoftirqd/2]
+root	26	2	26	0	1	0.0	0.0	0	0	?	I	12:10	0:00	[kworker/2:0-cgroup_free]
+root	27	2	27	0	1	0.0	0.0	0	0	?	I<	12:10	0:00	[kworker/2:0H-events_highpri]
+root	28	2	28	0	1	0.0	0.0	0	0	?	S	12:10	0:00	[cpuhp/4]
+root	29	2	29	0	1	0.0	0.0	0	0	?	S	12:10	0:00	[idle_inject/4]
+root	30	2	30	0	1	0.0	0.0	0	0	?	S	12:10	0:00	[migration/4]
+root	31	2	31	0	1	0.0	0.0	0	0	?	S	12:10	0:00	[ksoftirqd/4]
+root	32	2	32	0	1	0.0	0.0	0	0	?	I	12:10	0:00	[kworker/4:0-events]
+root	33	2	33	0	1	0.0	0.0	0	0	?	I<	12:10	0:00	[kworker/4:0H-events_highpri]
+root	34	2	34	0	1	0.0	0.0	0	0	?	S	12:10	0:00	[cpuhp/6]
+root	35	2	35	0	1	0.0	0.0	0	0	?	S	12:10	0:00	[idle_inject/6]
+root	36	2	36	0	1	0.0	0.0	0	0	?	S	12:10	0:00	[migration/6]
+root	37	2	37	0	1	0.0	0.0	0	0	?	S	12:10	0:00	[ksoftirqd/6]
+root	38	2	38	0	1	0.0	0.0	0	0	?	I	12:10	0:00	[kworker/6:0-events]
+root	39	2	39	0	1	0.0	0.0	0	0	?	I<	12:10	0:00	[kworker/6:0H-events_highpri]
+root	40	2	40	0	1	0.0	0.0	0	0	?	S	12:10	0:00	[cpuhp/8]
+root	41	2	41	0	1	0.0	0.0	0	0	?	S	12:10	0:00	[idle_inject/8]
+root	42	2	42	0	1	0.0	0.0	0	0	?	S	12:10	0:00	[migration/8]
+root	43	2	43	0	1	0.0	0.0	0	0	?	S	12:10	0:00	[ksoftirqd/8]
+root	44	2	44	0	1	0.0	0.0	0	0	?	I	12:10	0:00	[kworker/8:0-cgroup_free]
+root	45	2	45	0	1	0.0	0.0	0	0	?	I<	12:10	0:00	[kworker/8:0H-events_highpri]
+root	46	2	46	0	1	0.0	0.0	0	0	?	S	12:10	0:00	[cpuhp/10]
+root	47	2	47	0	1	0.0	0.0	0	0	?	S	12:10	0:00	[idle_inject/10]
+root	48	2	48	0	1	0.0	0.0	0	0	?	S	12:10	0:00	[migration/10]
+root	49	2	49	0	1	0.0	0.0	0	0	?	S	12:10	0:00	[ksoftirqd/10]
+root	50	2	50	0	1	0.0	0.0	0	0	?	I	12:10	0:00	[kworker/10:0-events]
+root	51	2	51	0	1	0.0	0.0	0	0	?	I<	12:10	0:00	[kworker/10:0H-events_highpri]
+root	52	2	52	0	1	0.0	0.0	0	0	?	S	12:10	0:00	[cpuhp/12]
+root	53	2	53	0	1	0.0	0.0	0	0	?	S	12:10	0:00	[idle_inject/12]
+root	54	2	54	0	1	0.1	0.0	0	0	?	S	12:10	0:00	[migration/12]
+root	55	2	55	0	1	0.0	0.0	0	0	?	S	12:10	0:00	[ksoftirqd/12]
+root	56	2	56	0	1	0.0	0.0	0	0	?	I	12:10	0:00	[kworker/12:0-events]
+root	57	2	57	0	1	0.0	0.0	0	0	?	I<	12:10	0:00	[kworker/12:0H-events_highpri]
+root	58	2	58	0	1	0.0	0.0	0	0	?	S	12:10	0:00	[cpuhp/13]
+root	59	2	59	0	1	0.0	0.0	0	0	?	S	12:10	0:00	[idle_inject/13]
+root	60	2	60	0	1	0.0	0.0	0	0	?	S	12:10	0:00	[migration/13]
+root	61	2	61	0	1	0.0	0.0	0	0	?	S	12:10	0:00	[ksoftirqd/13]
+root	62	2	62	0	1	0.0	0.0	0	0	?	I	12:10	0:00	[kworker/13:0-events_power_efficient]
+root	63	2	63	0	1	0.0	0.0	0	0	?	I<	12:10	0:00	[kworker/13:0H-events_highpri]
+root	64	2	64	0	1	0.0	0.0	0	0	?	S	12:10	0:00	[cpuhp/14]
+root	65	2	65	0	1	0.0	0.0	0	0	?	S	12:10	0:00	[idle_inject/14]
+root	66	2	66	0	1	0.0	0.0	0	0	?	S	12:10	0:00	[migration/14]
+root	67	2	67	0	1	0.0	0.0	0	0	?	S	12:10	0:00	[ksoftirqd/14]
+root	68	2	68	0	1	0.0	0.0	0	0	?	I	12:10	0:00	[kworker/14:0-events]
+root	69	2	69	0	1	0.0	0.0	0	0	?	I<	12:10	0:00	[kworker/14:0H-events_highpri]
+root	70	2	70	0	1	0.0	0.0	0	0	?	S	12:10	0:00	[cpuhp/15]
+root	71	2	71	0	1	0.0	0.0	0	0	?	S	12:10	0:00	[idle_inject/15]
+root	72	2	72	0	1	0.0	0.0	0	0	?	S	12:10	0:00	[migration/15]
+root	73	2	73	0	1	0.0	0.0	0	0	?	S	12:10	0:00	[ksoftirqd/15]
+root	74	2	74	0	1	0.0	0.0	0	0	?	I	12:10	0:00	[kworker/15:0-cgroup_free]
+root	75	2	75	0	1	0.0	0.0	0	0	?	I<	12:10	0:00	[kworker/15:0H-events_highpri]
+root	76	2	76	0	1	0.0	0.0	0	0	?	S	12:10	0:00	[cpuhp/1]
+root	77	2	77	0	1	0.0	0.0	0	0	?	S	12:10	0:00	[idle_inject/1]
+root	78	2	78	0	1	0.0	0.0	0	0	?	S	12:10	0:00	[migration/1]
+root	79	2	79	0	1	0.0	0.0	0	0	?	S	12:10	0:00	[ksoftirqd/1]
+root	80	2	80	0	1	0.3	0.0	0	0	?	I	12:10	0:00	[kworker/1:0-events]
+root	81	2	81	0	1	0.0	0.0	0	0	?	I<	12:10	0:00	[kworker/1:0H-events_highpri]
+root	82	2	82	0	1	0.0	0.0	0	0	?	S	12:10	0:00	[cpuhp/3]
+root	83	2	83	0	1	0.0	0.0	0	0	?	S	12:10	0:00	[idle_inject/3]
+root	84	2	84	0	1	0.0	0.0	0	0	?	S	12:10	0:00	[migration/3]
+root	85	2	85	0	1	0.0	0.0	0	0	?	S	12:10	0:00	[ksoftirqd/3]
+root	86	2	86	0	1	0.0	0.0	0	0	?	I	12:10	0:00	[kworker/3:0-events]
+root	87	2	87	0	1	0.0	0.0	0	0	?	I<	12:10	0:00	[kworker/3:0H-events_highpri]
+root	88	2	88	0	1	0.0	0.0	0	0	?	S	12:10	0:00	[cpuhp/5]
+root	89	2	89	0	1	0.0	0.0	0	0	?	S	12:10	0:00	[idle_inject/5]
+root	90	2	90	0	1	0.0	0.0	0	0	?	S	12:10	0:00	[migration/5]
+root	91	2	91	0	1	0.0	0.0	0	0	?	S	12:10	0:00	[ksoftirqd/5]
+root	92	2	92	0	1	0.0	0.0	0	0	?	I	12:10	0:00	[kworker/5:0-events]
+root	93	2	93	0	1	0.0	0.0	0	0	?	I<	12:10	0:00	[kworker/5:0H-events_highpri]
+root	94	2	94	0	1	0.0	0.0	0	0	?	S	12:10	0:00	[cpuhp/7]
+root	95	2	95	0	1	0.0	0.0	0	0	?	S	12:10	0:00	[idle_inject/7]
+root	96	2	96	0	1	0.0	0.0	0	0	?	S	12:10	0:00	[migration/7]
+root	97	2	97	0	1	0.0	0.0	0	0	?	S	12:10	0:00	[ksoftirqd/7]
+root	98	2	98	0	1	0.0	0.0	0	0	?	I	12:10	0:00	[kworker/7:0-i915-unordered]
+root	99	2	99	0	1	0.0	0.0	0	0	?	I<	12:10	0:00	[kworker/7:0H-events_highpri]
+root	100	2	100	0	1	0.0	0.0	0	0	?	S	12:10	0:00	[cpuhp/9]
+root	101	2	101	0	1	0.0	0.0	0	0	?	S	12:10	0:00	[idle_inject/9]
+root	102	2	102	0	1	0.0	0.0	0	0	?	S	12:10	0:00	[migration/9]
+root	103	2	103	0	1	0.0	0.0	0	0	?	S	12:10	0:00	[ksoftirqd/9]
+root	104	2	104	0	1	0.0	0.0	0	0	?	I	12:10	0:00	[kworker/9:0-events]
+root	105	2	105	0	1	0.0	0.0	0	0	?	I<	12:10	0:00	[kworker/9:0H-events_highpri]
+root	106	2	106	0	1	0.0	0.0	0	0	?	S	12:10	0:00	[cpuhp/11]
+root	107	2	107	0	1	0.0	0.0	0	0	?	S	12:10	0:00	[idle_inject/11]
+root	108	2	108	0	1	0.0	0.0	0	0	?	S	12:10	0:00	[migration/11]
+root	109	2	109	0	1	0.0	0.0	0	0	?	S	12:10	0:00	[ksoftirqd/11]
+root	110	2	110	0	1	0.0	0.0	0	0	?	I	12:10	0:00	[kworker/11:0-mm_percpu_wq]
+root	111	2	111	0	1	0.0	0.0	0	0	?	I<	12:10	0:00	[kworker/11:0H-events_highpri]
+root	112	2	112	0	1	0.0	0.0	0	0	?	S	12:10	0:00	[kdevtmpfs]
+root	113	2	113	0	1	0.0	0.0	0	0	?	I<	12:10	0:00	[kworker/R-inet_frag_wq]
+root	114	2	114	0	1	0.0	0.0	0	0	?	I	12:10	0:00	[rcu_tasks_kthread]
+root	115	2	115	0	1	0.0	0.0	0	0	?	I	12:10	0:00	[rcu_tasks_rude_kthread]
+root	116	2	116	0	1	0.0	0.0	0	0	?	I	12:10	0:00	[rcu_tasks_trace_kthread]
+root	117	2	117	0	1	0.0	0.0	0	0	?	S	12:10	0:00	[kauditd]
+root	118	2	118	0	1	0.0	0.0	0	0	?	S	12:10	0:00	[oom_reaper]
+root	119	2	119	0	1	0.7	0.0	0	0	?	I	12:10	0:00	[kworker/u64:2-btrfs-compressed-write]
+root	120	2	120	0	1	0.0	0.0	0	0	?	I<	12:10	0:00	[kworker/R-writeback]
+root	121	2	121	0	1	0.0	0.0	0	0	?	S	12:10	0:00	[kcompactd0]
+root	122	2	122	0	1	0.0	0.0	0	0	?	SN	12:10	0:00	[ksmd]
+root	123	2	123	0	1	0.0	0.0	0	0	?	SN	12:10	0:00	[khugepaged]
+root	124	2	124	0	1	0.0	0.0	0	0	?	I<	12:10	0:00	[kworker/R-kblockd]
+root	125	2	125	0	1	0.0	0.0	0	0	?	I<	12:10	0:00	[kworker/R-blkcg_punt_bio]
+root	126	2	126	0	1	0.0	0.0	0	0	?	I<	12:10	0:00	[kworker/R-kintegrityd]
+root	127	2	127	0	1	0.0	0.0	0	0	?	I	12:10	0:00	[kworker/12:1-i915-unordered]
+root	128	2	128	0	1	0.0	0.0	0	0	?	S	12:10	0:00	[irq/9-acpi]
+root	129	2	129	0	1	0.0	0.0	0	0	?	I	12:10	0:00	[kworker/15:1-mm_percpu_wq]
+root	130	2	130	0	1	0.0	0.0	0	0	?	I<	12:10	0:00	[kworker/R-tpm_dev_wq]
+root	131	2	131	0	1	0.0	0.0	0	0	?	I<	12:10	0:00	[kworker/R-ata_sff]
+root	132	2	132	0	1	0.0	0.0	0	0	?	I<	12:10	0:00	[kworker/R-md_bitmap]
+root	133	2	133	0	1	0.0	0.0	0	0	?	I<	12:10	0:00	[kworker/R-md]
+root	134	2	134	0	1	0.0	0.0	0	0	?	I<	12:10	0:00	[kworker/R-edac-poller]
+root	135	2	135	0	1	0.0	0.0	0	0	?	I<	12:10	0:00	[kworker/R-devfreq_wq]
+root	136	2	136	0	1	0.0	0.0	0	0	?	S	12:10	0:00	[watchdogd]
+root	137	2	137	0	1	0.0	0.0	0	0	?	I	12:10	0:00	[kworker/14:1-cgroup_free]
+root	138	2	138	0	1	0.0	0.0	0	0	?	I<	12:10	0:00	[kworker/R-quota_events_unbound]
+root	139	2	139	0	1	0.3	0.0	0	0	?	I	12:10	0:00	[kworker/13:1-mm_percpu_wq]
+root	140	2	140	0	1	0.0	0.0	0	0	?	I<	12:10	0:00	[kworker/13:1H-i915_cleanup]
+root	141	2	141	0	1	0.0	0.0	0	0	?	S	12:10	0:00	[kswapd0]
+root	142	2	142	0	1	0.0	0.0	0	0	?	I<	12:10	0:00	[kworker/R-cryptd]
+root	145	2	145	0	1	0.0	0.0	0	0	?	I<	12:10	0:00	[kworker/R-kthrotld]
+root	146	2	146	0	1	0.0	0.0	0	0	?	S	12:10	0:00	[irq/120-pciehp]
+root	147	2	147	0	1	0.0	0.0	0	0	?	I	12:10	0:00	[kworker/4:1-events_power_efficient]
+root	148	2	148	0	1	0.0	0.0	0	0	?	I<	12:10	0:00	[kworker/R-acpi_thermal_pm]
+root	149	2	149	0	1	0.0	0.0	0	0	?	S	12:10	0:00	[hwrng]
+root	154	2	154	0	1	0.0	0.0	0	0	?	S	12:10	0:00	[scsi_eh_0]
+root	155	2	155	0	1	0.0	0.0	0	0	?	I<	12:10	0:00	[kworker/R-scsi_tmf_0]
+root	156	2	156	0	1	0.0	0.0	0	0	?	S	12:10	0:00	[scsi_eh_1]
+root	157	2	157	0	1	0.0	0.0	0	0	?	I<	12:10	0:00	[kworker/R-scsi_tmf_1]
+root	158	2	158	0	1	0.0	0.0	0	0	?	S	12:10	0:00	[scsi_eh_2]
+root	159	2	159	0	1	0.0	0.0	0	0	?	I<	12:10	0:00	[kworker/R-scsi_tmf_2]
+root	160	2	160	0	1	0.0	0.0	0	0	?	S	12:10	0:00	[scsi_eh_3]
+root	161	2	161	0	1	0.0	0.0	0	0	?	I	12:10	0:00	[kworker/2:1-events]
+root	162	2	162	0	1	0.0	0.0	0	0	?	I<	12:10	0:00	[kworker/R-scsi_tmf_3]
+root	163	2	163	0	1	0.0	0.0	0	0	?	S	12:10	0:00	[scsi_eh_4]
+root	164	2	164	0	1	0.0	0.0	0	0	?	I<	12:10	0:00	[kworker/R-scsi_tmf_4]
+root	165	2	165	0	1	0.0	0.0	0	0	?	S	12:10	0:00	[scsi_eh_5]
+root	166	2	166	0	1	0.0	0.0	0	0	?	I<	12:10	0:00	[kworker/R-scsi_tmf_5]
+root	167	2	167	0	1	0.0	0.0	0	0	?	S	12:10	0:00	[scsi_eh_6]
+root	168	2	168	0	1	0.0	0.0	0	0	?	I<	12:10	0:00	[kworker/R-scsi_tmf_6]
+root	169	2	169	0	1	0.0	0.0	0	0	?	S	12:10	0:00	[scsi_eh_7]
+root	170	2	170	0	1	0.0	0.0	0	0	?	I<	12:10	0:00	[kworker/R-scsi_tmf_7]
+root	171	2	171	0	1	0.0	0.0	0	0	?	I	12:10	0:00	[kworker/u64:3-btrfs-endio]
+root	172	2	172	0	1	0.4	0.0	0	0	?	I	12:10	0:00	[kworker/u64:4-btrfs-endio-write]
+root	173	2	173	0	1	0.6	0.0	0	0	?	I	12:10	0:00	[kworker/u64:5-events_unbound]
+root	174	2	174	0	1	0.0	0.0	0	0	?	I	12:10	0:00	[kworker/u64:6-events_unbound]
+root	175	2	175	0	1	0.3	0.0	0	0	?	I	12:10	0:00	[kworker/u64:7-btrfs-endio-write]
+root	176	2	176	0	1	0.1	0.0	0	0	?	I	12:10	0:00	[kworker/u64:8-btrfs-compressed-write]
+root	177	2	177	0	1	0.6	0.0	0	0	?	I	12:10	0:00	[kworker/u64:9-btrfs-compressed-write]
+root	178	2	178	0	1	0.0	0.0	0	0	?	I	12:10	0:00	[kworker/u64:10-events_unbound]
+root	179	2	179	0	1	0.0	0.0	0	0	?	I	12:10	0:00	[kworker/1:1-cgroup_free]
+root	180	2	180	0	1	0.0	0.0	0	0	?	I<	12:10	0:00	[kworker/R-hfi-updates]
+root	181	2	181	0	1	0.0	0.0	0	0	?	I<	12:10	0:00	[kworker/R-dm_bufio_cache]
+root	182	2	182	0	1	0.0	0.0	0	0	?	I<	12:10	0:00	[kworker/R-mld]
+root	183	2	183	0	1	0.0	0.0	0	0	?	I<	12:10	0:00	[kworker/R-ipv6_addrconf]
+root	184	2	184	0	1	0.0	0.0	0	0	?	I<	12:10	0:00	[kworker/2:1H-kblockd]
+root	185	2	185	0	1	0.3	0.0	0	0	?	I	12:10	0:00	[kworker/u64:11-events_unbound]
+root	186	2	186	0	1	0.0	0.0	0	0	?	I<	12:10	0:00	[kworker/R-kstrp]
+root	187	2	187	0	1	0.0	0.0	0	0	?	I	12:10	0:00	[kworker/3:1-i915-unordered]
+root	188	2	188	0	1	0.0	0.0	0	0	?	I	12:10	0:00	[kworker/6:1-i915-unordered]
+root	189	2	189	0	1	0.0	0.0	0	0	?	I	12:10	0:00	[kworker/10:1-events]
+root	190	2	190	0	1	0.0	0.0	0	0	?	I	12:10	0:00	[kworker/5:1-events]
+root	191	2	191	0	1	0.2	0.0	0	0	?	I	12:10	0:00	[kworker/8:1-mm_percpu_wq]
+root	201	2	201	0	1	0.0	0.0	0	0	?	I<	12:10	0:00	[kworker/u65:0-rtw89_tx_wq]
+root	207	2	207	0	1	0.0	0.0	0	0	?	I	12:10	0:00	[kworker/0:2-events]
+root	208	2	208	0	1	0.0	0.0	0	0	?	I	12:10	0:00	[kworker/0:3-events]
+root	272	2	272	0	1	0.0	0.0	0	0	?	I<	12:10	0:00	[kworker/0:1H-i915_cleanup]
+root	274	2	274	0	1	0.0	0.0	0	0	?	I<	12:10	0:00	[kworker/12:1H-kblockd]
+root	275	2	275	0	1	0.0	0.0	0	0	?	I<	12:10	0:00	[kworker/4:1H-kblockd]
+root	314	2	314	0	1	0.0	0.0	0	0	?	I<	12:10	0:00	[kworker/15:1H-i915_cleanup]
+root	318	2	318	0	1	0.0	0.0	0	0	?	I<	12:10	0:00	[kworker/8:1H-i915_cleanup]
+root	319	2	319	0	1	0.0	0.0	0	0	?	I<	12:10	0:00	[kworker/10:1H-i915_cleanup]
+root	322	2	322	0	1	0.0	0.0	0	0	?	I<	12:10	0:00	[kworker/6:1H-kblockd]
+root	324	2	324	0	1	0.0	0.0	0	0	?	I<	12:10	0:00	[kworker/14:1H-i915_cleanup]
+root	351	2	351	0	1	0.0	0.0	0	0	?	I	12:10	0:00	[kworker/15:2-events]
+root	364	2	364	0	1	0.0	0.0	0	0	?	I	12:10	0:00	[kworker/2:2-i915-unordered]
+root	387	2	387	0	1	0.0	0.0	0	0	?	I	12:10	0:00	[kworker/2:3-events]
+root	390	2	390	0	1	0.0	0.0	0	0	?	I	12:10	0:00	[kworker/2:4-events]
+root	443	2	443	0	1	0.0	0.0	0	0	?	I	12:10	0:00	[kworker/10:2-events]
+root	445	2	445	0	1	0.0	0.0	0	0	?	I<	12:10	0:00	[kworker/1:1H-kblockd]
+root	460	2	460	0	1	0.0	0.0	0	0	?	I<	12:10	0:00	[kworker/3:1H-kblockd]
+root	490	2	490	0	1	0.0	0.0	0	0	?	I<	12:10	0:00	[kworker/5:1H-kblockd]
+root	491	2	491	0	1	0.0	0.0	0	0	?	I<	12:10	0:00	[kworker/11:1H-kblockd]
+root	492	2	492	0	1	0.0	0.0	0	0	?	I<	12:10	0:00	[kworker/7:1H-i915_cleanup]
+root	493	2	493	0	1	0.0	0.0	0	0	?	I<	12:10	0:00	[kworker/9:1H-kblockd]
+root	497	2	497	0	1	0.0	0.0	0	0	?	I	12:10	0:00	[kworker/7:1-events]
+root	498	2	498	0	1	0.0	0.0	0	0	?	I	12:10	0:00	[kworker/7:2-i915-unordered]
+root	508	2	508	0	1	0.0	0.0	0	0	?	S	12:10	0:00	[irq/133-ELAN06FA:00]
+root	509	2	509	0	1	0.0	0.0	0	0	?	I	12:10	0:00	[kworker/6:2-i915-unordered]
+root	511	2	511	0	1	0.0	0.0	0	0	?	I	12:10	0:00	[kworker/9:1-mm_percpu_wq]
+root	512	2	512	0	1	0.0	0.0	0	0	?	I<	12:10	0:00	[kworker/R-nvme-wq]
+root	513	2	513	0	1	0.0	0.0	0	0	?	I<	12:10	0:00	[kworker/R-nvme-reset-wq]
+root	514	2	514	0	1	0.0	0.0	0	0	?	I<	12:10	0:00	[kworker/R-nvme-delete-wq]
+root	515	2	515	0	1	0.0	0.0	0	0	?	I<	12:10	0:00	[kworker/R-nvme-auth-wq]
+root	516	2	516	0	1	0.0	0.0	0	0	?	I	12:10	0:00	[kworker/9:2-mm_percpu_wq]
+root	517	2	517	0	1	0.0	0.0	0	0	?	I	12:10	0:00	[kworker/11:1-events]
+root	518	2	518	0	1	0.0	0.0	0	0	?	I<	12:10	0:00	[kworker/R-USBC000:00-con1]
+root	530	2	530	0	1	0.0	0.0	0	0	?	I<	12:10	0:00	[kworker/R-btrfs-worker]
+root	531	2	531	0	1	0.0	0.0	0	0	?	I<	12:10	0:00	[kworker/R-btrfs-delalloc]
+root	532	2	532	0	1	0.0	0.0	0	0	?	I<	12:10	0:00	[kworker/R-btrfs-flush_delalloc]
+root	533	2	533	0	1	0.0	0.0	0	0	?	I<	12:10	0:00	[kworker/R-btrfs-cache]
+root	534	2	534	0	1	0.0	0.0	0	0	?	I<	12:10	0:00	[kworker/R-btrfs-fixup]
+root	535	2	535	0	1	0.0	0.0	0	0	?	I<	12:10	0:00	[kworker/R-btrfs-endio]
+root	536	2	536	0	1	0.0	0.0	0	0	?	I<	12:10	0:00	[kworker/R-btrfs-endio-meta]
+root	537	2	537	0	1	0.0	0.0	0	0	?	I<	12:10	0:00	[kworker/R-btrfs-rmw]
+root	538	2	538	0	1	0.0	0.0	0	0	?	I<	12:10	0:00	[kworker/R-btrfs-endio-write]
+root	539	2	539	0	1	0.0	0.0	0	0	?	I<	12:10	0:00	[kworker/R-btrfs-compressed-write]
+root	540	2	540	0	1	0.0	0.0	0	0	?	I<	12:10	0:00	[kworker/R-btrfs-freespace-write]
+root	541	2	541	0	1	0.0	0.0	0	0	?	I<	12:10	0:00	[kworker/R-btrfs-delayed-meta]
+root	542	2	542	0	1	0.0	0.0	0	0	?	I<	12:10	0:00	[kworker/R-btrfs-qgroup-rescan]
+root	543	2	543	0	1	0.0	0.0	0	0	?	S	12:10	0:00	[btrfs-cleaner]
+root	544	2	544	0	1	0.1	0.0	0	0	?	S	12:10	0:00	[btrfs-transaction]
+root	570	2	570	0	1	0.0	0.0	0	0	?	I<	12:10	0:00	[kworker/R-ttm]
+root	571	2	571	0	1	0.0	0.0	0	0	?	S	12:10	0:00	[card1-crtc0]
+root	572	2	572	0	1	0.0	0.0	0	0	?	S	12:10	0:00	[card1-crtc1]
+root	573	2	573	0	1	0.0	0.0	0	0	?	S	12:10	0:00	[card1-crtc2]
+root	574	2	574	0	1	0.0	0.0	0	0	?	S	12:10	0:00	[card1-crtc3]
+root	575	2	575	0	1	0.0	0.0	0	0	?	I	12:10	0:00	[kworker/13:2-i915-unordered]
+root	576	2	576	0	1	0.0	0.0	0	0	?	I	12:10	0:00	[kworker/3:2]
+root	577	2	577	0	1	0.0	0.0	0	0	?	I	12:10	0:00	[kworker/3:3]
+root	587	2	587	0	1	0.0	0.0	0	0	?	I	12:10	0:00	[kworker/8:2-events]
+root	646	1	646	0	1	0.3	0.1	123220	30436	?	Ss	12:10	0:00	/usr/lib/systemd/systemd-journald
+root	657	2	657	0	1	0.0	0.0	0	0	?	I	12:10	0:00	[kworker/4:2-i915-unordered]
+root	674	1	674	0	1	0.0	0.0	16604	6916	?	Ss	12:10	0:00	/usr/lib/systemd/systemd-userdbd
+root	680	2	680	0	1	0.0	0.0	0	0	?	I	12:10	0:00	[kworker/u64:12-events_unbound]
+root	681	2	681	0	1	0.0	0.0	0	0	?	I	12:10	0:00	[kworker/u64:13-btrfs-endio]
+root	685	2	685	0	1	0.0	0.0	0	0	?	I	12:10	0:00	[kworker/u64:14-loop6]
+root	686	1	686	0	1	0.2	0.1	42224	16876	?	Ss	12:10	0:00	/usr/lib/systemd/systemd-udevd
+root	688	2	688	0	1	0.0	0.0	0	0	?	I	12:10	0:00	[kworker/u64:15-events_unbound]
+root	690	2	690	0	1	0.0	0.0	0	0	?	S	12:10	0:00	[psimon]
+root	814	2	814	0	1	0.0	0.0	0	0	?	I	12:10	0:00	[kworker/14:2-mm_percpu_wq]
+root	849	2	849	0	1	0.0	0.0	0	0	?	S	12:10	0:00	[irq/152-mei_me]
+root	896	2	896	0	1	0.0	0.0	0	0	?	I<	12:10	0:00	[kworker/R-cfg80211]
+root	1013	2	1013	0	1	0.0	0.0	0	0	?	S	12:10	0:00	[irq/16-processor_thermal_device_pci]
+root	1014	2	1014	0	1	0.0	0.0	0	0	?	I	12:10	0:00	[kworker/10:3-events]
+root	1022	2	1022	0	1	0.0	0.0	0	0	?	S	12:10	0:00	[jbd2/nvme0n1p7-8]
+root	1023	2	1023	0	1	0.0	0.0	0	0	?	I<	12:10	0:00	[kworker/R-ext4-rsv-conversion]
+root	1047	2	1047	0	1	0.5	0.0	0	0	?	I	12:10	0:00	[kworker/u64:16-blkcg_punt_bio]
+root	1050	2	1050	0	1	0.0	0.0	0	0	?	I	12:10	0:00	[kworker/u64:17-btrfs-compressed-write]
+root	1053	2	1053	0	1	0.5	0.0	0	0	?	I	12:10	0:00	[kworker/u64:18-btrfs-endio-write]
+root	1055	2	1055	0	1	0.3	0.0	0	0	?	I	12:10	0:00	[kworker/u64:19-btrfs-endio-write]
+root	1057	2	1057	0	1	0.0	0.0	0	0	?	I	12:10	0:00	[kworker/u64:20-events_unbound]
+root	1059	2	1059	0	1	0.7	0.0	0	0	?	I	12:10	0:00	[kworker/u64:21-btrfs-endio-meta]
+root	1061	2	1061	0	1	0.1	0.0	0	0	?	I	12:10	0:00	[kworker/u64:22-btrfs-compressed-write]
+root	1064	2	1064	0	1	0.7	0.0	0	0	?	I	12:10	0:00	[kworker/u64:23-btrfs-compressed-write]
+root	1065	2	1065	0	1	0.0	0.0	0	0	?	I	12:10	0:00	[kworker/u64:24-loop4]
+root	1066	2	1066	0	1	0.5	0.0	0	0	?	I	12:10	0:00	[kworker/u64:25-btrfs-compressed-write]
+root	1068	2	1068	0	1	0.0	0.0	0	0	?	I	12:10	0:00	[kworker/12:2-events]
+root	1070	2	1070	0	1	0.4	0.0	0	0	?	I	12:10	0:00	[kworker/u64:26-btrfs-endio-write]
+root	1118	2	1118	0	1	0.0	0.0	0	0	?	I	12:10	0:00	[kworker/5:2-events]
+root	1167	2	1167	0	1	0.0	0.0	0	0	?	I	12:10	0:00	[kworker/6:3-events]
+root	1168	2	1168	0	1	0.1	0.0	0	0	?	I<	12:10	0:00	[kworker/u65:1-rtw89_tx_wq]
+root	1169	2	1169	0	1	0.1	0.0	0	0	?	I<	12:10	0:00	[kworker/u65:2-i915_flip]
+systemd+	1204	1	1204	0	1	0.1	0.0	17168	8084	?	Ss	12:10	0:00	/usr/lib/systemd/systemd-oomd
+systemd+	1205	1	1205	0	1	0.1	0.1	24732	16884	?	Ss	12:10	0:00	/usr/lib/systemd/systemd-resolved
+root	1207	1	1207	0	2	0.0	0.0	20872	3444	?	S<sl	12:10	0:00	/usr/bin/auditd
+root	1207	1	1208	0	2	0.0	0.0	20872	3444	?	S<sl	12:10	0:00	/usr/bin/auditd
+root	1234	2	1234	0	1	0.5	0.0	0	0	?	S	12:10	0:00	[irq/155-rtw89_pci]
+root	1367	2	1367	0	1	0.0	0.0	0	0	?	I<	12:10	0:00	[kworker/R-rpciod]
+root	1368	2	1368	0	1	0.0	0.0	0	0	?	I<	12:10	0:00	[kworker/R-xprtiod]
+dbus	1370	1	1370	0	1	0.0	0.0	9632	5084	?	Ss	12:10	0:00	/usr/bin/dbus-broker-launch --scope system --audit
+dbus	1372	1370	1372	0	1	0.3	0.0	9676	7844	?	S	12:10	0:00	dbus-broker --log 10 --controller 9 --machine-id e8b997f8710c457d8ac6be2c5eedee98 --max-bytes 536870912 --max-fds 4096 --max-matches 131072 --audit
+avahi	1375	1	1375	0	1	0.5	0.0	7308	5340	?	Ss	12:10	0:00	avahi-daemon: running [fedora.local]
+root	1379	1	1379	0	2	0.0	0.0	80992	4344	?	Ssl	12:10	0:00	/usr/sbin/irqbalance
+root	1379	1	1430	0	2	0.0	0.0	80992	4344	?	Ssl	12:10	0:00	/usr/sbin/irqbalance
+chrony	1383	1	1383	0	1	0.0	0.0	86424	6632	?	Ss	12:10	0:00	/usr/sbin/chronyd -n -F 2
+root	1384	1	1384	0	4	0.0	0.0	303040	5820	?	SLsl	12:10	0:00	/usr/libexec/low-memory-monitor
+root	1384	1	1410	0	4	0.0	0.0	303040	5820	?	SLsl	12:10	0:00	/usr/libexec/low-memory-monitor
+root	1384	1	1412	0	4	0.0	0.0	303040	5820	?	SLsl	12:10	0:00	/usr/libexec/low-memory-monitor
+root	1384	1	1418	0	4	0.0	0.0	303040	5820	?	SLsl	12:10	0:00	/usr/libexec/low-memory-monitor
+root	1389	1	1389	0	1	0.0	0.0	3208	2236	?	Ss	12:10	0:00	/usr/sbin/mcelog --daemon --foreground
+polkitd	1391	1	1391	0	4	0.6	0.0	384604	13144	?	Ssl	12:10	0:00	/usr/lib/polkit-1/polkitd --no-debug --log-level=notice
+polkitd	1391	1	1565	0	4	0.6	0.0	384604	13144	?	Ssl	12:10	0:00	/usr/lib/polkit-1/polkitd --no-debug --log-level=notice
+polkitd	1391	1	1614	0	4	0.6	0.0	384604	13144	?	Ssl	12:10	0:00	/usr/lib/polkit-1/polkitd --no-debug --log-level=notice
+polkitd	1391	1	1616	0	4	0.6	0.0	384604	13144	?	Ssl	12:10	0:00	/usr/lib/polkit-1/polkitd --no-debug --log-level=notice
+rtkit	1392	1	1392	0	3	0.0	0.0	21728	3576	?	SNsl	12:10	0:00	/usr/libexec/rtkit-daemon
+rtkit	1392	1	1408	0	3	0.0	0.0	21728	3576	?	SNsl	12:10	0:00	/usr/libexec/rtkit-daemon
+rtkit	1392	1	1409	0	3	0.0	0.0	21728	3576	?	SNsl	12:10	0:00	/usr/libexec/rtkit-daemon
+root	1393	1	1393	0	1	0.0	0.0	9684	6072	?	Ss	12:10	0:00	/usr/bin/smartd -n -q never --capabilities=mail
+root	1394	1	1394	0	4	0.0	0.0	534800	9492	?	Ssl	12:10	0:00	/usr/libexec/accounts-daemon
+root	1394	1	1449	0	4	0.0	0.0	534800	9492	?	Ssl	12:10	0:00	/usr/libexec/accounts-daemon
+root	1394	1	1450	0	4	0.0	0.0	534800	9492	?	Ssl	12:10	0:00	/usr/libexec/accounts-daemon
+root	1394	1	1452	0	4	0.0	0.0	534800	9492	?	Ssl	12:10	0:00	/usr/libexec/accounts-daemon
+root	1395	1	1395	0	4	0.0	0.0	531472	7496	?	Ssl	12:10	0:00	/usr/libexec/switcheroo-control
+root	1395	1	1431	0	4	0.0	0.0	531472	7496	?	Ssl	12:10	0:00	/usr/libexec/switcheroo-control
+root	1395	1	1432	0	4	0.0	0.0	531472	7496	?	Ssl	12:10	0:00	/usr/libexec/switcheroo-control
+root	1395	1	1434	0	4	0.0	0.0	531472	7496	?	Ssl	12:10	0:00	/usr/libexec/switcheroo-control
+root	1396	1	1396	0	1	0.1	0.0	17552	8972	?	Ss	12:10	0:00	/usr/lib/systemd/systemd-homed
+root	1398	1	1398	0	1	0.2	0.0	20056	11784	?	Ss	12:10	0:00	/usr/lib/systemd/systemd-logind
+root	1401	1	1401	0	1	0.1	0.0	17268	8456	?	Ss	12:10	0:00	/usr/lib/systemd/systemd-machined
+root	1402	1	1402	0	5	0.1	0.0	610668	9904	?	Ssl	12:10	0:00	/usr/bin/thermald --systemd --dbus-enable --adaptive
+root	1402	1	1445	0	5	0.1	0.0	610668	9904	?	Ssl	12:10	0:00	/usr/bin/thermald --systemd --dbus-enable --adaptive
+root	1402	1	1446	0	5	0.1	0.0	610668	9904	?	Ssl	12:10	0:00	/usr/bin/thermald --systemd --dbus-enable --adaptive
+root	1402	1	1448	0	5	0.1	0.0	610668	9904	?	Ssl	12:10	0:00	/usr/bin/thermald --systemd --dbus-enable --adaptive
+root	1402	1	1718	0	5	0.1	0.0	610668	9904	?	Ssl	12:10	0:00	/usr/bin/thermald --systemd --dbus-enable --adaptive
+root	1403	1	1403	0	7	0.1	0.0	543608	15972	?	Ssl	12:10	0:00	/usr/libexec/udisks2/udisksd
+root	1403	1	1624	0	7	0.1	0.0	543608	15972	?	Ssl	12:10	0:00	/usr/libexec/udisks2/udisksd
+root	1403	1	1625	0	7	0.1	0.0	543608	15972	?	Ssl	12:10	0:00	/usr/libexec/udisks2/udisksd
+root	1403	1	1629	0	7	0.1	0.0	543608	15972	?	Ssl	12:10	0:00	/usr/libexec/udisks2/udisksd
+root	1403	1	1678	0	7	0.1	0.0	543608	15972	?	Ssl	12:10	0:00	/usr/libexec/udisks2/udisksd
+root	1403	1	1679	0	7	0.1	0.0	543608	15972	?	Ssl	12:10	0:00	/usr/libexec/udisks2/udisksd
+root	1403	1	1681	0	7	0.1	0.0	543608	15972	?	Ssl	12:10	0:00	/usr/libexec/udisks2/udisksd
+root	1406	1	1406	0	4	0.1	0.0	543576	12752	?	Ssl	12:10	0:00	/usr/libexec/upowerd
+root	1406	1	1608	0	4	0.1	0.0	543576	12752	?	Ssl	12:10	0:00	/usr/libexec/upowerd
+root	1406	1	1609	0	4	0.1	0.0	543576	12752	?	Ssl	12:10	0:00	/usr/libexec/upowerd
+root	1406	1	1613	0	4	0.1	0.0	543576	12752	?	Ssl	12:10	0:00	/usr/libexec/upowerd
+root	1419	2	1419	0	1	0.0	0.0	0	0	?	S	12:10	0:00	[psimon]
+avahi	1425	1375	1425	0	1	0.0	0.0	6572	1708	?	S	12:10	0:00	avahi-daemon: chroot helper
+root	1435	2	1435	0	1	0.0	0.0	0	0	?	S	12:10	0:00	[psimon]
+root	1436	1	1436	0	1	0.0	0.0	4932	3388	?	SNs	12:10	0:00	/usr/sbin/alsactl -s -n 19 -c -E ALSA_CONFIG_PATH=/etc/alsa/alsactl.conf --initfile=/lib/alsa/init/00main rdaemon
+root	1441	1	1441	0	4	0.0	0.0	553740	14800	?	Ssl	12:10	0:00	/usr/sbin/abrtd -d -s
+root	1441	1	1766	0	4	0.0	0.0	553740	14800	?	Ssl	12:10	0:00	/usr/sbin/abrtd -d -s
+root	1441	1	1767	0	4	0.0	0.0	553740	14800	?	Ssl	12:10	0:00	/usr/sbin/abrtd -d -s
+root	1441	1	1769	0	4	0.0	0.0	553740	14800	?	Ssl	12:10	0:00	/usr/sbin/abrtd -d -s
+root	1696	1	1696	0	1	0.0	0.0	9444	6076	?	Ss	12:10	0:00	/usr/libexec/bluetooth/bluetoothd
+root	1698	1	1698	0	4	0.1	0.0	391300	13840	?	Ssl	12:10	0:00	/usr/bin/ModemManager
+root	1698	1	1713	0	4	0.1	0.0	391300	13840	?	Ssl	12:10	0:00	/usr/bin/ModemManager
+root	1698	1	1714	0	4	0.1	0.0	391300	13840	?	Ssl	12:10	0:00	/usr/bin/ModemManager
+root	1698	1	1717	0	4	0.1	0.0	391300	13840	?	Ssl	12:10	0:00	/usr/bin/ModemManager
+root	1699	1	1699	0	2	0.2	0.3	369504	50016	?	Ssl	12:10	0:00	/usr/bin/python3 -sP /usr/bin/firewalld --nofork --nopid
+root	1699	1	1776	0	2	0.2	0.3	369504	50016	?	Ssl	12:10	0:00	/usr/bin/python3 -sP /usr/bin/firewalld --nofork --nopid
+root	1770	1	1770	0	1	0.1	0.3	1093348	63404	?	Ss	12:10	0:00	/usr/bin/abrt-dump-journal-core -D -T -f -e
+root	1771	1	1771	0	1	0.1	0.3	1083860	62904	?	Ss	12:10	0:00	/usr/bin/abrt-dump-journal-oops -fxtD
+root	1772	1	1772	0	1	0.1	0.3	1092240	55812	?	Ss	12:10	0:00	/usr/bin/abrt-dump-journal-xorg -fxtD
+root	1775	1	1775	0	4	0.4	0.1	560360	24060	?	Ssl	12:10	0:00	/usr/bin/NetworkManager --no-daemon
+root	1775	1	1784	0	4	0.4	0.1	560360	24060	?	Ssl	12:10	0:00	/usr/bin/NetworkManager --no-daemon
+root	1775	1	1785	0	4	0.4	0.1	560360	24060	?	Ssl	12:10	0:00	/usr/bin/NetworkManager --no-daemon
+root	1775	1	1786	0	4	0.4	0.1	560360	24060	?	Ssl	12:10	0:00	/usr/bin/NetworkManager --no-daemon
+root	1846	1	1846	0	1	0.2	0.0	16556	11048	?	Ss	12:10	0:00	/usr/sbin/wpa_supplicant -c /etc/wpa_supplicant/wpa_supplicant.conf -u -s
+root	1869	1	1869	0	1	0.0	0.0	252420	11848	?	Ss	12:10	0:00	/usr/bin/cupsd -l
+root	1870	1	1870	0	6	0.0	0.0	282388	8596	?	Ssl	12:10	0:00	/usr/bin/gssproxy -i
+root	1870	1	1874	0	6	0.0	0.0	282388	8596	?	Ssl	12:10	0:00	/usr/bin/gssproxy -i
+root	1870	1	1875	0	6	0.0	0.0	282388	8596	?	Ssl	12:10	0:00	/usr/bin/gssproxy -i
+root	1870	1	1876	0	6	0.0	0.0	282388	8596	?	Ssl	12:10	0:00	/usr/bin/gssproxy -i
+root	1870	1	1877	0	6	0.0	0.0	282388	8596	?	Ssl	12:10	0:00	/usr/bin/gssproxy -i
+root	1870	1	1878	0	6	0.0	0.0	282388	8596	?	Ssl	12:10	0:00	/usr/bin/gssproxy -i
+root	1871	1	1871	0	4	0.1	0.2	499536	36304	?	Ssl	12:10	0:00	/usr/bin/python3 -Es /usr/sbin/tuned -l -P
+root	1871	1	1888	0	4	0.1	0.2	499536	36304	?	Ssl	12:10	0:00	/usr/bin/python3 -Es /usr/sbin/tuned -l -P
+root	1871	1	1889	0	4	0.1	0.2	499536	36304	?	Ssl	12:10	0:00	/usr/bin/python3 -Es /usr/sbin/tuned -l -P
+root	1871	1	1893	0	4	0.1	0.2	499536	36304	?	Ssl	12:10	0:00	/usr/bin/python3 -Es /usr/sbin/tuned -l -P
+root	1894	1	1894	0	4	0.0	0.2	498296	34364	?	Ssl	12:10	0:00	/usr/bin/python3 -Es /usr/sbin/tuned-ppd -l
+root	1894	1	1896	0	4	0.0	0.2	498296	34364	?	Ssl	12:10	0:00	/usr/bin/python3 -Es /usr/sbin/tuned-ppd -l
+root	1894	1	1897	0	4	0.0	0.2	498296	34364	?	Ssl	12:10	0:00	/usr/bin/python3 -Es /usr/sbin/tuned-ppd -l
+root	1894	1	1898	0	4	0.0	0.2	498296	34364	?	Ssl	12:10	0:00	/usr/bin/python3 -Es /usr/sbin/tuned-ppd -l
+root	1911	2	1911	0	1	0.0	0.0	0	0	?	I<	12:10	0:00	[kworker/R-ttm]
+root	1912	2	1912	0	1	0.0	0.0	0	0	?	S	12:10	0:00	[card0-crtc0]
+root	1913	2	1913	0	1	0.0	0.0	0	0	?	S	12:10	0:00	[card0-crtc1]
+root	1914	2	1914	0	1	0.0	0.0	0	0	?	S	12:10	0:00	[card0-crtc2]
+root	1915	2	1915	0	1	0.0	0.0	0	0	?	S	12:10	0:00	[card0-crtc3]
+root	1918	2	1918	0	1	0.0	0.0	0	0	?	I	12:10	0:00	[kworker/5:3]
+ollama	1996	1	1996	0	14	0.0	0.2	1965196	33020	?	Ssl	12:10	0:00	/usr/local/bin/ollama serve
+ollama	1996	1	2017	0	14	0.0	0.2	1965196	33020	?	Ssl	12:10	0:00	/usr/local/bin/ollama serve
+ollama	1996	1	2018	0	14	0.0	0.2	1965196	33020	?	Ssl	12:10	0:00	/usr/local/bin/ollama serve
+ollama	1996	1	2019	0	14	0.0	0.2	1965196	33020	?	Ssl	12:10	0:00	/usr/local/bin/ollama serve
+ollama	1996	1	2020	0	14	0.0	0.2	1965196	33020	?	Ssl	12:10	0:00	/usr/local/bin/ollama serve
+ollama	1996	1	2021	0	14	0.0	0.2	1965196	33020	?	Ssl	12:10	0:00	/usr/local/bin/ollama serve
+ollama	1996	1	2044	0	14	0.0	0.2	1965196	33020	?	Ssl	12:10	0:00	/usr/local/bin/ollama serve
+ollama	1996	1	2045	0	14	0.0	0.2	1965196	33020	?	Ssl	12:10	0:00	/usr/local/bin/ollama serve
+ollama	1996	1	2046	0	14	0.0	0.2	1965196	33020	?	Ssl	12:10	0:00	/usr/local/bin/ollama serve
+ollama	1996	1	2047	0	14	0.0	0.2	1965196	33020	?	Ssl	12:10	0:00	/usr/local/bin/ollama serve
+ollama	1996	1	2051	0	14	0.0	0.2	1965196	33020	?	Ssl	12:10	0:00	/usr/local/bin/ollama serve
+ollama	1996	1	2053	0	14	0.0	0.2	1965196	33020	?	Ssl	12:10	0:00	/usr/local/bin/ollama serve
+ollama	1996	1	2054	0	14	0.0	0.2	1965196	33020	?	Ssl	12:10	0:00	/usr/local/bin/ollama serve
+ollama	1996	1	2055	0	14	0.0	0.2	1965196	33020	?	Ssl	12:10	0:00	/usr/local/bin/ollama serve
+root	1998	1	1998	0	3	0.7	0.3	981144	55716	?	Ssl	12:10	0:00	/usr/sbin/rsyslogd -n
+root	1998	1	2015	0	3	0.7	0.3	981144	55716	?	Ssl	12:10	0:00	/usr/sbin/rsyslogd -n
+root	1998	1	2016	0	3	0.7	0.3	981144	55716	?	Ssl	12:10	0:00	/usr/sbin/rsyslogd -n
+root	2000	1	2000	0	19	0.0	0.1	1603060	24048	?	Ssl	12:10	0:00	/usr/bin/virtqemud --timeout 120
+root	2000	1	2023	0	19	0.0	0.1	1603060	24048	?	Ssl	12:10	0:00	/usr/bin/virtqemud --timeout 120
+root	2000	1	2024	0	19	0.0	0.1	1603060	24048	?	Ssl	12:10	0:00	/usr/bin/virtqemud --timeout 120
+root	2000	1	2025	0	19	0.0	0.1	1603060	24048	?	Ssl	12:10	0:00	/usr/bin/virtqemud --timeout 120
+root	2000	1	2026	0	19	0.0	0.1	1603060	24048	?	Ssl	12:10	0:00	/usr/bin/virtqemud --timeout 120
+root	2000	1	2027	0	19	0.0	0.1	1603060	24048	?	Ssl	12:10	0:00	/usr/bin/virtqemud --timeout 120
+root	2000	1	2028	0	19	0.0	0.1	1603060	24048	?	Ssl	12:10	0:00	/usr/bin/virtqemud --timeout 120
+root	2000	1	2029	0	19	0.0	0.1	1603060	24048	?	Ssl	12:10	0:00	/usr/bin/virtqemud --timeout 120
+root	2000	1	2030	0	19	0.0	0.1	1603060	24048	?	Ssl	12:10	0:00	/usr/bin/virtqemud --timeout 120
+root	2000	1	2031	0	19	0.0	0.1	1603060	24048	?	Ssl	12:10	0:00	/usr/bin/virtqemud --timeout 120
+root	2000	1	2032	0	19	0.0	0.1	1603060	24048	?	Ssl	12:10	0:00	/usr/bin/virtqemud --timeout 120
+root	2000	1	2037	0	19	0.0	0.1	1603060	24048	?	Ssl	12:10	0:00	/usr/bin/virtqemud --timeout 120
+root	2000	1	2038	0	19	0.0	0.1	1603060	24048	?	Ssl	12:10	0:00	/usr/bin/virtqemud --timeout 120
+root	2000	1	2039	0	19	0.0	0.1	1603060	24048	?	Ssl	12:10	0:00	/usr/bin/virtqemud --timeout 120
+root	2000	1	2040	0	19	0.0	0.1	1603060	24048	?	Ssl	12:10	0:00	/usr/bin/virtqemud --timeout 120
+root	2000	1	2041	0	19	0.0	0.1	1603060	24048	?	Ssl	12:10	0:00	/usr/bin/virtqemud --timeout 120
+root	2000	1	2050	0	19	0.0	0.1	1603060	24048	?	Ssl	12:10	0:00	/usr/bin/virtqemud --timeout 120
+root	2000	1	2052	0	19	0.0	0.1	1603060	24048	?	Ssl	12:10	0:00	/usr/bin/virtqemud --timeout 120
+root	2000	1	2056	0	19	0.0	0.1	1603060	24048	?	Ssl	12:10	0:00	/usr/bin/virtqemud --timeout 120
+root	2002	1	2002	0	1	0.0	0.0	5120	3216	?	Ss	12:10	0:00	/usr/sbin/atd -f
+root	2003	1	2003	0	1	0.0	0.0	232572	4048	?	Ss	12:10	0:00	/usr/sbin/crond -n
+root	2004	1	2004	0	5	0.1	0.0	609264	10960	?	Ssl	12:10	0:00	/usr/bin/gdm
+root	2004	1	2008	0	5	0.1	0.0	609264	10960	?	Ssl	12:10	0:00	/usr/bin/gdm
+root	2004	1	2009	0	5	0.1	0.0	609264	10960	?	Ssl	12:10	0:00	/usr/bin/gdm
+root	2004	1	2010	0	5	0.1	0.0	609264	10960	?	Ssl	12:10	0:00	/usr/bin/gdm
+root	2004	1	2011	0	5	0.1	0.0	609264	10960	?	Ssl	12:10	0:00	/usr/bin/gdm
+root	2088	1	2088	0	4	0.0	0.0	306176	7692	?	Ssl	12:10	0:00	/usr/libexec/uresourced
+root	2088	1	2104	0	4	0.0	0.0	306176	7692	?	Ssl	12:10	0:00	/usr/libexec/uresourced
+root	2088	1	2105	0	4	0.0	0.0	306176	7692	?	Ssl	12:10	0:00	/usr/libexec/uresourced
+root	2088	1	2107	0	4	0.0	0.0	306176	7692	?	Ssl	12:10	0:00	/usr/libexec/uresourced
+root	2102	2	2102	0	1	0.0	0.0	0	0	?	S	12:10	0:00	[psimon]
+root	2232	2	2232	0	1	0.0	0.0	0	0	?	S<	12:10	0:00	[krfcommd]
+colord	2307	1	2307	0	4	0.0	0.0	538740	13360	?	Ssl	12:10	0:00	/usr/libexec/colord
+colord	2307	1	2314	0	4	0.0	0.0	538740	13360	?	Ssl	12:10	0:00	/usr/libexec/colord
+colord	2307	1	2315	0	4	0.0	0.0	538740	13360	?	Ssl	12:10	0:00	/usr/libexec/colord
+colord	2307	1	2317	0	4	0.0	0.0	538740	13360	?	Ssl	12:10	0:00	/usr/libexec/colord
+root	2338	1	2338	0	4	2.7	1.7	830980	276644	?	Ssl	12:10	0:02	/usr/libexec/packagekitd
+root	2338	1	2382	0	4	2.7	1.7	830980	276644	?	Ssl	12:10	0:02	/usr/libexec/packagekitd
+root	2338	1	2383	0	4	2.7	1.7	830980	276644	?	Ssl	12:10	0:02	/usr/libexec/packagekitd
+root	2338	1	2388	0	4	2.7	1.7	830980	276644	?	Ssl	12:10	0:02	/usr/libexec/packagekitd
+root	2425	1	2425	0	16	0.0	0.0	920508	9420	?	Ssl	12:10	0:00	/usr/bin/pcscd --foreground --auto-exit
+root	2425	1	2477	0	16	0.0	0.0	920508	9420	?	Ssl	12:10	0:00	/usr/bin/pcscd --foreground --auto-exit
+root	2425	1	2480	0	16	0.0	0.0	920508	9420	?	Ssl	12:10	0:00	/usr/bin/pcscd --foreground --auto-exit
+root	2425	1	2482	0	16	0.0	0.0	920508	9420	?	Ssl	12:10	0:00	/usr/bin/pcscd --foreground --auto-exit
+root	2425	1	2483	0	16	0.0	0.0	920508	9420	?	Ssl	12:10	0:00	/usr/bin/pcscd --foreground --auto-exit
+root	2425	1	2484	0	16	0.0	0.0	920508	9420	?	Ssl	12:10	0:00	/usr/bin/pcscd --foreground --auto-exit
+root	2425	1	4503	0	16	0.0	0.0	920508	9420	?	Ssl	12:10	0:00	/usr/bin/pcscd --foreground --auto-exit
+root	2425	1	4770	0	16	0.0	0.0	920508	9420	?	Ssl	12:10	0:00	/usr/bin/pcscd --foreground --auto-exit
+root	2425	1	4954	0	16	0.0	0.0	920508	9420	?	Ssl	12:10	0:00	/usr/bin/pcscd --foreground --auto-exit
+root	2425	1	8330	0	16	0.0	0.0	920508	9420	?	Ssl	12:10	0:00	/usr/bin/pcscd --foreground --auto-exit
+root	2425	1	8809	0	16	0.0	0.0	920508	9420	?	Ssl	12:10	0:00	/usr/bin/pcscd --foreground --auto-exit
+root	2425	1	8824	0	16	0.0	0.0	920508	9420	?	Ssl	12:10	0:00	/usr/bin/pcscd --foreground --auto-exit
+root	2425	1	9033	0	16	0.0	0.0	920508	9420	?	Ssl	12:10	0:00	/usr/bin/pcscd --foreground --auto-exit
+root	2425	1	9034	0	16	0.0	0.0	920508	9420	?	Ssl	12:10	0:00	/usr/bin/pcscd --foreground --auto-exit
+root	2425	1	9035	0	16	0.0	0.0	920508	9420	?	Ssl	12:10	0:00	/usr/bin/pcscd --foreground --auto-exit
+root	2425	1	9145	0	16	0.0	0.0	920508	9420	?	Ssl	12:10	0:00	/usr/bin/pcscd --foreground --auto-exit
+geoclue	2495	1	2495	0	4	0.2	0.2	1782436	42188	?	Ssl	12:10	0:00	/usr/libexec/geoclue
+geoclue	2495	1	2511	0	4	0.2	0.2	1782436	42188	?	Ssl	12:10	0:00	/usr/libexec/geoclue
+geoclue	2495	1	2512	0	4	0.2	0.2	1782436	42188	?	Ssl	12:10	0:00	/usr/libexec/geoclue
+geoclue	2495	1	2514	0	4	0.2	0.2	1782436	42188	?	Ssl	12:10	0:00	/usr/libexec/geoclue
+root	3649	2004	3649	0	4	0.0	0.0	405716	14488	?	Sl	12:10	0:00	gdm-session-worker [pam/gdm-password]
+root	3649	2004	3650	0	4	0.0	0.0	405716	14488	?	Sl	12:10	0:00	gdm-session-worker [pam/gdm-password]
+root	3649	2004	3651	0	4	0.0	0.0	405716	14488	?	Sl	12:10	0:00	gdm-session-worker [pam/gdm-password]
+root	3649	2004	3652	0	4	0.0	0.0	405716	14488	?	Sl	12:10	0:00	gdm-session-worker [pam/gdm-password]
+root	3762	2	3762	0	1	0.0	0.0	0	0	?	I	12:10	0:00	[kworker/4:3]
+argha	3820	1	3820	0	1	0.6	0.0	24900	15988	?	Ss	12:10	0:00	/usr/lib/systemd/systemd --user
+root	3821	2	3821	0	1	0.0	0.0	0	0	?	I	12:10	0:00	[kworker/7:3-rcu_gp]
+argha	3823	3820	3823	0	1	0.0	0.0	16776	3376	?	S	12:10	0:00	(sd-pam)
+argha	3839	1	3839	0	5	0.0	0.0	407196	8344	?	Sl	12:10	0:00	/usr/bin/gnome-keyring-daemon --daemonize --login
+argha	3839	1	3840	0	5	0.0	0.0	407196	8344	?	Sl	12:10	0:00	/usr/bin/gnome-keyring-daemon --daemonize --login
+argha	3839	1	3841	0	5	0.0	0.0	407196	8344	?	Sl	12:10	0:00	/usr/bin/gnome-keyring-daemon --daemonize --login
+argha	3839	1	3842	0	5	0.0	0.0	407196	8344	?	Sl	12:10	0:00	/usr/bin/gnome-keyring-daemon --daemonize --login
+argha	3839	1	5785	0	5	0.0	0.0	407196	8344	?	Sl	12:10	0:00	/usr/bin/gnome-keyring-daemon --daemonize --login
+argha	3972	3649	3972	0	4	0.0	0.0	391676	6136	tty2	Ssl+	12:10	0:00	/usr/libexec/gdm-wayland-session /usr/bin/gnome-session
+argha	3972	3649	3994	0	4	0.0	0.0	391676	6136	tty2	Ssl+	12:10	0:00	/usr/libexec/gdm-wayland-session /usr/bin/gnome-session
+argha	3972	3649	3995	0	4	0.0	0.0	391676	6136	tty2	Ssl+	12:10	0:00	/usr/libexec/gdm-wayland-session /usr/bin/gnome-session
+argha	3972	3649	4010	0	4	0.0	0.0	391676	6136	tty2	Ssl+	12:10	0:00	/usr/libexec/gdm-wayland-session /usr/bin/gnome-session
+argha	4000	3820	4000	0	1	0.0	0.0	9100	4496	?	Ss	12:10	0:00	/usr/bin/dbus-broker-launch --scope user
+argha	4008	4000	4008	0	1	0.3	0.0	7628	5612	?	S	12:10	0:00	dbus-broker --log 10 --controller 9 --machine-id e8b997f8710c457d8ac6be2c5eedee98 --max-bytes 100000000000000 --max-fds 25000000000000 --max-matches 5000000000
+argha	4011	3972	4011	0	4	0.0	0.0	163832	6132	tty2	Sl+	12:10	0:00	/usr/libexec/gnome-session-init-worker gnome
+argha	4011	3972	4100	0	4	0.0	0.0	163832	6132	tty2	Sl+	12:10	0:00	/usr/libexec/gnome-session-init-worker gnome
+argha	4011	3972	4101	0	4	0.0	0.0	163832	6132	tty2	Sl+	12:10	0:00	/usr/libexec/gnome-session-init-worker gnome
+argha	4011	3972	4102	0	4	0.0	0.0	163832	6132	tty2	Sl+	12:10	0:00	/usr/libexec/gnome-session-init-worker gnome
+argha	4104	3820	4104	0	2	0.0	0.0	311804	5896	?	Ssl	12:10	0:00	/usr/libexec/gnome-session-ctl --monitor
+argha	4104	3820	4107	0	2	0.0	0.0	311804	5896	?	Ssl	12:10	0:00	/usr/libexec/gnome-session-ctl --monitor
+argha	4105	3820	4105	0	5	0.0	0.0	382060	10484	?	Ssl	12:10	0:00	/usr/libexec/uresourced --user
+argha	4105	3820	4108	0	5	0.0	0.0	382060	10484	?	Ssl	12:10	0:00	/usr/libexec/uresourced --user
+argha	4105	3820	4110	0	5	0.0	0.0	382060	10484	?	Ssl	12:10	0:00	/usr/libexec/uresourced --user
+argha	4105	3820	4112	0	5	0.0	0.0	382060	10484	?	Ssl	12:10	0:00	/usr/libexec/uresourced --user
+argha	4105	3820	4128	0	5	0.0	0.0	382060	10484	?	Ssl	12:10	0:00	/usr/libexec/uresourced --user
+argha	4111	3820	4111	0	5	0.0	0.0	765468	11628	?	Ssl	12:10	0:00	/usr/libexec/gnome-session-service --session=gnome
+argha	4111	3820	4115	0	5	0.0	0.0	765468	11628	?	Ssl	12:10	0:00	/usr/libexec/gnome-session-service --session=gnome
+argha	4111	3820	4116	0	5	0.0	0.0	765468	11628	?	Ssl	12:10	0:00	/usr/libexec/gnome-session-service --session=gnome
+argha	4111	3820	4117	0	5	0.0	0.0	765468	11628	?	Ssl	12:10	0:00	/usr/libexec/gnome-session-service --session=gnome
+argha	4111	3820	4126	0	5	0.0	0.0	765468	11628	?	Ssl	12:10	0:00	/usr/libexec/gnome-session-service --session=gnome
+argha	4114	3820	4114	0	4	0.0	0.0	540116	10164	?	Ssl	12:10	0:00	/usr/libexec/gvfsd
+argha	4114	3820	4118	0	4	0.0	0.0	540116	10164	?	Ssl	12:10	0:00	/usr/libexec/gvfsd
+argha	4114	3820	4119	0	4	0.0	0.0	540116	10164	?	Ssl	12:10	0:00	/usr/libexec/gvfsd
+argha	4114	3820	4120	0	4	0.0	0.0	540116	10164	?	Ssl	12:10	0:00	/usr/libexec/gvfsd
+argha	4123	3820	4123	0	7	0.0	0.0	613632	7464	?	Sl	12:10	0:00	/usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+argha	4123	3820	4129	0	7	0.0	0.0	613632	7464	?	Sl	12:10	0:00	/usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+argha	4123	3820	4130	0	7	0.0	0.0	613632	7464	?	Sl	12:10	0:00	/usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+argha	4123	3820	4131	0	7	0.0	0.0	613632	7464	?	Sl	12:10	0:00	/usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+argha	4123	3820	4132	0	7	0.0	0.0	613632	7464	?	Sl	12:10	0:00	/usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+argha	4123	3820	4133	0	7	0.0	0.0	613632	7464	?	Sl	12:10	0:00	/usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+argha	4123	3820	4135	0	7	0.0	0.0	613632	7464	?	Sl	12:10	0:00	/usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+argha	4136	3820	4136	0	3	0.0	0.0	327836	13880	?	S<sl	12:10	0:00	/usr/bin/pipewire
+argha	4136	3820	4139	0	3	0.0	0.0	327836	13880	?	S<sl	12:10	0:00	/usr/bin/pipewire
+argha	4136	3820	4140	0	3	0.0	0.0	327836	13880	?	S<sl	12:10	0:00	/usr/bin/pipewire
+argha	4137	3820	4137	0	9	0.1	0.1	941224	30672	?	S<sl	12:10	0:00	/usr/bin/wireplumber
+argha	4137	3820	4143	0	9	0.1	0.1	941224	30672	?	S<sl	12:10	0:00	/usr/bin/wireplumber
+argha	4137	3820	4144	0	9	0.1	0.1	941224	30672	?	S<sl	12:10	0:00	/usr/bin/wireplumber
+argha	4137	3820	4145	0	9	0.1	0.1	941224	30672	?	S<sl	12:10	0:00	/usr/bin/wireplumber
+argha	4137	3820	4150	0	9	0.1	0.1	941224	30672	?	S<sl	12:10	0:00	/usr/bin/wireplumber
+argha	4137	3820	4151	0	9	0.1	0.1	941224	30672	?	S<sl	12:10	0:00	/usr/bin/wireplumber
+argha	4137	3820	4181	0	9	0.1	0.1	941224	30672	?	S<sl	12:10	0:00	/usr/bin/wireplumber
+argha	4137	3820	4182	0	9	0.1	0.1	941224	30672	?	S<sl	12:10	0:00	/usr/bin/wireplumber
+argha	4137	3820	4183	0	9	0.1	0.1	941224	30672	?	S<sl	12:10	0:00	/usr/bin/wireplumber
+argha	4138	3820	4138	16	28	21.0	2.1	9779120	347340	?	Ssl	12:10	0:18	/usr/bin/gnome-shell
+argha	4138	3820	4153	0	28	21.0	2.1	9779120	347340	?	Ssl	12:10	0:18	/usr/bin/gnome-shell
+argha	4138	3820	4154	0	28	21.0	2.1	9779120	347340	?	Ssl	12:10	0:18	/usr/bin/gnome-shell
+argha	4138	3820	4157	0	28	21.0	2.1	9779120	347340	?	Ssl	12:10	0:18	/usr/bin/gnome-shell
+argha	4138	3820	4158	0	28	21.0	2.1	9779120	347340	?	Ssl	12:10	0:18	/usr/bin/gnome-shell
+argha	4138	3820	4159	0	28	21.0	2.1	9779120	347340	?	Ssl	12:10	0:18	/usr/bin/gnome-shell
+argha	4138	3820	4160	0	28	21.0	2.1	9779120	347340	?	Ssl	12:10	0:18	/usr/bin/gnome-shell
+argha	4138	3820	4161	0	28	21.0	2.1	9779120	347340	?	Ssl	12:10	0:18	/usr/bin/gnome-shell
+argha	4138	3820	4162	0	28	21.0	2.1	9779120	347340	?	Ssl	12:10	0:18	/usr/bin/gnome-shell
+argha	4138	3820	4163	0	28	21.0	2.1	9779120	347340	?	Ssl	12:10	0:18	/usr/bin/gnome-shell
+argha	4138	3820	4164	0	28	21.0	2.1	9779120	347340	?	Ssl	12:10	0:18	/usr/bin/gnome-shell
+argha	4138	3820	4165	0	28	21.0	2.1	9779120	347340	?	Ssl	12:10	0:18	/usr/bin/gnome-shell
+argha	4138	3820	4166	0	28	21.0	2.1	9779120	347340	?	Ssl	12:10	0:18	/usr/bin/gnome-shell
+argha	4138	3820	4173	1	28	21.0	2.1	9779120	347340	?	Ssl	12:10	0:18	/usr/bin/gnome-shell
+argha	4138	3820	4192	0	28	21.0	2.1	9779120	347340	?	Ssl	12:10	0:18	/usr/bin/gnome-shell
+argha	4138	3820	4193	0	28	21.0	2.1	9779120	347340	?	Ssl	12:10	0:18	/usr/bin/gnome-shell
+argha	4138	3820	4199	0	28	21.0	2.1	9779120	347340	?	Ssl	12:10	0:18	/usr/bin/gnome-shell
+argha	4138	3820	4200	0	28	21.0	2.1	9779120	347340	?	Ssl	12:10	0:18	/usr/bin/gnome-shell
+argha	4138	3820	4201	0	28	21.0	2.1	9779120	347340	?	Ssl	12:10	0:18	/usr/bin/gnome-shell
+argha	4138	3820	4202	0	28	21.0	2.1	9779120	347340	?	Ssl	12:10	0:18	/usr/bin/gnome-shell
+argha	4138	3820	4203	1	28	21.0	2.1	9779120	347340	?	Ssl	12:10	0:18	/usr/bin/gnome-shell
+argha	4138	3820	4346	0	28	21.0	2.1	9779120	347340	?	Ssl	12:10	0:18	/usr/bin/gnome-shell
+argha	4138	3820	4348	0	28	21.0	2.1	9779120	347340	?	Ssl	12:10	0:18	/usr/bin/gnome-shell
+argha	4138	3820	4878	0	28	21.0	2.1	9779120	347340	?	Ssl	12:10	0:18	/usr/bin/gnome-shell
+argha	4138	3820	4997	0	28	21.0	2.1	9779120	347340	?	Ssl	12:10	0:18	/usr/bin/gnome-shell
+argha	4138	3820	5007	0	28	21.0	2.1	9779120	347340	?	Ssl	12:10	0:18	/usr/bin/gnome-shell
+argha	4138	3820	9172	0	28	21.0	2.1	9779120	347340	?	Ssl	12:10	0:18	/usr/bin/gnome-shell
+argha	4138	3820	9325	0	28	21.0	2.1	9779120	347340	?	Ssl	12:10	0:18	/usr/bin/gnome-shell
+argha	4218	3820	4218	0	5	0.0	0.0	380956	8000	?	Ssl	12:10	0:00	/usr/libexec/at-spi-bus-launcher
+argha	4218	3820	4219	0	5	0.0	0.0	380956	8000	?	Ssl	12:10	0:00	/usr/libexec/at-spi-bus-launcher
+argha	4218	3820	4220	0	5	0.0	0.0	380956	8000	?	Ssl	12:10	0:00	/usr/libexec/at-spi-bus-launcher
+argha	4218	3820	4221	0	5	0.0	0.0	380956	8000	?	Ssl	12:10	0:00	/usr/libexec/at-spi-bus-launcher
+argha	4218	3820	4223	0	5	0.0	0.0	380956	8000	?	Ssl	12:10	0:00	/usr/libexec/at-spi-bus-launcher
+argha	4224	4218	4224	0	1	0.0	0.0	8972	4324	?	S	12:10	0:00	/usr/bin/dbus-broker-launch --config-file=/usr/share/defaults/at-spi2/accessibility.conf --scope user
+argha	4225	4224	4225	0	1	0.0	0.0	5088	3232	?	S	12:10	0:00	dbus-broker --log 10 --controller 9 --machine-id e8b997f8710c457d8ac6be2c5eedee98 --max-bytes 100000000000000 --max-fds 6400000 --max-matches 5000000000
+argha	4226	3820	4226	0	4	0.0	0.0	168428	7752	?	Ssl	12:10	0:00	/usr/libexec/at-spi2-registryd --use-gnome-session
+argha	4226	3820	4230	0	4	0.0	0.0	168428	7752	?	Ssl	12:10	0:00	/usr/libexec/at-spi2-registryd --use-gnome-session
+argha	4226	3820	4231	0	4	0.0	0.0	168428	7752	?	Ssl	12:10	0:00	/usr/libexec/at-spi2-registryd --use-gnome-session
+argha	4226	3820	4232	0	4	0.0	0.0	168428	7752	?	Ssl	12:10	0:00	/usr/libexec/at-spi2-registryd --use-gnome-session
+argha	4234	3820	4234	0	4	0.0	0.0	530840	6380	?	Ssl	12:10	0:00	/usr/libexec/xdg-permission-store
+argha	4234	3820	4246	0	4	0.0	0.0	530840	6380	?	Ssl	12:10	0:00	/usr/libexec/xdg-permission-store
+argha	4234	3820	4248	0	4	0.0	0.0	530840	6380	?	Ssl	12:10	0:00	/usr/libexec/xdg-permission-store
+argha	4234	3820	4250	0	4	0.0	0.0	530840	6380	?	Ssl	12:10	0:00	/usr/libexec/xdg-permission-store
+argha	4252	3820	4252	0	7	0.0	0.1	667600	24232	?	Ssl	12:10	0:00	/usr/libexec/gnome-shell-calendar-server
+argha	4252	3820	4264	0	7	0.0	0.1	667600	24232	?	Ssl	12:10	0:00	/usr/libexec/gnome-shell-calendar-server
+argha	4252	3820	4265	0	7	0.0	0.1	667600	24232	?	Ssl	12:10	0:00	/usr/libexec/gnome-shell-calendar-server
+argha	4252	3820	4267	0	7	0.0	0.1	667600	24232	?	Ssl	12:10	0:00	/usr/libexec/gnome-shell-calendar-server
+argha	4252	3820	4268	0	7	0.0	0.1	667600	24232	?	Ssl	12:10	0:00	/usr/libexec/gnome-shell-calendar-server
+argha	4252	3820	4269	0	7	0.0	0.1	667600	24232	?	Ssl	12:10	0:00	/usr/libexec/gnome-shell-calendar-server
+argha	4252	3820	4659	0	7	0.0	0.1	667600	24232	?	Ssl	12:10	0:00	/usr/libexec/gnome-shell-calendar-server
+argha	4253	3820	4253	0	4	0.0	0.0	164344	6484	?	Ssl	12:10	0:00	/usr/libexec/dconf-service
+argha	4253	3820	4254	0	4	0.0	0.0	164344	6484	?	Ssl	12:10	0:00	/usr/libexec/dconf-service
+argha	4253	3820	4255	0	4	0.0	0.0	164344	6484	?	Ssl	12:10	0:00	/usr/libexec/dconf-service
+argha	4253	3820	4256	0	4	0.0	0.0	164344	6484	?	Ssl	12:10	0:00	/usr/libexec/dconf-service
+argha	4272	3820	4272	0	5	0.1	0.3	1043832	52424	?	Ssl	12:10	0:00	/usr/libexec/evolution-source-registry
+argha	4272	3820	4331	0	5	0.1	0.3	1043832	52424	?	Ssl	12:10	0:00	/usr/libexec/evolution-source-registry
+argha	4272	3820	4332	0	5	0.1	0.3	1043832	52424	?	Ssl	12:10	0:00	/usr/libexec/evolution-source-registry
+argha	4272	3820	4333	0	5	0.1	0.3	1043832	52424	?	Ssl	12:10	0:00	/usr/libexec/evolution-source-registry
+argha	4272	3820	4336	0	5	0.1	0.3	1043832	52424	?	Ssl	12:10	0:00	/usr/libexec/evolution-source-registry
+argha	4287	3820	4287	0	12	0.0	0.2	2983136	34568	?	Ssl	12:10	0:00	/usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.Shell.Notifications
+argha	4287	3820	4315	0	12	0.0	0.2	2983136	34568	?	Ssl	12:10	0:00	/usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.Shell.Notifications
+argha	4287	3820	4316	0	12	0.0	0.2	2983136	34568	?	Ssl	12:10	0:00	/usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.Shell.Notifications
+argha	4287	3820	4319	0	12	0.0	0.2	2983136	34568	?	Ssl	12:10	0:00	/usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.Shell.Notifications
+argha	4287	3820	4323	0	12	0.0	0.2	2983136	34568	?	Ssl	12:10	0:00	/usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.Shell.Notifications
+argha	4287	3820	4324	0	12	0.0	0.2	2983136	34568	?	Ssl	12:10	0:00	/usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.Shell.Notifications
+argha	4287	3820	4325	0	12	0.0	0.2	2983136	34568	?	Ssl	12:10	0:00	/usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.Shell.Notifications
+argha	4287	3820	4326	0	12	0.0	0.2	2983136	34568	?	Ssl	12:10	0:00	/usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.Shell.Notifications
+argha	4287	3820	4327	0	12	0.0	0.2	2983136	34568	?	Ssl	12:10	0:00	/usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.Shell.Notifications
+argha	4287	3820	4328	0	12	0.0	0.2	2983136	34568	?	Ssl	12:10	0:00	/usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.Shell.Notifications
+argha	4287	3820	4329	0	12	0.0	0.2	2983136	34568	?	Ssl	12:10	0:00	/usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.Shell.Notifications
+argha	4287	3820	4330	0	12	0.0	0.2	2983136	34568	?	Ssl	12:10	0:00	/usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.Shell.Notifications
+argha	4365	3820	4365	0	4	0.3	0.0	612320	14100	?	Ssl	12:10	0:00	/usr/bin/ibus-daemon --panel disable
+argha	4365	3820	4393	0	4	0.3	0.0	612320	14100	?	Ssl	12:10	0:00	/usr/bin/ibus-daemon --panel disable
+argha	4365	3820	4395	0	4	0.3	0.0	612320	14100	?	Ssl	12:10	0:00	/usr/bin/ibus-daemon --panel disable
+argha	4365	3820	4399	0	4	0.3	0.0	612320	14100	?	Ssl	12:10	0:00	/usr/bin/ibus-daemon --panel disable
+argha	4366	3820	4366	0	5	0.0	0.0	478692	10952	?	Ssl	12:10	0:00	/usr/libexec/gsd-a11y-settings
+argha	4366	3820	4382	0	5	0.0	0.0	478692	10952	?	Ssl	12:10	0:00	/usr/libexec/gsd-a11y-settings
+argha	4366	3820	4383	0	5	0.0	0.0	478692	10952	?	Ssl	12:10	0:00	/usr/libexec/gsd-a11y-settings
+argha	4366	3820	4386	0	5	0.0	0.0	478692	10952	?	Ssl	12:10	0:00	/usr/libexec/gsd-a11y-settings
+argha	4366	3820	4462	0	5	0.0	0.0	478692	10952	?	Ssl	12:10	0:00	/usr/libexec/gsd-a11y-settings
+argha	4370	3820	4370	0	5	0.0	0.0	617304	11532	?	Ssl	12:10	0:00	/usr/libexec/gsd-color
+argha	4370	3820	4404	0	5	0.0	0.0	617304	11532	?	Ssl	12:10	0:00	/usr/libexec/gsd-color
+argha	4370	3820	4406	0	5	0.0	0.0	617304	11532	?	Ssl	12:10	0:00	/usr/libexec/gsd-color
+argha	4370	3820	4407	0	5	0.0	0.0	617304	11532	?	Ssl	12:10	0:00	/usr/libexec/gsd-color
+argha	4370	3820	4412	0	5	0.0	0.0	617304	11532	?	Ssl	12:10	0:00	/usr/libexec/gsd-color
+argha	4373	3820	4373	0	5	0.0	0.0	490256	14192	?	Ssl	12:10	0:00	/usr/libexec/gsd-datetime
+argha	4373	3820	4416	0	5	0.0	0.0	490256	14192	?	Ssl	12:10	0:00	/usr/libexec/gsd-datetime
+argha	4373	3820	4418	0	5	0.0	0.0	490256	14192	?	Ssl	12:10	0:00	/usr/libexec/gsd-datetime
+argha	4373	3820	4425	0	5	0.0	0.0	490256	14192	?	Ssl	12:10	0:00	/usr/libexec/gsd-datetime
+argha	4373	3820	4466	0	5	0.0	0.0	490256	14192	?	Ssl	12:10	0:00	/usr/libexec/gsd-datetime
+argha	4378	3820	4378	0	5	0.0	0.0	616924	11412	?	Ssl	12:10	0:00	/usr/libexec/gsd-housekeeping
+argha	4378	3820	4409	0	5	0.0	0.0	616924	11412	?	Ssl	12:10	0:00	/usr/libexec/gsd-housekeeping
+argha	4378	3820	4410	0	5	0.0	0.0	616924	11412	?	Ssl	12:10	0:00	/usr/libexec/gsd-housekeeping
+argha	4378	3820	4411	0	5	0.0	0.0	616924	11412	?	Ssl	12:10	0:00	/usr/libexec/gsd-housekeeping
+argha	4378	3820	4470	0	5	0.0	0.0	616924	11412	?	Ssl	12:10	0:00	/usr/libexec/gsd-housekeeping
+argha	4387	3820	4387	0	5	0.0	0.0	606608	7908	?	Ssl	12:10	0:00	/usr/libexec/gsd-keyboard
+argha	4387	3820	4430	0	5	0.0	0.0	606608	7908	?	Ssl	12:10	0:00	/usr/libexec/gsd-keyboard
+argha	4387	3820	4431	0	5	0.0	0.0	606608	7908	?	Ssl	12:10	0:00	/usr/libexec/gsd-keyboard
+argha	4387	3820	4432	0	5	0.0	0.0	606608	7908	?	Ssl	12:10	0:00	/usr/libexec/gsd-keyboard
+argha	4387	3820	4435	0	5	0.0	0.0	606608	7908	?	Ssl	12:10	0:00	/usr/libexec/gsd-keyboard
+argha	4390	3820	4390	0	5	0.0	0.0	837020	15080	?	Ssl	12:10	0:00	/usr/libexec/gsd-media-keys
+argha	4390	3820	4442	0	5	0.0	0.0	837020	15080	?	Ssl	12:10	0:00	/usr/libexec/gsd-media-keys
+argha	4390	3820	4444	0	5	0.0	0.0	837020	15080	?	Ssl	12:10	0:00	/usr/libexec/gsd-media-keys
+argha	4390	3820	4447	0	5	0.0	0.0	837020	15080	?	Ssl	12:10	0:00	/usr/libexec/gsd-media-keys
+argha	4390	3820	4507	0	5	0.0	0.0	837020	15080	?	Ssl	12:10	0:00	/usr/libexec/gsd-media-keys
+argha	4392	3820	4392	0	5	0.0	0.0	692084	11968	?	Ssl	12:10	0:00	/usr/libexec/gsd-power
+argha	4392	3820	4436	0	5	0.0	0.0	692084	11968	?	Ssl	12:10	0:00	/usr/libexec/gsd-power
+argha	4392	3820	4437	0	5	0.0	0.0	692084	11968	?	Ssl	12:10	0:00	/usr/libexec/gsd-power
+argha	4392	3820	4440	0	5	0.0	0.0	692084	11968	?	Ssl	12:10	0:00	/usr/libexec/gsd-power
+argha	4392	3820	4497	0	5	0.0	0.0	692084	11968	?	Ssl	12:10	0:00	/usr/libexec/gsd-power
+argha	4397	3820	4397	0	4	0.0	0.1	559292	16240	?	Ssl	12:10	0:00	/usr/libexec/gsd-print-notifications
+argha	4397	3820	4451	0	4	0.0	0.1	559292	16240	?	Ssl	12:10	0:00	/usr/libexec/gsd-print-notifications
+argha	4397	3820	4453	0	4	0.0	0.1	559292	16240	?	Ssl	12:10	0:00	/usr/libexec/gsd-print-notifications
+argha	4397	3820	4474	0	4	0.0	0.1	559292	16240	?	Ssl	12:10	0:00	/usr/libexec/gsd-print-notifications
+argha	4400	3820	4400	0	4	0.0	0.0	314536	10244	?	Sl	12:10	0:00	/usr/libexec/gsd-disk-utility-notify
+argha	4400	3820	4419	0	4	0.0	0.0	314536	10244	?	Sl	12:10	0:00	/usr/libexec/gsd-disk-utility-notify
+argha	4400	3820	4420	0	4	0.0	0.0	314536	10244	?	Sl	12:10	0:00	/usr/libexec/gsd-disk-utility-notify
+argha	4400	3820	4445	0	4	0.0	0.0	314536	10244	?	Sl	12:10	0:00	/usr/libexec/gsd-disk-utility-notify
+argha	4401	3820	4401	0	4	0.0	0.0	606704	8108	?	Ssl	12:10	0:00	/usr/libexec/gsd-rfkill
+argha	4401	3820	4423	0	4	0.0	0.0	606704	8108	?	Ssl	12:10	0:00	/usr/libexec/gsd-rfkill
+argha	4401	3820	4427	0	4	0.0	0.0	606704	8108	?	Ssl	12:10	0:00	/usr/libexec/gsd-rfkill
+argha	4401	3820	4433	0	4	0.0	0.0	606704	8108	?	Ssl	12:10	0:00	/usr/libexec/gsd-rfkill
+argha	4403	3820	4403	0	4	0.0	0.0	393272	7240	?	Ssl	12:10	0:00	/usr/libexec/gsd-screensaver-proxy
+argha	4403	3820	4487	0	4	0.0	0.0	393272	7240	?	Ssl	12:10	0:00	/usr/libexec/gsd-screensaver-proxy
+argha	4403	3820	4489	0	4	0.0	0.0	393272	7240	?	Ssl	12:10	0:00	/usr/libexec/gsd-screensaver-proxy
+argha	4403	3820	4491	0	4	0.0	0.0	393272	7240	?	Ssl	12:10	0:00	/usr/libexec/gsd-screensaver-proxy
+argha	4408	3820	4408	0	5	0.0	0.0	691388	13444	?	Ssl	12:10	0:00	/usr/libexec/gsd-sharing
+argha	4408	3820	4457	0	5	0.0	0.0	691388	13444	?	Ssl	12:10	0:00	/usr/libexec/gsd-sharing
+argha	4408	3820	4458	0	5	0.0	0.0	691388	13444	?	Ssl	12:10	0:00	/usr/libexec/gsd-sharing
+argha	4408	3820	4459	0	5	0.0	0.0	691388	13444	?	Ssl	12:10	0:00	/usr/libexec/gsd-sharing
+argha	4408	3820	4469	0	5	0.0	0.0	691388	13444	?	Ssl	12:10	0:00	/usr/libexec/gsd-sharing
+argha	4414	3820	4414	0	6	0.0	0.0	616684	13744	?	Ssl	12:10	0:00	/usr/libexec/gsd-smartcard
+argha	4414	3820	4454	0	6	0.0	0.0	616684	13744	?	Ssl	12:10	0:00	/usr/libexec/gsd-smartcard
+argha	4414	3820	4455	0	6	0.0	0.0	616684	13744	?	Ssl	12:10	0:00	/usr/libexec/gsd-smartcard
+argha	4414	3820	4464	0	6	0.0	0.0	616684	13744	?	Ssl	12:10	0:00	/usr/libexec/gsd-smartcard
+argha	4414	3820	4484	0	6	0.0	0.0	616684	13744	?	Ssl	12:10	0:00	/usr/libexec/gsd-smartcard
+argha	4414	3820	4485	0	6	0.0	0.0	616684	13744	?	Ssl	12:10	0:00	/usr/libexec/gsd-smartcard
+argha	4428	3820	4428	0	5	0.0	0.0	473372	10528	?	Ssl	12:10	0:00	/usr/libexec/gsd-sound
+argha	4428	3820	4499	0	5	0.0	0.0	473372	10528	?	Ssl	12:10	0:00	/usr/libexec/gsd-sound
+argha	4428	3820	4502	0	5	0.0	0.0	473372	10528	?	Ssl	12:10	0:00	/usr/libexec/gsd-sound
+argha	4428	3820	4505	0	5	0.0	0.0	473372	10528	?	Ssl	12:10	0:00	/usr/libexec/gsd-sound
+argha	4428	3820	4512	0	5	0.0	0.0	473372	10528	?	Ssl	12:10	0:00	/usr/libexec/gsd-sound
+root	4429	2	4429	0	1	0.0	0.0	0	0	?	I	12:10	0:00	[kworker/1:2-events]
+argha	4439	3820	4439	0	5	0.0	0.0	690192	10456	?	Ssl	12:10	0:00	/usr/libexec/gsd-usb-protection
+argha	4439	3820	4478	0	5	0.0	0.0	690192	10456	?	Ssl	12:10	0:00	/usr/libexec/gsd-usb-protection
+argha	4439	3820	4479	0	5	0.0	0.0	690192	10456	?	Ssl	12:10	0:00	/usr/libexec/gsd-usb-protection
+argha	4439	3820	4481	0	5	0.0	0.0	690192	10456	?	Ssl	12:10	0:00	/usr/libexec/gsd-usb-protection
+argha	4439	3820	4490	0	5	0.0	0.0	690192	10456	?	Ssl	12:10	0:00	/usr/libexec/gsd-usb-protection
+argha	4443	3820	4443	0	5	0.0	0.0	617860	12252	?	Ssl	12:10	0:00	/usr/libexec/gsd-wwan
+argha	4443	3820	4492	0	5	0.0	0.0	617860	12252	?	Ssl	12:10	0:00	/usr/libexec/gsd-wwan
+argha	4443	3820	4493	0	5	0.0	0.0	617860	12252	?	Ssl	12:10	0:00	/usr/libexec/gsd-wwan
+argha	4443	3820	4494	0	5	0.0	0.0	617860	12252	?	Ssl	12:10	0:00	/usr/libexec/gsd-wwan
+argha	4443	3820	4506	0	5	0.0	0.0	617860	12252	?	Ssl	12:10	0:00	/usr/libexec/gsd-wwan
+argha	4509	4365	4509	0	5	0.0	0.0	466488	7784	?	Sl	12:10	0:00	/usr/libexec/ibus-dconf
+argha	4509	4365	4516	0	5	0.0	0.0	466488	7784	?	Sl	12:10	0:00	/usr/libexec/ibus-dconf
+argha	4509	4365	4517	0	5	0.0	0.0	466488	7784	?	Sl	12:10	0:00	/usr/libexec/ibus-dconf
+argha	4509	4365	4518	0	5	0.0	0.0	466488	7784	?	Sl	12:10	0:00	/usr/libexec/ibus-dconf
+argha	4509	4365	4529	0	5	0.0	0.0	466488	7784	?	Sl	12:10	0:00	/usr/libexec/ibus-dconf
+argha	4511	4365	4511	2	6	2.0	0.2	734852	37524	?	Sl	12:10	0:01	/usr/libexec/ibus-extension-gtk3
+argha	4511	4365	4531	0	6	2.0	0.2	734852	37524	?	Sl	12:10	0:01	/usr/libexec/ibus-extension-gtk3
+argha	4511	4365	4532	0	6	2.0	0.2	734852	37524	?	Sl	12:10	0:01	/usr/libexec/ibus-extension-gtk3
+argha	4511	4365	4539	0	6	2.0	0.2	734852	37524	?	Sl	12:10	0:01	/usr/libexec/ibus-extension-gtk3
+argha	4511	4365	4540	0	6	2.0	0.2	734852	37524	?	Sl	12:10	0:01	/usr/libexec/ibus-extension-gtk3
+argha	4511	4365	5941	0	6	2.0	0.2	734852	37524	?	Sl	12:10	0:01	/usr/libexec/ibus-extension-gtk3
+argha	4554	3820	4554	0	4	0.0	0.0	531940	7664	?	Ssl	12:10	0:00	/usr/libexec/ibus-portal
+argha	4554	3820	4561	0	4	0.0	0.0	531940	7664	?	Ssl	12:10	0:00	/usr/libexec/ibus-portal
+argha	4554	3820	4562	0	4	0.0	0.0	531940	7664	?	Ssl	12:10	0:00	/usr/libexec/ibus-portal
+argha	4554	3820	4566	0	4	0.0	0.0	531940	7664	?	Ssl	12:10	0:00	/usr/libexec/ibus-portal
+argha	4557	3820	4557	0	5	0.0	0.1	512888	22044	?	Ssl	12:10	0:00	/usr/bin/abrt-applet --gapplication-service
+argha	4557	3820	4600	0	5	0.0	0.1	512888	22044	?	Ssl	12:10	0:00	/usr/bin/abrt-applet --gapplication-service
+argha	4557	3820	4601	0	5	0.0	0.1	512888	22044	?	Ssl	12:10	0:00	/usr/bin/abrt-applet --gapplication-service
+argha	4557	3820	4602	0	5	0.0	0.1	512888	22044	?	Ssl	12:10	0:00	/usr/bin/abrt-applet --gapplication-service
+argha	4557	3820	4874	0	5	0.0	0.1	512888	22044	?	Ssl	12:10	0:00	/usr/bin/abrt-applet --gapplication-service
+argha	4558	3820	4558	0	12	0.0	0.2	2982140	34892	?	Ssl	12:10	0:00	/usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.ScreenSaver
+argha	4558	3820	4574	0	12	0.0	0.2	2982140	34892	?	Ssl	12:10	0:00	/usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.ScreenSaver
+argha	4558	3820	4575	0	12	0.0	0.2	2982140	34892	?	Ssl	12:10	0:00	/usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.ScreenSaver
+argha	4558	3820	4576	0	12	0.0	0.2	2982140	34892	?	Ssl	12:10	0:00	/usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.ScreenSaver
+argha	4558	3820	4583	0	12	0.0	0.2	2982140	34892	?	Ssl	12:10	0:00	/usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.ScreenSaver
+argha	4558	3820	4584	0	12	0.0	0.2	2982140	34892	?	Ssl	12:10	0:00	/usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.ScreenSaver
+argha	4558	3820	4585	0	12	0.0	0.2	2982140	34892	?	Ssl	12:10	0:00	/usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.ScreenSaver
+argha	4558	3820	4586	0	12	0.0	0.2	2982140	34892	?	Ssl	12:10	0:00	/usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.ScreenSaver
+argha	4558	3820	4587	0	12	0.0	0.2	2982140	34892	?	Ssl	12:10	0:00	/usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.ScreenSaver
+argha	4558	3820	4588	0	12	0.0	0.2	2982140	34892	?	Ssl	12:10	0:00	/usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.ScreenSaver
+argha	4558	3820	4589	0	12	0.0	0.2	2982140	34892	?	Ssl	12:10	0:00	/usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.ScreenSaver
+argha	4558	3820	4590	0	12	0.0	0.2	2982140	34892	?	Ssl	12:10	0:00	/usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.ScreenSaver
+argha	4559	3820	4559	0	5	0.0	0.0	622516	15116	?	Ssl	12:10	0:00	/usr/libexec/gvfs-udisks2-volume-monitor
+argha	4559	3820	4577	0	5	0.0	0.0	622516	15116	?	Ssl	12:10	0:00	/usr/libexec/gvfs-udisks2-volume-monitor
+argha	4559	3820	4578	0	5	0.0	0.0	622516	15116	?	Ssl	12:10	0:00	/usr/libexec/gvfs-udisks2-volume-monitor
+argha	4559	3820	4581	0	5	0.0	0.0	622516	15116	?	Ssl	12:10	0:00	/usr/libexec/gvfs-udisks2-volume-monitor
+argha	4559	3820	4596	0	5	0.0	0.0	622516	15116	?	Ssl	12:10	0:00	/usr/libexec/gvfs-udisks2-volume-monitor
+argha	4565	3820	4565	3	10	4.0	0.2	963264	36212	?	SNsl	12:10	0:03	/usr/libexec/localsearch-3
+argha	4565	3820	4579	0	10	4.0	0.2	963264	36212	?	SNsl	12:10	0:03	/usr/libexec/localsearch-3
+argha	4565	3820	4580	0	10	4.0	0.2	963264	36212	?	SNsl	12:10	0:03	/usr/libexec/localsearch-3
+argha	4565	3820	4582	0	10	4.0	0.2	963264	36212	?	SNsl	12:10	0:03	/usr/libexec/localsearch-3
+argha	4565	3820	4700	0	10	4.0	0.2	963264	36212	?	SNsl	12:10	0:03	/usr/libexec/localsearch-3
+argha	4565	3820	4702	0	10	4.0	0.2	963264	36212	?	SNsl	12:10	0:03	/usr/libexec/localsearch-3
+argha	4565	3820	4756	0	10	4.0	0.2	963264	36212	?	SNsl	12:10	0:03	/usr/libexec/localsearch-3
+argha	4565	3820	4758	0	10	4.0	0.2	963264	36212	?	SNsl	12:10	0:03	/usr/libexec/localsearch-3
+argha	4565	3820	9216	0	10	4.0	0.2	963264	36212	?	SNsl	12:10	0:03	/usr/libexec/localsearch-3
+argha	4565	3820	9229	0	10	4.0	0.2	963264	36212	?	SNsl	12:10	0:03	/usr/libexec/localsearch-3
+argha	4567	3820	4567	0	9	0.1	0.4	1360708	72888	?	Ssl	12:10	0:00	/usr/libexec/evolution-data-server/evolution-alarm-notify
+argha	4567	3820	4626	0	9	0.1	0.4	1360708	72888	?	Ssl	12:10	0:00	/usr/libexec/evolution-data-server/evolution-alarm-notify
+argha	4567	3820	4628	0	9	0.1	0.4	1360708	72888	?	Ssl	12:10	0:00	/usr/libexec/evolution-data-server/evolution-alarm-notify
+argha	4567	3820	4629	0	9	0.1	0.4	1360708	72888	?	Ssl	12:10	0:00	/usr/libexec/evolution-data-server/evolution-alarm-notify
+argha	4567	3820	4631	0	9	0.1	0.4	1360708	72888	?	Ssl	12:10	0:00	/usr/libexec/evolution-data-server/evolution-alarm-notify
+argha	4567	3820	4632	0	9	0.1	0.4	1360708	72888	?	Ssl	12:10	0:00	/usr/libexec/evolution-data-server/evolution-alarm-notify
+argha	4567	3820	4978	0	9	0.1	0.4	1360708	72888	?	Ssl	12:10	0:00	/usr/libexec/evolution-data-server/evolution-alarm-notify
+argha	4567	3820	4982	0	9	0.1	0.4	1360708	72888	?	Ssl	12:10	0:00	/usr/libexec/evolution-data-server/evolution-alarm-notify
+argha	4567	3820	5106	0	9	0.1	0.4	1360708	72888	?	Ssl	12:10	0:00	/usr/libexec/evolution-data-server/evolution-alarm-notify
+argha	4568	3820	4568	2	13	18.8	1.4	2817704	236708	?	Ssl	12:10	0:16	/usr/bin/gnome-software --gapplication-service
+argha	4568	3820	4610	0	13	18.8	1.4	2817704	236708	?	Ssl	12:10	0:16	/usr/bin/gnome-software --gapplication-service
+argha	4568	3820	4612	0	13	18.8	1.4	2817704	236708	?	Ssl	12:10	0:16	/usr/bin/gnome-software --gapplication-service
+argha	4568	3820	4613	0	13	18.8	1.4	2817704	236708	?	Ssl	12:10	0:16	/usr/bin/gnome-software --gapplication-service
+argha	4568	3820	4614	0	13	18.8	1.4	2817704	236708	?	Ssl	12:10	0:16	/usr/bin/gnome-software --gapplication-service
+argha	4568	3820	5796	0	13	18.8	1.4	2817704	236708	?	Ssl	12:10	0:16	/usr/bin/gnome-software --gapplication-service
+argha	4568	3820	5811	5	13	18.8	1.4	2817704	236708	?	Ssl	12:10	0:16	/usr/bin/gnome-software --gapplication-service
+argha	4568	3820	5812	8	13	18.8	1.4	2817704	236708	?	Ssl	12:10	0:16	/usr/bin/gnome-software --gapplication-service
+argha	4568	3820	5813	0	13	18.8	1.4	2817704	236708	?	Ssl	12:10	0:16	/usr/bin/gnome-software --gapplication-service
+argha	4568	3820	5817	1	13	18.8	1.4	2817704	236708	?	Ssl	12:10	0:16	/usr/bin/gnome-software --gapplication-service
+argha	4568	3820	6726	0	13	18.8	1.4	2817704	236708	?	Ssl	12:10	0:16	/usr/bin/gnome-software --gapplication-service
+argha	4568	3820	6727	0	13	18.8	1.4	2817704	236708	?	Ssl	12:10	0:16	/usr/bin/gnome-software --gapplication-service
+argha	4568	3820	8341	0	13	18.8	1.4	2817704	236708	?	Ssl	12:10	0:16	/usr/bin/gnome-software --gapplication-service
+argha	4570	3820	4570	0	3	0.0	0.0	393780	10428	?	S<sl	12:10	0:00	/usr/bin/pipewire-pulse
+argha	4570	3820	4593	0	3	0.0	0.0	393780	10428	?	S<sl	12:10	0:00	/usr/bin/pipewire-pulse
+argha	4570	3820	4594	0	3	0.0	0.0	393780	10428	?	S<sl	12:10	0:00	/usr/bin/pipewire-pulse
+argha	4606	3820	4606	0	5	0.0	0.0	612536	8816	?	Ssl	12:10	0:00	/usr/libexec/gvfs-afc-volume-monitor
+argha	4606	3820	4615	0	5	0.0	0.0	612536	8816	?	Ssl	12:10	0:00	/usr/libexec/gvfs-afc-volume-monitor
+argha	4606	3820	4616	0	5	0.0	0.0	612536	8816	?	Ssl	12:10	0:00	/usr/libexec/gvfs-afc-volume-monitor
+argha	4606	3820	4617	0	5	0.0	0.0	612536	8816	?	Ssl	12:10	0:00	/usr/libexec/gvfs-afc-volume-monitor
+argha	4606	3820	4619	0	5	0.0	0.0	612536	8816	?	Ssl	12:10	0:00	/usr/libexec/gvfs-afc-volume-monitor
+argha	4620	3820	4620	0	7	0.1	0.1	994764	18472	?	Ssl	12:10	0:00	/usr/libexec/xdg-desktop-portal
+argha	4620	3820	4624	0	7	0.1	0.1	994764	18472	?	Ssl	12:10	0:00	/usr/libexec/xdg-desktop-portal
+argha	4620	3820	4633	0	7	0.1	0.1	994764	18472	?	Ssl	12:10	0:00	/usr/libexec/xdg-desktop-portal
+argha	4620	3820	4634	0	7	0.1	0.1	994764	18472	?	Ssl	12:10	0:00	/usr/libexec/xdg-desktop-portal
+argha	4620	3820	5773	0	7	0.1	0.1	994764	18472	?	Ssl	12:10	0:00	/usr/libexec/xdg-desktop-portal
+argha	4620	3820	5782	0	7	0.1	0.1	994764	18472	?	Ssl	12:10	0:00	/usr/libexec/xdg-desktop-portal
+argha	4620	3820	5783	0	7	0.1	0.1	994764	18472	?	Ssl	12:10	0:00	/usr/libexec/xdg-desktop-portal
+argha	4635	3820	4635	0	4	0.0	0.2	685488	32216	?	Ssl	12:10	0:00	/usr/libexec/goa-daemon
+argha	4635	3820	4666	0	4	0.0	0.2	685488	32216	?	Ssl	12:10	0:00	/usr/libexec/goa-daemon
+argha	4635	3820	4667	0	4	0.0	0.2	685488	32216	?	Ssl	12:10	0:00	/usr/libexec/goa-daemon
+argha	4635	3820	4669	0	4	0.0	0.2	685488	32216	?	Ssl	12:10	0:00	/usr/libexec/goa-daemon
+argha	4637	3820	4637	0	4	0.0	0.0	533436	8072	?	Ssl	12:10	0:00	/usr/libexec/gvfs-gphoto2-volume-monitor
+argha	4637	3820	4653	0	4	0.0	0.0	533436	8072	?	Ssl	12:10	0:00	/usr/libexec/gvfs-gphoto2-volume-monitor
+argha	4637	3820	4654	0	4	0.0	0.0	533436	8072	?	Ssl	12:10	0:00	/usr/libexec/gvfs-gphoto2-volume-monitor
+argha	4637	3820	4656	0	4	0.0	0.0	533436	8072	?	Ssl	12:10	0:00	/usr/libexec/gvfs-gphoto2-volume-monitor
+argha	4640	3820	4640	0	7	0.0	0.0	829748	7792	?	Ssl	12:10	0:00	/usr/libexec/xdg-document-portal
+argha	4640	3820	4642	0	7	0.0	0.0	829748	7792	?	Ssl	12:10	0:00	/usr/libexec/xdg-document-portal
+argha	4640	3820	4643	0	7	0.0	0.0	829748	7792	?	Ssl	12:10	0:00	/usr/libexec/xdg-document-portal
+argha	4640	3820	4644	0	7	0.0	0.0	829748	7792	?	Ssl	12:10	0:00	/usr/libexec/xdg-document-portal
+argha	4640	3820	4647	0	7	0.0	0.0	829748	7792	?	Ssl	12:10	0:00	/usr/libexec/xdg-document-portal
+argha	4640	3820	4651	0	7	0.0	0.0	829748	7792	?	Ssl	12:10	0:00	/usr/libexec/xdg-document-portal
+argha	4640	3820	4652	0	7	0.0	0.0	829748	7792	?	Ssl	12:10	0:00	/usr/libexec/xdg-document-portal
+root	4649	4640	4649	0	1	0.0	0.0	2588	2056	?	Ss	12:10	0:00	fusermount3 -o rw,nosuid,nodev,fsname=portal,auto_unmount,subtype=portal -- /run/user/1000/doc
+argha	4662	3820	4662	0	10	0.0	0.1	1124336	31300	?	Ssl	12:10	0:00	/usr/libexec/evolution-calendar-factory
+argha	4662	3820	4688	0	10	0.0	0.1	1124336	31300	?	Ssl	12:10	0:00	/usr/libexec/evolution-calendar-factory
+argha	4662	3820	4689	0	10	0.0	0.1	1124336	31300	?	Ssl	12:10	0:00	/usr/libexec/evolution-calendar-factory
+argha	4662	3820	4690	0	10	0.0	0.1	1124336	31300	?	Ssl	12:10	0:00	/usr/libexec/evolution-calendar-factory
+argha	4662	3820	4739	0	10	0.0	0.1	1124336	31300	?	Ssl	12:10	0:00	/usr/libexec/evolution-calendar-factory
+argha	4662	3820	4740	0	10	0.0	0.1	1124336	31300	?	Ssl	12:10	0:00	/usr/libexec/evolution-calendar-factory
+argha	4662	3820	4741	0	10	0.0	0.1	1124336	31300	?	Ssl	12:10	0:00	/usr/libexec/evolution-calendar-factory
+argha	4662	3820	4746	0	10	0.0	0.1	1124336	31300	?	Ssl	12:10	0:00	/usr/libexec/evolution-calendar-factory
+argha	4662	3820	4748	0	10	0.0	0.1	1124336	31300	?	Ssl	12:10	0:00	/usr/libexec/evolution-calendar-factory
+argha	4662	3820	4749	0	10	0.0	0.1	1124336	31300	?	Ssl	12:10	0:00	/usr/libexec/evolution-calendar-factory
+argha	4663	3820	4663	0	4	0.0	0.0	531552	7228	?	Ssl	12:10	0:00	/usr/libexec/gvfs-mtp-volume-monitor
+argha	4663	3820	4680	0	4	0.0	0.0	531552	7228	?	Ssl	12:10	0:00	/usr/libexec/gvfs-mtp-volume-monitor
+argha	4663	3820	4681	0	4	0.0	0.0	531552	7228	?	Ssl	12:10	0:00	/usr/libexec/gvfs-mtp-volume-monitor
+argha	4663	3820	4684	0	4	0.0	0.0	531552	7228	?	Ssl	12:10	0:00	/usr/libexec/gvfs-mtp-volume-monitor
+argha	4664	3820	4664	0	6	0.2	0.3	1052204	50796	?	Ssl	12:10	0:00	/usr/libexec/xdg-desktop-portal-gnome
+argha	4664	3820	4708	0	6	0.2	0.3	1052204	50796	?	Ssl	12:10	0:00	/usr/libexec/xdg-desktop-portal-gnome
+argha	4664	3820	4709	0	6	0.2	0.3	1052204	50796	?	Ssl	12:10	0:00	/usr/libexec/xdg-desktop-portal-gnome
+argha	4664	3820	4711	0	6	0.2	0.3	1052204	50796	?	Ssl	12:10	0:00	/usr/libexec/xdg-desktop-portal-gnome
+argha	4664	3820	4800	0	6	0.2	0.3	1052204	50796	?	Ssl	12:10	0:00	/usr/libexec/xdg-desktop-portal-gnome
+argha	4664	3820	4801	0	6	0.2	0.3	1052204	50796	?	Ssl	12:10	0:00	/usr/libexec/xdg-desktop-portal-gnome
+argha	4674	3820	4674	0	6	0.0	0.0	620076	11884	?	Ssl	12:10	0:00	/usr/libexec/goa-identity-service
+argha	4674	3820	4677	0	6	0.0	0.0	620076	11884	?	Ssl	12:10	0:00	/usr/libexec/goa-identity-service
+argha	4674	3820	4678	0	6	0.0	0.0	620076	11884	?	Ssl	12:10	0:00	/usr/libexec/goa-identity-service
+argha	4674	3820	4679	0	6	0.0	0.0	620076	11884	?	Ssl	12:10	0:00	/usr/libexec/goa-identity-service
+argha	4674	3820	4683	0	6	0.0	0.0	620076	11884	?	Ssl	12:10	0:00	/usr/libexec/goa-identity-service
+argha	4674	3820	4754	0	6	0.0	0.0	620076	11884	?	Ssl	12:10	0:00	/usr/libexec/goa-identity-service
+argha	4687	3820	4687	0	4	0.0	0.0	531108	6784	?	Ssl	12:10	0:00	/usr/libexec/gvfs-goa-volume-monitor
+argha	4687	3820	4693	0	4	0.0	0.0	531108	6784	?	Ssl	12:10	0:00	/usr/libexec/gvfs-goa-volume-monitor
+argha	4687	3820	4694	0	4	0.0	0.0	531108	6784	?	Ssl	12:10	0:00	/usr/libexec/gvfs-goa-volume-monitor
+argha	4687	3820	4695	0	4	0.0	0.0	531108	6784	?	Ssl	12:10	0:00	/usr/libexec/gvfs-goa-volume-monitor
+argha	4703	4138	4703	0	5	0.0	0.6	454212	100092	?	Sl	12:10	0:00	/usr/bin/Xwayland :0 -rootless -noreset -accessx -core -auth /run/user/1000/.mutter-Xwaylandauth.LX0AL3 -listenfd 4 -listenfd 5 -displayfd 6 -initfd 7 -byteswappedclients -enable-ei-portal
+argha	4703	4138	4968	0	5	0.0	0.6	454212	100092	?	Sl	12:10	0:00	/usr/bin/Xwayland :0 -rootless -noreset -accessx -core -auth /run/user/1000/.mutter-Xwaylandauth.LX0AL3 -listenfd 4 -listenfd 5 -displayfd 6 -initfd 7 -byteswappedclients -enable-ei-portal
+argha	4703	4138	4969	0	5	0.0	0.6	454212	100092	?	Sl	12:10	0:00	/usr/bin/Xwayland :0 -rootless -noreset -accessx -core -auth /run/user/1000/.mutter-Xwaylandauth.LX0AL3 -listenfd 4 -listenfd 5 -displayfd 6 -initfd 7 -byteswappedclients -enable-ei-portal
+argha	4703	4138	4970	0	5	0.0	0.6	454212	100092	?	Sl	12:10	0:00	/usr/bin/Xwayland :0 -rootless -noreset -accessx -core -auth /run/user/1000/.mutter-Xwaylandauth.LX0AL3 -listenfd 4 -listenfd 5 -displayfd 6 -initfd 7 -byteswappedclients -enable-ei-portal
+argha	4703	4138	4971	0	5	0.0	0.6	454212	100092	?	Sl	12:10	0:00	/usr/bin/Xwayland :0 -rootless -noreset -accessx -core -auth /run/user/1000/.mutter-Xwaylandauth.LX0AL3 -listenfd 4 -listenfd 5 -displayfd 6 -initfd 7 -byteswappedclients -enable-ei-portal
+sssd	4730	1	4730	0	1	0.0	0.0	247616	8936	?	Ss	12:10	0:00	/usr/libexec/sssd/sssd_kcm --logger=files
+argha	4752	3820	4752	0	7	0.0	0.2	986084	35524	?	Ssl	12:10	0:00	/usr/libexec/evolution-addressbook-factory
+argha	4752	3820	4767	0	7	0.0	0.2	986084	35524	?	Ssl	12:10	0:00	/usr/libexec/evolution-addressbook-factory
+argha	4752	3820	4768	0	7	0.0	0.2	986084	35524	?	Ssl	12:10	0:00	/usr/libexec/evolution-addressbook-factory
+argha	4752	3820	4769	0	7	0.0	0.2	986084	35524	?	Ssl	12:10	0:00	/usr/libexec/evolution-addressbook-factory
+argha	4752	3820	4777	0	7	0.0	0.2	986084	35524	?	Ssl	12:10	0:00	/usr/libexec/evolution-addressbook-factory
+argha	4752	3820	4779	0	7	0.0	0.2	986084	35524	?	Ssl	12:10	0:00	/usr/libexec/evolution-addressbook-factory
+argha	4752	3820	4784	0	7	0.0	0.2	986084	35524	?	Ssl	12:10	0:00	/usr/libexec/evolution-addressbook-factory
+root	4793	1	4793	0	4	0.0	0.0	554288	15068	?	Ssl	12:10	0:00	/usr/sbin/abrt-dbus -t133
+root	4793	1	4802	0	4	0.0	0.0	554288	15068	?	Ssl	12:10	0:00	/usr/sbin/abrt-dbus -t133
+root	4793	1	4803	0	4	0.0	0.0	554288	15068	?	Ssl	12:10	0:00	/usr/sbin/abrt-dbus -t133
+root	4793	1	4804	0	4	0.0	0.0	554288	15068	?	Ssl	12:10	0:00	/usr/sbin/abrt-dbus -t133
+argha	4837	4365	4837	0	4	0.0	0.0	392616	7768	?	Sl	12:10	0:00	/usr/libexec/ibus-engine-simple
+argha	4837	4365	4839	0	4	0.0	0.0	392616	7768	?	Sl	12:10	0:00	/usr/libexec/ibus-engine-simple
+argha	4837	4365	4840	0	4	0.0	0.0	392616	7768	?	Sl	12:10	0:00	/usr/libexec/ibus-engine-simple
+argha	4837	4365	4843	0	4	0.0	0.0	392616	7768	?	Sl	12:10	0:00	/usr/libexec/ibus-engine-simple
+argha	4932	4114	4932	0	5	0.0	0.0	835428	11312	?	Sl	12:10	0:00	/usr/libexec/gvfsd-trash --spawner :1.7 /org/gtk/gvfs/exec_spaw/0
+argha	4932	4114	4935	0	5	0.0	0.0	835428	11312	?	Sl	12:10	0:00	/usr/libexec/gvfsd-trash --spawner :1.7 /org/gtk/gvfs/exec_spaw/0
+argha	4932	4114	4936	0	5	0.0	0.0	835428	11312	?	Sl	12:10	0:00	/usr/libexec/gvfsd-trash --spawner :1.7 /org/gtk/gvfs/exec_spaw/0
+argha	4932	4114	4937	0	5	0.0	0.0	835428	11312	?	Sl	12:10	0:00	/usr/libexec/gvfsd-trash --spawner :1.7 /org/gtk/gvfs/exec_spaw/0
+argha	4932	4114	4940	0	5	0.0	0.0	835428	11312	?	Sl	12:10	0:00	/usr/libexec/gvfsd-trash --spawner :1.7 /org/gtk/gvfs/exec_spaw/0
+argha	4998	4138	4998	0	1	0.0	0.0	3748	2256	?	S	12:10	0:00	bwrap --unshare-all --die-with-parent --chdir / --ro-bind /usr /usr --dev /dev --ro-bind-try /etc/ld.so.cache /etc/ld.so.cache --ro-bind-try /nix/store /nix/store --tmpfs /tmp-home --tmpfs /tmp-run --clearenv --setenv HOME /tmp-home --setenv XDG_RUNTIME_DIR /tmp-run --setenv XDG_RUNTIME_DIR /run/user/1000 --symlink /usr/lib /lib --symlink /usr/lib64 /lib64 --ro-bind-try /etc/fonts/conf.d /etc/fonts/conf.d --ro-bind-try /etc/fonts/fonts.conf /etc/fonts/fonts.conf --ro-bind-try /home/argha/.cache/fontconfig /home/argha/.cache/fontconfig --ro-bind-try /home/argha/.local/share/fonts /home/argha/.local/share/fonts --ro-bind-try /usr/lib/fontconfig/cache /usr/lib/fontconfig/cache --bind-try /home/argha/.cache/glycin/usr/libexec/glycin-loaders/2+/glycin-svg /home/argha/.cache/glycin/usr/libexec/glycin-loaders/2+/glycin-svg --setenv XDG_CACHE_HOME /home/argha/.cache/glycin/usr/libexec/glycin-loaders/2+/glycin-svg --seccomp 139 /usr/libexec/glycin-loaders/2+/glycin-svg --dbus-fd 138
+argha	4999	4998	4999	0	1	0.0	0.0	3748	1472	?	S	12:10	0:00	bwrap --unshare-all --die-with-parent --chdir / --ro-bind /usr /usr --dev /dev --ro-bind-try /etc/ld.so.cache /etc/ld.so.cache --ro-bind-try /nix/store /nix/store --tmpfs /tmp-home --tmpfs /tmp-run --clearenv --setenv HOME /tmp-home --setenv XDG_RUNTIME_DIR /tmp-run --setenv XDG_RUNTIME_DIR /run/user/1000 --symlink /usr/lib /lib --symlink /usr/lib64 /lib64 --ro-bind-try /etc/fonts/conf.d /etc/fonts/conf.d --ro-bind-try /etc/fonts/fonts.conf /etc/fonts/fonts.conf --ro-bind-try /home/argha/.cache/fontconfig /home/argha/.cache/fontconfig --ro-bind-try /home/argha/.local/share/fonts /home/argha/.local/share/fonts --ro-bind-try /usr/lib/fontconfig/cache /usr/lib/fontconfig/cache --bind-try /home/argha/.cache/glycin/usr/libexec/glycin-loaders/2+/glycin-svg /home/argha/.cache/glycin/usr/libexec/glycin-loaders/2+/glycin-svg --setenv XDG_CACHE_HOME /home/argha/.cache/glycin/usr/libexec/glycin-loaders/2+/glycin-svg --seccomp 139 /usr/libexec/glycin-loaders/2+/glycin-svg --dbus-fd 138
+argha	5006	3820	5006	0	5	0.0	0.0	476116	13404	?	Ssl	12:10	0:00	/usr/libexec/gsd-xsettings
+argha	5006	3820	5014	0	5	0.0	0.0	476116	13404	?	Ssl	12:10	0:00	/usr/libexec/gsd-xsettings
+argha	5006	3820	5015	0	5	0.0	0.0	476116	13404	?	Ssl	12:10	0:00	/usr/libexec/gsd-xsettings
+argha	5006	3820	5017	0	5	0.0	0.0	476116	13404	?	Ssl	12:10	0:00	/usr/libexec/gsd-xsettings
+argha	5006	3820	5051	0	5	0.0	0.0	476116	13404	?	Ssl	12:10	0:00	/usr/libexec/gsd-xsettings
+argha	5008	4999	5008	0	3	0.1	0.1	1249032	22116	?	Sl	12:10	0:00	/usr/libexec/glycin-loaders/2+/glycin-svg --dbus-fd 138
+argha	5008	4999	5011	0	3	0.1	0.1	1249032	22116	?	Sl	12:10	0:00	/usr/libexec/glycin-loaders/2+/glycin-svg --dbus-fd 138
+argha	5008	4999	5012	0	3	0.1	0.1	1249032	22116	?	Sl	12:10	0:00	/usr/libexec/glycin-loaders/2+/glycin-svg --dbus-fd 138
+argha	5088	3820	5088	0	4	0.5	0.0	392840	7488	?	Ssl	12:10	0:00	/usr/libexec/gvfsd-metadata
+argha	5088	3820	5112	0	4	0.5	0.0	392840	7488	?	Ssl	12:10	0:00	/usr/libexec/gvfsd-metadata
+argha	5088	3820	5113	0	4	0.5	0.0	392840	7488	?	Ssl	12:10	0:00	/usr/libexec/gvfsd-metadata
+argha	5088	3820	5115	0	4	0.5	0.0	392840	7488	?	Ssl	12:10	0:00	/usr/libexec/gvfsd-metadata
+argha	5394	3820	5394	0	6	0.0	0.3	469276	50668	?	Sl	12:10	0:00	/usr/libexec/ibus-x11
+argha	5394	3820	5435	0	6	0.0	0.3	469276	50668	?	Sl	12:10	0:00	/usr/libexec/ibus-x11
+argha	5394	3820	5436	0	6	0.0	0.3	469276	50668	?	Sl	12:10	0:00	/usr/libexec/ibus-x11
+argha	5394	3820	5631	0	6	0.0	0.3	469276	50668	?	Sl	12:10	0:00	/usr/libexec/ibus-x11
+argha	5394	3820	5633	0	6	0.0	0.3	469276	50668	?	Sl	12:10	0:00	/usr/libexec/ibus-x11
+argha	5394	3820	5649	0	6	0.0	0.3	469276	50668	?	Sl	12:10	0:00	/usr/libexec/ibus-x11
+argha	5432	4138	5432	0	10	0.2	0.7	1175040	118536	?	Sl	12:10	0:00	/usr/libexec/mutter-x11-frames
+argha	5432	4138	5455	0	10	0.2	0.7	1175040	118536	?	Sl	12:10	0:00	/usr/libexec/mutter-x11-frames
+argha	5432	4138	5456	0	10	0.2	0.7	1175040	118536	?	Sl	12:10	0:00	/usr/libexec/mutter-x11-frames
+argha	5432	4138	5457	0	10	0.2	0.7	1175040	118536	?	Sl	12:10	0:00	/usr/libexec/mutter-x11-frames
+argha	5432	4138	5465	0	10	0.2	0.7	1175040	118536	?	Sl	12:10	0:00	/usr/libexec/mutter-x11-frames
+argha	5432	4138	5743	0	10	0.2	0.7	1175040	118536	?	Sl	12:10	0:00	/usr/libexec/mutter-x11-frames
+argha	5432	4138	5744	0	10	0.2	0.7	1175040	118536	?	Sl	12:10	0:00	/usr/libexec/mutter-x11-frames
+argha	5432	4138	5745	0	10	0.2	0.7	1175040	118536	?	Sl	12:10	0:00	/usr/libexec/mutter-x11-frames
+argha	5432	4138	5746	0	10	0.2	0.7	1175040	118536	?	Sl	12:10	0:00	/usr/libexec/mutter-x11-frames
+argha	5432	4138	5792	0	10	0.2	0.7	1175040	118536	?	Sl	12:10	0:00	/usr/libexec/mutter-x11-frames
+argha	5726	3820	5726	0	4	0.0	0.0	632232	14584	?	Sl	12:10	0:00	/usr/libexec/gsd-printer
+argha	5726	3820	5747	0	4	0.0	0.0	632232	14584	?	Sl	12:10	0:00	/usr/libexec/gsd-printer
+argha	5726	3820	5748	0	4	0.0	0.0	632232	14584	?	Sl	12:10	0:00	/usr/libexec/gsd-printer
+argha	5726	3820	5749	0	4	0.0	0.0	632232	14584	?	Sl	12:10	0:00	/usr/libexec/gsd-printer
+argha	5774	3820	5774	0	6	0.0	0.1	729560	32008	?	Ssl	12:10	0:00	/usr/libexec/xdg-desktop-portal-gtk
+argha	5774	3820	5776	0	6	0.0	0.1	729560	32008	?	Ssl	12:10	0:00	/usr/libexec/xdg-desktop-portal-gtk
+argha	5774	3820	5777	0	6	0.0	0.1	729560	32008	?	Ssl	12:10	0:00	/usr/libexec/xdg-desktop-portal-gtk
+argha	5774	3820	5779	0	6	0.0	0.1	729560	32008	?	Ssl	12:10	0:00	/usr/libexec/xdg-desktop-portal-gtk
+argha	5774	3820	5780	0	6	0.0	0.1	729560	32008	?	Ssl	12:10	0:00	/usr/libexec/xdg-desktop-portal-gtk
+argha	5774	3820	5781	0	6	0.0	0.1	729560	32008	?	Ssl	12:10	0:00	/usr/libexec/xdg-desktop-portal-gtk
+argha	5784	3820	5784	0	4	0.0	0.0	537952	9140	?	Ssl	12:10	0:00	/usr/bin/gnome-keyring-daemon --start --foreground --components=secrets
+argha	5784	3820	5786	0	4	0.0	0.0	537952	9140	?	Ssl	12:10	0:00	/usr/bin/gnome-keyring-daemon --start --foreground --components=secrets
+argha	5784	3820	5787	0	4	0.0	0.0	537952	9140	?	Ssl	12:10	0:00	/usr/bin/gnome-keyring-daemon --start --foreground --components=secrets
+argha	5784	3820	5788	0	4	0.0	0.0	537952	9140	?	Ssl	12:10	0:00	/usr/bin/gnome-keyring-daemon --start --foreground --components=secrets
+root	5819	1	5819	0	4	0.6	0.3	594192	50708	?	Ssl	12:10	0:00	/usr/libexec/fwupd/fwupd
+root	5819	1	5833	0	4	0.6	0.3	594192	50708	?	Ssl	12:10	0:00	/usr/libexec/fwupd/fwupd
+root	5819	1	5840	0	4	0.6	0.3	594192	50708	?	Ssl	12:10	0:00	/usr/libexec/fwupd/fwupd
+root	5819	1	5841	0	4	0.6	0.3	594192	50708	?	Ssl	12:10	0:00	/usr/libexec/fwupd/fwupd
+argha	6014	3820	6014	4	10	4.2	0.3	2204976	63660	?	Ssl	12:10	0:03	/usr/libexec/gnome-terminal-server
+argha	6014	3820	6015	0	10	4.2	0.3	2204976	63660	?	Ssl	12:10	0:03	/usr/libexec/gnome-terminal-server
+argha	6014	3820	6016	0	10	4.2	0.3	2204976	63660	?	Ssl	12:10	0:03	/usr/libexec/gnome-terminal-server
+argha	6014	3820	6017	0	10	4.2	0.3	2204976	63660	?	Ssl	12:10	0:03	/usr/libexec/gnome-terminal-server
+argha	6014	3820	6019	0	10	4.2	0.3	2204976	63660	?	Ssl	12:10	0:03	/usr/libexec/gnome-terminal-server
+argha	6014	3820	6020	0	10	4.2	0.3	2204976	63660	?	Ssl	12:10	0:03	/usr/libexec/gnome-terminal-server
+argha	6014	3820	6021	0	10	4.2	0.3	2204976	63660	?	Ssl	12:10	0:03	/usr/libexec/gnome-terminal-server
+argha	6014	3820	6022	0	10	4.2	0.3	2204976	63660	?	Ssl	12:10	0:03	/usr/libexec/gnome-terminal-server
+argha	6014	3820	9241	0	10	4.2	0.3	2204976	63660	?	Ssl	12:10	0:03	/usr/libexec/gnome-terminal-server
+argha	6014	3820	9299	0	10	4.2	0.3	2204976	63660	?	Ssl	12:10	0:03	/usr/libexec/gnome-terminal-server
+argha	6409	6014	6409	0	1	0.6	0.0	237620	9764	pts/0	Ss	12:10	0:00	zsh
+root	6432	2	6432	0	1	0.0	0.0	0	0	?	I	12:10	0:00	[kworker/11:2-mm_percpu_wq]
+argha	6468	3820	6468	0	1	0.0	0.0	234864	4248	pts/0	S	12:10	0:00	zsh
+argha	6502	3820	6502	0	1	0.0	0.0	236772	5796	pts/0	S	12:10	0:00	zsh
+argha	6504	3820	6504	0	1	0.0	0.0	236756	5456	pts/0	S	12:10	0:00	zsh
+argha	6505	6468	6505	0	33	0.0	0.0	6940	2056	pts/0	Sl	12:10	0:00	/home/argha/.cache/gitstatus/gitstatusd-linux-x86_64 -G v1.5.4 -s -1 -u -1 -d -1 -c -1 -m -1 -v FATAL -t 32
+argha	6505	6468	6506	0	33	0.0	0.0	6940	2056	pts/0	Sl	12:10	0:00	/home/argha/.cache/gitstatus/gitstatusd-linux-x86_64 -G v1.5.4 -s -1 -u -1 -d -1 -c -1 -m -1 -v FATAL -t 32
+argha	6505	6468	6507	0	33	0.0	0.0	6940	2056	pts/0	Sl	12:10	0:00	/home/argha/.cache/gitstatus/gitstatusd-linux-x86_64 -G v1.5.4 -s -1 -u -1 -d -1 -c -1 -m -1 -v FATAL -t 32
+argha	6505	6468	6508	0	33	0.0	0.0	6940	2056	pts/0	Sl	12:10	0:00	/home/argha/.cache/gitstatus/gitstatusd-linux-x86_64 -G v1.5.4 -s -1 -u -1 -d -1 -c -1 -m -1 -v FATAL -t 32
+argha	6505	6468	6509	0	33	0.0	0.0	6940	2056	pts/0	Sl	12:10	0:00	/home/argha/.cache/gitstatus/gitstatusd-linux-x86_64 -G v1.5.4 -s -1 -u -1 -d -1 -c -1 -m -1 -v FATAL -t 32
+argha	6505	6468	6510	0	33	0.0	0.0	6940	2056	pts/0	Sl	12:10	0:00	/home/argha/.cache/gitstatus/gitstatusd-linux-x86_64 -G v1.5.4 -s -1 -u -1 -d -1 -c -1 -m -1 -v FATAL -t 32
+argha	6505	6468	6511	0	33	0.0	0.0	6940	2056	pts/0	Sl	12:10	0:00	/home/argha/.cache/gitstatus/gitstatusd-linux-x86_64 -G v1.5.4 -s -1 -u -1 -d -1 -c -1 -m -1 -v FATAL -t 32
+argha	6505	6468	6512	0	33	0.0	0.0	6940	2056	pts/0	Sl	12:10	0:00	/home/argha/.cache/gitstatus/gitstatusd-linux-x86_64 -G v1.5.4 -s -1 -u -1 -d -1 -c -1 -m -1 -v FATAL -t 32
+argha	6505	6468	6513	0	33	0.0	0.0	6940	2056	pts/0	Sl	12:10	0:00	/home/argha/.cache/gitstatus/gitstatusd-linux-x86_64 -G v1.5.4 -s -1 -u -1 -d -1 -c -1 -m -1 -v FATAL -t 32
+argha	6505	6468	6514	0	33	0.0	0.0	6940	2056	pts/0	Sl	12:10	0:00	/home/argha/.cache/gitstatus/gitstatusd-linux-x86_64 -G v1.5.4 -s -1 -u -1 -d -1 -c -1 -m -1 -v FATAL -t 32
+argha	6505	6468	6515	0	33	0.0	0.0	6940	2056	pts/0	Sl	12:10	0:00	/home/argha/.cache/gitstatus/gitstatusd-linux-x86_64 -G v1.5.4 -s -1 -u -1 -d -1 -c -1 -m -1 -v FATAL -t 32
+argha	6505	6468	6516	0	33	0.0	0.0	6940	2056	pts/0	Sl	12:10	0:00	/home/argha/.cache/gitstatus/gitstatusd-linux-x86_64 -G v1.5.4 -s -1 -u -1 -d -1 -c -1 -m -1 -v FATAL -t 32
+argha	6505	6468	6517	0	33	0.0	0.0	6940	2056	pts/0	Sl	12:10	0:00	/home/argha/.cache/gitstatus/gitstatusd-linux-x86_64 -G v1.5.4 -s -1 -u -1 -d -1 -c -1 -m -1 -v FATAL -t 32
+argha	6505	6468	6518	0	33	0.0	0.0	6940	2056	pts/0	Sl	12:10	0:00	/home/argha/.cache/gitstatus/gitstatusd-linux-x86_64 -G v1.5.4 -s -1 -u -1 -d -1 -c -1 -m -1 -v FATAL -t 32
+argha	6505	6468	6519	0	33	0.0	0.0	6940	2056	pts/0	Sl	12:10	0:00	/home/argha/.cache/gitstatus/gitstatusd-linux-x86_64 -G v1.5.4 -s -1 -u -1 -d -1 -c -1 -m -1 -v FATAL -t 32
+argha	6505	6468	6520	0	33	0.0	0.0	6940	2056	pts/0	Sl	12:10	0:00	/home/argha/.cache/gitstatus/gitstatusd-linux-x86_64 -G v1.5.4 -s -1 -u -1 -d -1 -c -1 -m -1 -v FATAL -t 32
+argha	6505	6468	6521	0	33	0.0	0.0	6940	2056	pts/0	Sl	12:10	0:00	/home/argha/.cache/gitstatus/gitstatusd-linux-x86_64 -G v1.5.4 -s -1 -u -1 -d -1 -c -1 -m -1 -v FATAL -t 32
+argha	6505	6468	6522	0	33	0.0	0.0	6940	2056	pts/0	Sl	12:10	0:00	/home/argha/.cache/gitstatus/gitstatusd-linux-x86_64 -G v1.5.4 -s -1 -u -1 -d -1 -c -1 -m -1 -v FATAL -t 32
+argha	6505	6468	6523	0	33	0.0	0.0	6940	2056	pts/0	Sl	12:10	0:00	/home/argha/.cache/gitstatus/gitstatusd-linux-x86_64 -G v1.5.4 -s -1 -u -1 -d -1 -c -1 -m -1 -v FATAL -t 32
+argha	6505	6468	6524	0	33	0.0	0.0	6940	2056	pts/0	Sl	12:10	0:00	/home/argha/.cache/gitstatus/gitstatusd-linux-x86_64 -G v1.5.4 -s -1 -u -1 -d -1 -c -1 -m -1 -v FATAL -t 32
+argha	6505	6468	6525	0	33	0.0	0.0	6940	2056	pts/0	Sl	12:10	0:00	/home/argha/.cache/gitstatus/gitstatusd-linux-x86_64 -G v1.5.4 -s -1 -u -1 -d -1 -c -1 -m -1 -v FATAL -t 32
+argha	6505	6468	6526	0	33	0.0	0.0	6940	2056	pts/0	Sl	12:10	0:00	/home/argha/.cache/gitstatus/gitstatusd-linux-x86_64 -G v1.5.4 -s -1 -u -1 -d -1 -c -1 -m -1 -v FATAL -t 32
+argha	6505	6468	6527	0	33	0.0	0.0	6940	2056	pts/0	Sl	12:10	0:00	/home/argha/.cache/gitstatus/gitstatusd-linux-x86_64 -G v1.5.4 -s -1 -u -1 -d -1 -c -1 -m -1 -v FATAL -t 32
+argha	6505	6468	6528	0	33	0.0	0.0	6940	2056	pts/0	Sl	12:10	0:00	/home/argha/.cache/gitstatus/gitstatusd-linux-x86_64 -G v1.5.4 -s -1 -u -1 -d -1 -c -1 -m -1 -v FATAL -t 32
+argha	6505	6468	6529	0	33	0.0	0.0	6940	2056	pts/0	Sl	12:10	0:00	/home/argha/.cache/gitstatus/gitstatusd-linux-x86_64 -G v1.5.4 -s -1 -u -1 -d -1 -c -1 -m -1 -v FATAL -t 32
+argha	6505	6468	6530	0	33	0.0	0.0	6940	2056	pts/0	Sl	12:10	0:00	/home/argha/.cache/gitstatus/gitstatusd-linux-x86_64 -G v1.5.4 -s -1 -u -1 -d -1 -c -1 -m -1 -v FATAL -t 32
+argha	6505	6468	6531	0	33	0.0	0.0	6940	2056	pts/0	Sl	12:10	0:00	/home/argha/.cache/gitstatus/gitstatusd-linux-x86_64 -G v1.5.4 -s -1 -u -1 -d -1 -c -1 -m -1 -v FATAL -t 32
+argha	6505	6468	6532	0	33	0.0	0.0	6940	2056	pts/0	Sl	12:10	0:00	/home/argha/.cache/gitstatus/gitstatusd-linux-x86_64 -G v1.5.4 -s -1 -u -1 -d -1 -c -1 -m -1 -v FATAL -t 32
+argha	6505	6468	6533	0	33	0.0	0.0	6940	2056	pts/0	Sl	12:10	0:00	/home/argha/.cache/gitstatus/gitstatusd-linux-x86_64 -G v1.5.4 -s -1 -u -1 -d -1 -c -1 -m -1 -v FATAL -t 32
+argha	6505	6468	6534	0	33	0.0	0.0	6940	2056	pts/0	Sl	12:10	0:00	/home/argha/.cache/gitstatus/gitstatusd-linux-x86_64 -G v1.5.4 -s -1 -u -1 -d -1 -c -1 -m -1 -v FATAL -t 32
+argha	6505	6468	6535	0	33	0.0	0.0	6940	2056	pts/0	Sl	12:10	0:00	/home/argha/.cache/gitstatus/gitstatusd-linux-x86_64 -G v1.5.4 -s -1 -u -1 -d -1 -c -1 -m -1 -v FATAL -t 32
+argha	6505	6468	6536	0	33	0.0	0.0	6940	2056	pts/0	Sl	12:10	0:00	/home/argha/.cache/gitstatus/gitstatusd-linux-x86_64 -G v1.5.4 -s -1 -u -1 -d -1 -c -1 -m -1 -v FATAL -t 32
+argha	6505	6468	6537	0	33	0.0	0.0	6940	2056	pts/0	Sl	12:10	0:00	/home/argha/.cache/gitstatus/gitstatusd-linux-x86_64 -G v1.5.4 -s -1 -u -1 -d -1 -c -1 -m -1 -v FATAL -t 32
+root	6768	1	6768	0	4	0.0	0.1	626828	21620	?	Ssl	12:10	0:00	/usr/libexec/flatpak-system-helper
+root	6768	1	6769	0	4	0.0	0.1	626828	21620	?	Ssl	12:10	0:00	/usr/libexec/flatpak-system-helper
+root	6768	1	6770	0	4	0.0	0.1	626828	21620	?	Ssl	12:10	0:00	/usr/libexec/flatpak-system-helper
+root	6768	1	6771	0	4	0.0	0.1	626828	21620	?	Ssl	12:10	0:00	/usr/libexec/flatpak-system-helper
+root	7385	2	7385	0	1	0.1	0.0	0	0	?	I<	12:11	0:00	[kworker/u65:3-rtw89_tx_wq]
+argha	7657	4365	7657	1	5	1.1	0.6	620136	107056	?	Sl	12:11	0:00	/usr/bin/python3 /usr/share/ibus-typing-booster/engine/main.py --ibus
+argha	7657	4365	7658	0	5	1.1	0.6	620136	107056	?	Sl	12:11	0:00	/usr/bin/python3 /usr/share/ibus-typing-booster/engine/main.py --ibus
+argha	7657	4365	7659	0	5	1.1	0.6	620136	107056	?	Sl	12:11	0:00	/usr/bin/python3 /usr/share/ibus-typing-booster/engine/main.py --ibus
+argha	7657	4365	7660	0	5	1.1	0.6	620136	107056	?	Sl	12:11	0:00	/usr/bin/python3 /usr/share/ibus-typing-booster/engine/main.py --ibus
+argha	7657	4365	7661	0	5	1.1	0.6	620136	107056	?	Sl	12:11	0:00	/usr/bin/python3 /usr/share/ibus-typing-booster/engine/main.py --ibus
+root	7729	674	7729	0	1	0.0	0.0	17200	7812	?	S	12:11	0:00	systemd-userwork: waiting...
+argha	8029	3820	8029	0	8	0.4	0.4	1502688	74844	?	Ssl	12:11	0:00	/usr/bin/gnome-calendar --gapplication-service
+argha	8029	3820	8146	0	8	0.4	0.4	1502688	74844	?	Ssl	12:11	0:00	/usr/bin/gnome-calendar --gapplication-service
+argha	8029	3820	8147	0	8	0.4	0.4	1502688	74844	?	Ssl	12:11	0:00	/usr/bin/gnome-calendar --gapplication-service
+argha	8029	3820	8149	0	8	0.4	0.4	1502688	74844	?	Ssl	12:11	0:00	/usr/bin/gnome-calendar --gapplication-service
+argha	8029	3820	8150	0	8	0.4	0.4	1502688	74844	?	Ssl	12:11	0:00	/usr/bin/gnome-calendar --gapplication-service
+argha	8029	3820	8165	0	8	0.4	0.4	1502688	74844	?	Ssl	12:11	0:00	/usr/bin/gnome-calendar --gapplication-service
+argha	8029	3820	8247	0	8	0.4	0.4	1502688	74844	?	Ssl	12:11	0:00	/usr/bin/gnome-calendar --gapplication-service
+argha	8029	3820	8252	0	8	0.4	0.4	1502688	74844	?	Ssl	12:11	0:00	/usr/bin/gnome-calendar --gapplication-service
+argha	8103	3820	8103	0	5	0.2	0.2	684748	43324	?	Ssl	12:11	0:00	/usr/libexec/gnome-control-center-search-provider
+argha	8103	3820	8126	0	5	0.2	0.2	684748	43324	?	Ssl	12:11	0:00	/usr/libexec/gnome-control-center-search-provider
+argha	8103	3820	8127	0	5	0.2	0.2	684748	43324	?	Ssl	12:11	0:00	/usr/libexec/gnome-control-center-search-provider
+argha	8103	3820	8128	0	5	0.2	0.2	684748	43324	?	Ssl	12:11	0:00	/usr/libexec/gnome-control-center-search-provider
+argha	8103	3820	8131	0	5	0.2	0.2	684748	43324	?	Ssl	12:11	0:00	/usr/libexec/gnome-control-center-search-provider
+argha	8106	3820	8106	0	5	0.0	0.2	421308	34376	?	Ssl	12:11	0:00	/usr/lib64/firefox/firefox --dbus-service /usr/bin/firefox
+argha	8106	3820	8129	0	5	0.0	0.2	421308	34376	?	Ssl	12:11	0:00	/usr/lib64/firefox/firefox --dbus-service /usr/bin/firefox
+argha	8106	3820	8134	0	5	0.0	0.2	421308	34376	?	Ssl	12:11	0:00	/usr/lib64/firefox/firefox --dbus-service /usr/bin/firefox
+argha	8106	3820	8135	0	5	0.0	0.2	421308	34376	?	Ssl	12:11	0:00	/usr/lib64/firefox/firefox --dbus-service /usr/bin/firefox
+argha	8106	3820	8137	0	5	0.0	0.2	421308	34376	?	Ssl	12:11	0:00	/usr/lib64/firefox/firefox --dbus-service /usr/bin/firefox
+argha	8132	3820	8132	0	2	0.0	0.0	148960	2896	?	Sl	12:11	0:00	/usr/lib64/firefox/crashhelper 8106 9 /tmp/ 11
+argha	8132	3820	8133	0	2	0.0	0.0	148960	2896	?	Sl	12:11	0:00	/usr/lib64/firefox/crashhelper 8106 9 /tmp/ 11
+argha	8173	3820	8173	0	1	0.0	0.0	47680	8680	?	Ss	12:11	0:00	/usr/libexec/bluetooth/obexd
+root	8331	674	8331	0	1	0.0	0.0	17200	7924	?	S	12:11	0:00	systemd-userwork: waiting...
+root	8332	674	8332	0	1	0.0	0.0	17200	7772	?	S	12:11	0:00	systemd-userwork: waiting...
+argha	8336	4138	8336	12	111	29.9	3.5	3795416	563364	?	Sl	12:11	0:15	/usr/lib64/firefox/firefox
+argha	8336	4138	8349	0	111	29.9	3.5	3795416	563364	?	Sl	12:11	0:15	/usr/lib64/firefox/firefox
+argha	8336	4138	8353	0	111	29.9	3.5	3795416	563364	?	Sl	12:11	0:15	/usr/lib64/firefox/firefox
+argha	8336	4138	8354	0	111	29.9	3.5	3795416	563364	?	Sl	12:11	0:15	/usr/lib64/firefox/firefox
+argha	8336	4138	8357	1	111	29.9	3.5	3795416	563364	?	Sl	12:11	0:15	/usr/lib64/firefox/firefox
+argha	8336	4138	8359	0	111	29.9	3.5	3795416	563364	?	Sl	12:11	0:15	/usr/lib64/firefox/firefox
+argha	8336	4138	8360	0	111	29.9	3.5	3795416	563364	?	Sl	12:11	0:15	/usr/lib64/firefox/firefox
+argha	8336	4138	8361	2	111	29.9	3.5	3795416	563364	?	Sl	12:11	0:15	/usr/lib64/firefox/firefox
+argha	8336	4138	8363	0	111	29.9	3.5	3795416	563364	?	Sl	12:11	0:15	/usr/lib64/firefox/firefox
+argha	8336	4138	8364	0	111	29.9	3.5	3795416	563364	?	Sl	12:11	0:15	/usr/lib64/firefox/firefox
+argha	8336	4138	8365	0	111	29.9	3.5	3795416	563364	?	Sl	12:11	0:15	/usr/lib64/firefox/firefox
+argha	8336	4138	8366	0	111	29.9	3.5	3795416	563364	?	Sl	12:11	0:15	/usr/lib64/firefox/firefox
+argha	8336	4138	8367	0	111	29.9	3.5	3795416	563364	?	Sl	12:11	0:15	/usr/lib64/firefox/firefox
+argha	8336	4138	8424	0	111	29.9	3.5	3795416	563364	?	Sl	12:11	0:15	/usr/lib64/firefox/firefox
+argha	8336	4138	8425	0	111	29.9	3.5	3795416	563364	?	Sl	12:11	0:15	/usr/lib64/firefox/firefox
+argha	8336	4138	8426	0	111	29.9	3.5	3795416	563364	?	Sl	12:11	0:15	/usr/lib64/firefox/firefox
+argha	8336	4138	8427	0	111	29.9	3.5	3795416	563364	?	Sl	12:11	0:15	/usr/lib64/firefox/firefox
+argha	8336	4138	8428	0	111	29.9	3.5	3795416	563364	?	Sl	12:11	0:15	/usr/lib64/firefox/firefox
+argha	8336	4138	8429	0	111	29.9	3.5	3795416	563364	?	Sl	12:11	0:15	/usr/lib64/firefox/firefox
+argha	8336	4138	8433	0	111	29.9	3.5	3795416	563364	?	Sl	12:11	0:15	/usr/lib64/firefox/firefox
+argha	8336	4138	8435	0	111	29.9	3.5	3795416	563364	?	Sl	12:11	0:15	/usr/lib64/firefox/firefox
+argha	8336	4138	8436	0	111	29.9	3.5	3795416	563364	?	Sl	12:11	0:15	/usr/lib64/firefox/firefox
+argha	8336	4138	8438	0	111	29.9	3.5	3795416	563364	?	Sl	12:11	0:15	/usr/lib64/firefox/firefox
+argha	8336	4138	8439	0	111	29.9	3.5	3795416	563364	?	Sl	12:11	0:15	/usr/lib64/firefox/firefox
+argha	8336	4138	8440	0	111	29.9	3.5	3795416	563364	?	Sl	12:11	0:15	/usr/lib64/firefox/firefox
+argha	8336	4138	8441	0	111	29.9	3.5	3795416	563364	?	Sl	12:11	0:15	/usr/lib64/firefox/firefox
+argha	8336	4138	8442	0	111	29.9	3.5	3795416	563364	?	Sl	12:11	0:15	/usr/lib64/firefox/firefox
+argha	8336	4138	8443	0	111	29.9	3.5	3795416	563364	?	Sl	12:11	0:15	/usr/lib64/firefox/firefox
+argha	8336	4138	8444	0	111	29.9	3.5	3795416	563364	?	Sl	12:11	0:15	/usr/lib64/firefox/firefox
+argha	8336	4138	8445	0	111	29.9	3.5	3795416	563364	?	Sl	12:11	0:15	/usr/lib64/firefox/firefox
+argha	8336	4138	8464	0	111	29.9	3.5	3795416	563364	?	Sl	12:11	0:15	/usr/lib64/firefox/firefox
+argha	8336	4138	8465	0	111	29.9	3.5	3795416	563364	?	Sl	12:11	0:15	/usr/lib64/firefox/firefox
+argha	8336	4138	8482	0	111	29.9	3.5	3795416	563364	?	Sl	12:11	0:15	/usr/lib64/firefox/firefox
+argha	8336	4138	8483	0	111	29.9	3.5	3795416	563364	?	Sl	12:11	0:15	/usr/lib64/firefox/firefox
+argha	8336	4138	8485	0	111	29.9	3.5	3795416	563364	?	Sl	12:11	0:15	/usr/lib64/firefox/firefox
+argha	8336	4138	8486	2	111	29.9	3.5	3795416	563364	?	Sl	12:11	0:15	/usr/lib64/firefox/firefox
+argha	8336	4138	8487	0	111	29.9	3.5	3795416	563364	?	Sl	12:11	0:15	/usr/lib64/firefox/firefox
+argha	8336	4138	8488	0	111	29.9	3.5	3795416	563364	?	Sl	12:11	0:15	/usr/lib64/firefox/firefox
+argha	8336	4138	8489	0	111	29.9	3.5	3795416	563364	?	Sl	12:11	0:15	/usr/lib64/firefox/firefox
+argha	8336	4138	8490	0	111	29.9	3.5	3795416	563364	?	Sl	12:11	0:15	/usr/lib64/firefox/firefox
+argha	8336	4138	8491	0	111	29.9	3.5	3795416	563364	?	Sl	12:11	0:15	/usr/lib64/firefox/firefox
+argha	8336	4138	8492	0	111	29.9	3.5	3795416	563364	?	Sl	12:11	0:15	/usr/lib64/firefox/firefox
+argha	8336	4138	8493	0	111	29.9	3.5	3795416	563364	?	Sl	12:11	0:15	/usr/lib64/firefox/firefox
+argha	8336	4138	8494	0	111	29.9	3.5	3795416	563364	?	Sl	12:11	0:15	/usr/lib64/firefox/firefox
+argha	8336	4138	8495	0	111	29.9	3.5	3795416	563364	?	Sl	12:11	0:15	/usr/lib64/firefox/firefox
+argha	8336	4138	8496	0	111	29.9	3.5	3795416	563364	?	Sl	12:11	0:15	/usr/lib64/firefox/firefox
+argha	8336	4138	8497	0	111	29.9	3.5	3795416	563364	?	Sl	12:11	0:15	/usr/lib64/firefox/firefox
+argha	8336	4138	8498	0	111	29.9	3.5	3795416	563364	?	Sl	12:11	0:15	/usr/lib64/firefox/firefox
+argha	8336	4138	8499	0	111	29.9	3.5	3795416	563364	?	Sl	12:11	0:15	/usr/lib64/firefox/firefox
+argha	8336	4138	8500	1	111	29.9	3.5	3795416	563364	?	Sl	12:11	0:15	/usr/lib64/firefox/firefox
+argha	8336	4138	8501	0	111	29.9	3.5	3795416	563364	?	Sl	12:11	0:15	/usr/lib64/firefox/firefox
+argha	8336	4138	8504	0	111	29.9	3.5	3795416	563364	?	Sl	12:11	0:15	/usr/lib64/firefox/firefox
+argha	8336	4138	8505	0	111	29.9	3.5	3795416	563364	?	Sl	12:11	0:15	/usr/lib64/firefox/firefox
+argha	8336	4138	8506	0	111	29.9	3.5	3795416	563364	?	Sl	12:11	0:15	/usr/lib64/firefox/firefox
+argha	8336	4138	8507	0	111	29.9	3.5	3795416	563364	?	Sl	12:11	0:15	/usr/lib64/firefox/firefox
+argha	8336	4138	8508	0	111	29.9	3.5	3795416	563364	?	Sl	12:11	0:15	/usr/lib64/firefox/firefox
+argha	8336	4138	8510	0	111	29.9	3.5	3795416	563364	?	Sl	12:11	0:15	/usr/lib64/firefox/firefox
+argha	8336	4138	8516	0	111	29.9	3.5	3795416	563364	?	Sl	12:11	0:15	/usr/lib64/firefox/firefox
+argha	8336	4138	8522	0	111	29.9	3.5	3795416	563364	?	Sl	12:11	0:15	/usr/lib64/firefox/firefox
+argha	8336	4138	8523	0	111	29.9	3.5	3795416	563364	?	Sl	12:11	0:15	/usr/lib64/firefox/firefox
+argha	8336	4138	8797	0	111	29.9	3.5	3795416	563364	?	Sl	12:11	0:15	/usr/lib64/firefox/firefox
+argha	8336	4138	8806	0	111	29.9	3.5	3795416	563364	?	Sl	12:11	0:15	/usr/lib64/firefox/firefox
+argha	8336	4138	8810	0	111	29.9	3.5	3795416	563364	?	Sl	12:11	0:15	/usr/lib64/firefox/firefox
+argha	8336	4138	8821	0	111	29.9	3.5	3795416	563364	?	Sl	12:11	0:15	/usr/lib64/firefox/firefox
+argha	8336	4138	8828	0	111	29.9	3.5	3795416	563364	?	Sl	12:11	0:15	/usr/lib64/firefox/firefox
+argha	8336	4138	8830	0	111	29.9	3.5	3795416	563364	?	Sl	12:11	0:15	/usr/lib64/firefox/firefox
+argha	8336	4138	8833	0	111	29.9	3.5	3795416	563364	?	Sl	12:11	0:15	/usr/lib64/firefox/firefox
+argha	8336	4138	8836	0	111	29.9	3.5	3795416	563364	?	Sl	12:11	0:15	/usr/lib64/firefox/firefox
+argha	8336	4138	8838	0	111	29.9	3.5	3795416	563364	?	Sl	12:11	0:15	/usr/lib64/firefox/firefox
+argha	8336	4138	8840	0	111	29.9	3.5	3795416	563364	?	Sl	12:11	0:15	/usr/lib64/firefox/firefox
+argha	8336	4138	8841	0	111	29.9	3.5	3795416	563364	?	Sl	12:11	0:15	/usr/lib64/firefox/firefox
+argha	8336	4138	8848	2	111	29.9	3.5	3795416	563364	?	Sl	12:11	0:15	/usr/lib64/firefox/firefox
+argha	8336	4138	8849	0	111	29.9	3.5	3795416	563364	?	Sl	12:11	0:15	/usr/lib64/firefox/firefox
+argha	8336	4138	8850	2	111	29.9	3.5	3795416	563364	?	Sl	12:11	0:15	/usr/lib64/firefox/firefox
+argha	8336	4138	8875	0	111	29.9	3.5	3795416	563364	?	Sl	12:11	0:15	/usr/lib64/firefox/firefox
+argha	8336	4138	8876	0	111	29.9	3.5	3795416	563364	?	Sl	12:11	0:15	/usr/lib64/firefox/firefox
+argha	8336	4138	8877	0	111	29.9	3.5	3795416	563364	?	Sl	12:11	0:15	/usr/lib64/firefox/firefox
+argha	8336	4138	8878	0	111	29.9	3.5	3795416	563364	?	Sl	12:11	0:15	/usr/lib64/firefox/firefox
+argha	8336	4138	8884	0	111	29.9	3.5	3795416	563364	?	Sl	12:11	0:15	/usr/lib64/firefox/firefox
+argha	8336	4138	8886	0	111	29.9	3.5	3795416	563364	?	Sl	12:11	0:15	/usr/lib64/firefox/firefox
+argha	8336	4138	8887	0	111	29.9	3.5	3795416	563364	?	Sl	12:11	0:15	/usr/lib64/firefox/firefox
+argha	8336	4138	8889	0	111	29.9	3.5	3795416	563364	?	Sl	12:11	0:15	/usr/lib64/firefox/firefox
+argha	8336	4138	8902	0	111	29.9	3.5	3795416	563364	?	Sl	12:11	0:15	/usr/lib64/firefox/firefox
+argha	8336	4138	8905	0	111	29.9	3.5	3795416	563364	?	Sl	12:11	0:15	/usr/lib64/firefox/firefox
+argha	8336	4138	8935	0	111	29.9	3.5	3795416	563364	?	Sl	12:11	0:15	/usr/lib64/firefox/firefox
+argha	8336	4138	8940	0	111	29.9	3.5	3795416	563364	?	Sl	12:11	0:15	/usr/lib64/firefox/firefox
+argha	8336	4138	8942	0	111	29.9	3.5	3795416	563364	?	Sl	12:11	0:15	/usr/lib64/firefox/firefox
+argha	8336	4138	8950	0	111	29.9	3.5	3795416	563364	?	Sl	12:11	0:15	/usr/lib64/firefox/firefox
+argha	8336	4138	8951	0	111	29.9	3.5	3795416	563364	?	Sl	12:11	0:15	/usr/lib64/firefox/firefox
+argha	8336	4138	8952	0	111	29.9	3.5	3795416	563364	?	Sl	12:11	0:15	/usr/lib64/firefox/firefox
+argha	8336	4138	8953	0	111	29.9	3.5	3795416	563364	?	Sl	12:11	0:15	/usr/lib64/firefox/firefox
+argha	8336	4138	8954	0	111	29.9	3.5	3795416	563364	?	Sl	12:11	0:15	/usr/lib64/firefox/firefox
+argha	8336	4138	8961	0	111	29.9	3.5	3795416	563364	?	Sl	12:11	0:15	/usr/lib64/firefox/firefox
+argha	8336	4138	8966	0	111	29.9	3.5	3795416	563364	?	Sl	12:11	0:15	/usr/lib64/firefox/firefox
+argha	8336	4138	8967	0	111	29.9	3.5	3795416	563364	?	Sl	12:11	0:15	/usr/lib64/firefox/firefox
+argha	8336	4138	8968	0	111	29.9	3.5	3795416	563364	?	Sl	12:11	0:15	/usr/lib64/firefox/firefox
+argha	8336	4138	8969	0	111	29.9	3.5	3795416	563364	?	Sl	12:11	0:15	/usr/lib64/firefox/firefox
+argha	8336	4138	8970	0	111	29.9	3.5	3795416	563364	?	Sl	12:11	0:15	/usr/lib64/firefox/firefox
+argha	8336	4138	8971	0	111	29.9	3.5	3795416	563364	?	Sl	12:11	0:15	/usr/lib64/firefox/firefox
+argha	8336	4138	8972	0	111	29.9	3.5	3795416	563364	?	Sl	12:11	0:15	/usr/lib64/firefox/firefox
+argha	8336	4138	8973	0	111	29.9	3.5	3795416	563364	?	Sl	12:11	0:15	/usr/lib64/firefox/firefox
+argha	8336	4138	8974	0	111	29.9	3.5	3795416	563364	?	Sl	12:11	0:15	/usr/lib64/firefox/firefox
+argha	8336	4138	8975	0	111	29.9	3.5	3795416	563364	?	Sl	12:11	0:15	/usr/lib64/firefox/firefox
+argha	8336	4138	8976	0	111	29.9	3.5	3795416	563364	?	Sl	12:11	0:15	/usr/lib64/firefox/firefox
+argha	8336	4138	8984	0	111	29.9	3.5	3795416	563364	?	Sl	12:11	0:15	/usr/lib64/firefox/firefox
+argha	8336	4138	8989	0	111	29.9	3.5	3795416	563364	?	Sl	12:11	0:15	/usr/lib64/firefox/firefox
+argha	8336	4138	8995	0	111	29.9	3.5	3795416	563364	?	Sl	12:11	0:15	/usr/lib64/firefox/firefox
+argha	8336	4138	9085	0	111	29.9	3.5	3795416	563364	?	Sl	12:11	0:15	/usr/lib64/firefox/firefox
+argha	8336	4138	9112	0	111	29.9	3.5	3795416	563364	?	Sl	12:11	0:15	/usr/lib64/firefox/firefox
+argha	8336	4138	9126	0	111	29.9	3.5	3795416	563364	?	Sl	12:11	0:15	/usr/lib64/firefox/firefox
+argha	8336	4138	9171	0	111	29.9	3.5	3795416	563364	?	Sl	12:11	0:15	/usr/lib64/firefox/firefox
+argha	8342	4568	8342	0	1	0.0	0.0	3748	2380	?	S	12:11	0:00	bwrap --unshare-all --die-with-parent --chdir / --ro-bind /usr /usr --dev /dev --ro-bind-try /etc/ld.so.cache /etc/ld.so.cache --ro-bind-try /nix/store /nix/store --tmpfs /tmp-home --tmpfs /tmp-run --clearenv --setenv HOME /tmp-home --setenv XDG_RUNTIME_DIR /tmp-run --setenv XDG_RUNTIME_DIR /run/user/1000 --symlink /usr/lib /lib --symlink /usr/lib64 /lib64 --seccomp 53 /usr/libexec/glycin-loaders/2+/glycin-image-rs --dbus-fd 52
+argha	8343	8342	8343	0	1	0.0	0.0	3748	1480	?	S	12:11	0:00	bwrap --unshare-all --die-with-parent --chdir / --ro-bind /usr /usr --dev /dev --ro-bind-try /etc/ld.so.cache /etc/ld.so.cache --ro-bind-try /nix/store /nix/store --tmpfs /tmp-home --tmpfs /tmp-run --clearenv --setenv HOME /tmp-home --setenv XDG_RUNTIME_DIR /tmp-run --setenv XDG_RUNTIME_DIR /run/user/1000 --symlink /usr/lib /lib --symlink /usr/lib64 /lib64 --seccomp 53 /usr/libexec/glycin-loaders/2+/glycin-image-rs --dbus-fd 52
+argha	8344	8343	8344	0	3	0.0	0.0	144004	6868	?	Sl	12:11	0:00	/usr/libexec/glycin-loaders/2+/glycin-image-rs --dbus-fd 52
+argha	8344	8343	8345	0	3	0.0	0.0	144004	6868	?	Sl	12:11	0:00	/usr/libexec/glycin-loaders/2+/glycin-image-rs --dbus-fd 52
+argha	8344	8343	8346	0	3	0.0	0.0	144004	6868	?	Sl	12:11	0:00	/usr/libexec/glycin-loaders/2+/glycin-image-rs --dbus-fd 52
+argha	8351	3820	8351	0	2	0.0	0.0	148960	2836	?	Sl	12:11	0:00	/usr/lib64/firefox/crashhelper 8336 9 /tmp/ 11
+argha	8351	3820	8352	0	2	0.0	0.0	148960	2836	?	Sl	12:11	0:00	/usr/lib64/firefox/crashhelper 8336 9 /tmp/ 11
+argha	8517	8336	8517	0	1	0.0	0.1	463988	31260	?	S	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -ipcHandle 0 -signalPipe 1 -initialChannelId {4f011d8f-e74a-4913-81eb-1d23738a8ee9} -parentPid 8336 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 1 forkserver
+argha	8798	8517	8798	0	6	0.0	0.2	487796	40012	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -parentBuildID 20260206133811 -prefsHandle 0:39318 -prefMapHandle 1:280959 -sandboxReporter 2 -chrootClient 3 -ipcHandle 4 -initialChannelId {a1e8e505-4d13-42e0-ad4a-f215a4d8c762} -parentPid 8336 -crashReporter 5 -crashHelper 6 -appDir /usr/lib64/firefox/browser 2 socket
+argha	8798	8517	8801	0	6	0.0	0.2	487796	40012	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -parentBuildID 20260206133811 -prefsHandle 0:39318 -prefMapHandle 1:280959 -sandboxReporter 2 -chrootClient 3 -ipcHandle 4 -initialChannelId {a1e8e505-4d13-42e0-ad4a-f215a4d8c762} -parentPid 8336 -crashReporter 5 -crashHelper 6 -appDir /usr/lib64/firefox/browser 2 socket
+argha	8798	8517	8803	0	6	0.0	0.2	487796	40012	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -parentBuildID 20260206133811 -prefsHandle 0:39318 -prefMapHandle 1:280959 -sandboxReporter 2 -chrootClient 3 -ipcHandle 4 -initialChannelId {a1e8e505-4d13-42e0-ad4a-f215a4d8c762} -parentPid 8336 -crashReporter 5 -crashHelper 6 -appDir /usr/lib64/firefox/browser 2 socket
+argha	8798	8517	8804	0	6	0.0	0.2	487796	40012	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -parentBuildID 20260206133811 -prefsHandle 0:39318 -prefMapHandle 1:280959 -sandboxReporter 2 -chrootClient 3 -ipcHandle 4 -initialChannelId {a1e8e505-4d13-42e0-ad4a-f215a4d8c762} -parentPid 8336 -crashReporter 5 -crashHelper 6 -appDir /usr/lib64/firefox/browser 2 socket
+argha	8798	8517	8805	0	6	0.0	0.2	487796	40012	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -parentBuildID 20260206133811 -prefsHandle 0:39318 -prefMapHandle 1:280959 -sandboxReporter 2 -chrootClient 3 -ipcHandle 4 -initialChannelId {a1e8e505-4d13-42e0-ad4a-f215a4d8c762} -parentPid 8336 -crashReporter 5 -crashHelper 6 -appDir /usr/lib64/firefox/browser 2 socket
+argha	8798	8517	8814	0	6	0.0	0.2	487796	40012	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -parentBuildID 20260206133811 -prefsHandle 0:39318 -prefMapHandle 1:280959 -sandboxReporter 2 -chrootClient 3 -ipcHandle 4 -initialChannelId {a1e8e505-4d13-42e0-ad4a-f215a4d8c762} -parentPid 8336 -crashReporter 5 -crashHelper 6 -appDir /usr/lib64/firefox/browser 2 socket
+argha	8831	8517	8831	0	28	1.1	1.0	2941992	169772	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:39452 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {5e965c28-7517-4020-9441-945ed8a7cd29} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 3 tab
+argha	8831	8517	8835	0	28	1.1	1.0	2941992	169772	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:39452 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {5e965c28-7517-4020-9441-945ed8a7cd29} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 3 tab
+argha	8831	8517	8839	0	28	1.1	1.0	2941992	169772	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:39452 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {5e965c28-7517-4020-9441-945ed8a7cd29} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 3 tab
+argha	8831	8517	8851	0	28	1.1	1.0	2941992	169772	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:39452 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {5e965c28-7517-4020-9441-945ed8a7cd29} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 3 tab
+argha	8831	8517	8852	0	28	1.1	1.0	2941992	169772	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:39452 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {5e965c28-7517-4020-9441-945ed8a7cd29} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 3 tab
+argha	8831	8517	8853	0	28	1.1	1.0	2941992	169772	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:39452 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {5e965c28-7517-4020-9441-945ed8a7cd29} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 3 tab
+argha	8831	8517	8854	0	28	1.1	1.0	2941992	169772	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:39452 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {5e965c28-7517-4020-9441-945ed8a7cd29} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 3 tab
+argha	8831	8517	8855	0	28	1.1	1.0	2941992	169772	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:39452 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {5e965c28-7517-4020-9441-945ed8a7cd29} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 3 tab
+argha	8831	8517	8856	0	28	1.1	1.0	2941992	169772	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:39452 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {5e965c28-7517-4020-9441-945ed8a7cd29} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 3 tab
+argha	8831	8517	8857	0	28	1.1	1.0	2941992	169772	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:39452 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {5e965c28-7517-4020-9441-945ed8a7cd29} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 3 tab
+argha	8831	8517	8858	0	28	1.1	1.0	2941992	169772	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:39452 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {5e965c28-7517-4020-9441-945ed8a7cd29} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 3 tab
+argha	8831	8517	8859	0	28	1.1	1.0	2941992	169772	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:39452 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {5e965c28-7517-4020-9441-945ed8a7cd29} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 3 tab
+argha	8831	8517	8860	0	28	1.1	1.0	2941992	169772	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:39452 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {5e965c28-7517-4020-9441-945ed8a7cd29} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 3 tab
+argha	8831	8517	8861	0	28	1.1	1.0	2941992	169772	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:39452 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {5e965c28-7517-4020-9441-945ed8a7cd29} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 3 tab
+argha	8831	8517	8862	0	28	1.1	1.0	2941992	169772	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:39452 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {5e965c28-7517-4020-9441-945ed8a7cd29} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 3 tab
+argha	8831	8517	8863	0	28	1.1	1.0	2941992	169772	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:39452 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {5e965c28-7517-4020-9441-945ed8a7cd29} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 3 tab
+argha	8831	8517	8864	0	28	1.1	1.0	2941992	169772	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:39452 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {5e965c28-7517-4020-9441-945ed8a7cd29} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 3 tab
+argha	8831	8517	8865	0	28	1.1	1.0	2941992	169772	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:39452 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {5e965c28-7517-4020-9441-945ed8a7cd29} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 3 tab
+argha	8831	8517	8866	0	28	1.1	1.0	2941992	169772	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:39452 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {5e965c28-7517-4020-9441-945ed8a7cd29} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 3 tab
+argha	8831	8517	8867	0	28	1.1	1.0	2941992	169772	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:39452 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {5e965c28-7517-4020-9441-945ed8a7cd29} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 3 tab
+argha	8831	8517	8868	0	28	1.1	1.0	2941992	169772	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:39452 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {5e965c28-7517-4020-9441-945ed8a7cd29} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 3 tab
+argha	8831	8517	8869	0	28	1.1	1.0	2941992	169772	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:39452 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {5e965c28-7517-4020-9441-945ed8a7cd29} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 3 tab
+argha	8831	8517	8870	0	28	1.1	1.0	2941992	169772	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:39452 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {5e965c28-7517-4020-9441-945ed8a7cd29} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 3 tab
+argha	8831	8517	8871	0	28	1.1	1.0	2941992	169772	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:39452 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {5e965c28-7517-4020-9441-945ed8a7cd29} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 3 tab
+argha	8831	8517	8872	0	28	1.1	1.0	2941992	169772	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:39452 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {5e965c28-7517-4020-9441-945ed8a7cd29} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 3 tab
+argha	8831	8517	8873	0	28	1.1	1.0	2941992	169772	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:39452 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {5e965c28-7517-4020-9441-945ed8a7cd29} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 3 tab
+argha	8831	8517	8874	0	28	1.1	1.0	2941992	169772	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:39452 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {5e965c28-7517-4020-9441-945ed8a7cd29} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 3 tab
+argha	8831	8517	8941	0	28	1.1	1.0	2941992	169772	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:39452 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {5e965c28-7517-4020-9441-945ed8a7cd29} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 3 tab
+argha	8842	8517	8842	0	5	0.0	0.2	607092	44776	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -parentBuildID 20260206133811 -prefsHandle 0:39452 -prefMapHandle 1:280959 -sandboxReporter 2 -chrootClient 3 -ipcHandle 4 -initialChannelId {0f256ec6-4bee-494e-8730-1fff6ca49575} -parentPid 8336 -crashReporter 5 -crashHelper 6 -appDir /usr/lib64/firefox/browser 4 rdd
+argha	8842	8517	8845	0	5	0.0	0.2	607092	44776	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -parentBuildID 20260206133811 -prefsHandle 0:39452 -prefMapHandle 1:280959 -sandboxReporter 2 -chrootClient 3 -ipcHandle 4 -initialChannelId {0f256ec6-4bee-494e-8730-1fff6ca49575} -parentPid 8336 -crashReporter 5 -crashHelper 6 -appDir /usr/lib64/firefox/browser 4 rdd
+argha	8842	8517	8847	0	5	0.0	0.2	607092	44776	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -parentBuildID 20260206133811 -prefsHandle 0:39452 -prefMapHandle 1:280959 -sandboxReporter 2 -chrootClient 3 -ipcHandle 4 -initialChannelId {0f256ec6-4bee-494e-8730-1fff6ca49575} -parentPid 8336 -crashReporter 5 -crashHelper 6 -appDir /usr/lib64/firefox/browser 4 rdd
+argha	8842	8517	8882	0	5	0.0	0.2	607092	44776	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -parentBuildID 20260206133811 -prefsHandle 0:39452 -prefMapHandle 1:280959 -sandboxReporter 2 -chrootClient 3 -ipcHandle 4 -initialChannelId {0f256ec6-4bee-494e-8730-1fff6ca49575} -parentPid 8336 -crashReporter 5 -crashHelper 6 -appDir /usr/lib64/firefox/browser 4 rdd
+argha	8842	8517	8883	0	5	0.0	0.2	607092	44776	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -parentBuildID 20260206133811 -prefsHandle 0:39452 -prefMapHandle 1:280959 -sandboxReporter 2 -chrootClient 3 -ipcHandle 4 -initialChannelId {0f256ec6-4bee-494e-8730-1fff6ca49575} -parentPid 8336 -crashReporter 5 -crashHelper 6 -appDir /usr/lib64/firefox/browser 4 rdd
+argha	8903	8517	8903	4	28	4.7	1.3	3093500	222344	?	Sl	12:11	0:02	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:39509 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {85f86067-aead-4718-9f45-1ff7fc822237} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 5 tab
+argha	8903	8517	8907	0	28	4.7	1.3	3093500	222344	?	Sl	12:11	0:02	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:39509 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {85f86067-aead-4718-9f45-1ff7fc822237} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 5 tab
+argha	8903	8517	8909	0	28	4.7	1.3	3093500	222344	?	Sl	12:11	0:02	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:39509 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {85f86067-aead-4718-9f45-1ff7fc822237} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 5 tab
+argha	8903	8517	8910	0	28	4.7	1.3	3093500	222344	?	Sl	12:11	0:02	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:39509 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {85f86067-aead-4718-9f45-1ff7fc822237} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 5 tab
+argha	8903	8517	8911	0	28	4.7	1.3	3093500	222344	?	Sl	12:11	0:02	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:39509 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {85f86067-aead-4718-9f45-1ff7fc822237} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 5 tab
+argha	8903	8517	8912	0	28	4.7	1.3	3093500	222344	?	Sl	12:11	0:02	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:39509 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {85f86067-aead-4718-9f45-1ff7fc822237} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 5 tab
+argha	8903	8517	8913	0	28	4.7	1.3	3093500	222344	?	Sl	12:11	0:02	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:39509 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {85f86067-aead-4718-9f45-1ff7fc822237} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 5 tab
+argha	8903	8517	8914	0	28	4.7	1.3	3093500	222344	?	Sl	12:11	0:02	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:39509 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {85f86067-aead-4718-9f45-1ff7fc822237} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 5 tab
+argha	8903	8517	8915	0	28	4.7	1.3	3093500	222344	?	Sl	12:11	0:02	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:39509 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {85f86067-aead-4718-9f45-1ff7fc822237} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 5 tab
+argha	8903	8517	8916	0	28	4.7	1.3	3093500	222344	?	Sl	12:11	0:02	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:39509 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {85f86067-aead-4718-9f45-1ff7fc822237} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 5 tab
+argha	8903	8517	8917	0	28	4.7	1.3	3093500	222344	?	Sl	12:11	0:02	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:39509 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {85f86067-aead-4718-9f45-1ff7fc822237} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 5 tab
+argha	8903	8517	8918	0	28	4.7	1.3	3093500	222344	?	Sl	12:11	0:02	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:39509 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {85f86067-aead-4718-9f45-1ff7fc822237} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 5 tab
+argha	8903	8517	8919	0	28	4.7	1.3	3093500	222344	?	Sl	12:11	0:02	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:39509 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {85f86067-aead-4718-9f45-1ff7fc822237} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 5 tab
+argha	8903	8517	8920	0	28	4.7	1.3	3093500	222344	?	Sl	12:11	0:02	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:39509 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {85f86067-aead-4718-9f45-1ff7fc822237} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 5 tab
+argha	8903	8517	8921	0	28	4.7	1.3	3093500	222344	?	Sl	12:11	0:02	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:39509 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {85f86067-aead-4718-9f45-1ff7fc822237} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 5 tab
+argha	8903	8517	8922	0	28	4.7	1.3	3093500	222344	?	Sl	12:11	0:02	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:39509 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {85f86067-aead-4718-9f45-1ff7fc822237} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 5 tab
+argha	8903	8517	8923	0	28	4.7	1.3	3093500	222344	?	Sl	12:11	0:02	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:39509 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {85f86067-aead-4718-9f45-1ff7fc822237} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 5 tab
+argha	8903	8517	8924	0	28	4.7	1.3	3093500	222344	?	Sl	12:11	0:02	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:39509 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {85f86067-aead-4718-9f45-1ff7fc822237} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 5 tab
+argha	8903	8517	8925	0	28	4.7	1.3	3093500	222344	?	Sl	12:11	0:02	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:39509 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {85f86067-aead-4718-9f45-1ff7fc822237} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 5 tab
+argha	8903	8517	8926	0	28	4.7	1.3	3093500	222344	?	Sl	12:11	0:02	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:39509 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {85f86067-aead-4718-9f45-1ff7fc822237} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 5 tab
+argha	8903	8517	8927	0	28	4.7	1.3	3093500	222344	?	Sl	12:11	0:02	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:39509 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {85f86067-aead-4718-9f45-1ff7fc822237} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 5 tab
+argha	8903	8517	8928	0	28	4.7	1.3	3093500	222344	?	Sl	12:11	0:02	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:39509 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {85f86067-aead-4718-9f45-1ff7fc822237} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 5 tab
+argha	8903	8517	8929	0	28	4.7	1.3	3093500	222344	?	Sl	12:11	0:02	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:39509 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {85f86067-aead-4718-9f45-1ff7fc822237} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 5 tab
+argha	8903	8517	8930	0	28	4.7	1.3	3093500	222344	?	Sl	12:11	0:02	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:39509 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {85f86067-aead-4718-9f45-1ff7fc822237} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 5 tab
+argha	8903	8517	8931	0	28	4.7	1.3	3093500	222344	?	Sl	12:11	0:02	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:39509 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {85f86067-aead-4718-9f45-1ff7fc822237} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 5 tab
+argha	8903	8517	8932	0	28	4.7	1.3	3093500	222344	?	Sl	12:11	0:02	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:39509 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {85f86067-aead-4718-9f45-1ff7fc822237} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 5 tab
+argha	8903	8517	8933	0	28	4.7	1.3	3093500	222344	?	Sl	12:11	0:02	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:39509 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {85f86067-aead-4718-9f45-1ff7fc822237} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 5 tab
+argha	8903	8517	8943	0	28	4.7	1.3	3093500	222344	?	Sl	12:11	0:02	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:39509 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {85f86067-aead-4718-9f45-1ff7fc822237} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 5 tab
+argha	8955	8517	8955	0	4	0.0	0.1	476112	29760	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -parentBuildID 20260206133811 -sandboxingKind 0 -prefsHandle 0:50275 -prefMapHandle 1:280959 -sandboxReporter 2 -chrootClient 3 -ipcHandle 4 -initialChannelId {99ac607b-2e0e-40a3-a823-18037e51c2e7} -parentPid 8336 -crashReporter 5 -crashHelper 6 -appDir /usr/lib64/firefox/browser 6 utility
+argha	8955	8517	8958	0	4	0.0	0.1	476112	29760	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -parentBuildID 20260206133811 -sandboxingKind 0 -prefsHandle 0:50275 -prefMapHandle 1:280959 -sandboxReporter 2 -chrootClient 3 -ipcHandle 4 -initialChannelId {99ac607b-2e0e-40a3-a823-18037e51c2e7} -parentPid 8336 -crashReporter 5 -crashHelper 6 -appDir /usr/lib64/firefox/browser 6 utility
+argha	8955	8517	8960	0	4	0.0	0.1	476112	29760	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -parentBuildID 20260206133811 -sandboxingKind 0 -prefsHandle 0:50275 -prefMapHandle 1:280959 -sandboxReporter 2 -chrootClient 3 -ipcHandle 4 -initialChannelId {99ac607b-2e0e-40a3-a823-18037e51c2e7} -parentPid 8336 -crashReporter 5 -crashHelper 6 -appDir /usr/lib64/firefox/browser 6 utility
+argha	8955	8517	8962	0	4	0.0	0.1	476112	29760	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -parentBuildID 20260206133811 -sandboxingKind 0 -prefsHandle 0:50275 -prefMapHandle 1:280959 -sandboxReporter 2 -chrootClient 3 -ipcHandle 4 -initialChannelId {99ac607b-2e0e-40a3-a823-18037e51c2e7} -parentPid 8336 -crashReporter 5 -crashHelper 6 -appDir /usr/lib64/firefox/browser 6 utility
+argha	8979	8517	8979	8	29	10.7	1.8	3114044	293132	?	Sl	12:11	0:05	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44028 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {09eef9d1-8ad8-45fc-b1e7-fb3454a19ba4} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 7 tab
+argha	8979	8517	8985	0	29	10.7	1.8	3114044	293132	?	Sl	12:11	0:05	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44028 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {09eef9d1-8ad8-45fc-b1e7-fb3454a19ba4} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 7 tab
+argha	8979	8517	8988	0	29	10.7	1.8	3114044	293132	?	Sl	12:11	0:05	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44028 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {09eef9d1-8ad8-45fc-b1e7-fb3454a19ba4} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 7 tab
+argha	8979	8517	9002	0	29	10.7	1.8	3114044	293132	?	Sl	12:11	0:05	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44028 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {09eef9d1-8ad8-45fc-b1e7-fb3454a19ba4} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 7 tab
+argha	8979	8517	9005	0	29	10.7	1.8	3114044	293132	?	Sl	12:11	0:05	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44028 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {09eef9d1-8ad8-45fc-b1e7-fb3454a19ba4} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 7 tab
+argha	8979	8517	9014	0	29	10.7	1.8	3114044	293132	?	Sl	12:11	0:05	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44028 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {09eef9d1-8ad8-45fc-b1e7-fb3454a19ba4} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 7 tab
+argha	8979	8517	9017	0	29	10.7	1.8	3114044	293132	?	Sl	12:11	0:05	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44028 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {09eef9d1-8ad8-45fc-b1e7-fb3454a19ba4} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 7 tab
+argha	8979	8517	9018	0	29	10.7	1.8	3114044	293132	?	Sl	12:11	0:05	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44028 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {09eef9d1-8ad8-45fc-b1e7-fb3454a19ba4} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 7 tab
+argha	8979	8517	9019	0	29	10.7	1.8	3114044	293132	?	Sl	12:11	0:05	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44028 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {09eef9d1-8ad8-45fc-b1e7-fb3454a19ba4} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 7 tab
+argha	8979	8517	9020	0	29	10.7	1.8	3114044	293132	?	Sl	12:11	0:05	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44028 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {09eef9d1-8ad8-45fc-b1e7-fb3454a19ba4} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 7 tab
+argha	8979	8517	9021	0	29	10.7	1.8	3114044	293132	?	Sl	12:11	0:05	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44028 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {09eef9d1-8ad8-45fc-b1e7-fb3454a19ba4} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 7 tab
+argha	8979	8517	9024	0	29	10.7	1.8	3114044	293132	?	Sl	12:11	0:05	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44028 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {09eef9d1-8ad8-45fc-b1e7-fb3454a19ba4} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 7 tab
+argha	8979	8517	9026	0	29	10.7	1.8	3114044	293132	?	Sl	12:11	0:05	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44028 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {09eef9d1-8ad8-45fc-b1e7-fb3454a19ba4} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 7 tab
+argha	8979	8517	9030	0	29	10.7	1.8	3114044	293132	?	Sl	12:11	0:05	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44028 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {09eef9d1-8ad8-45fc-b1e7-fb3454a19ba4} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 7 tab
+argha	8979	8517	9039	0	29	10.7	1.8	3114044	293132	?	Sl	12:11	0:05	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44028 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {09eef9d1-8ad8-45fc-b1e7-fb3454a19ba4} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 7 tab
+argha	8979	8517	9043	0	29	10.7	1.8	3114044	293132	?	Sl	12:11	0:05	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44028 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {09eef9d1-8ad8-45fc-b1e7-fb3454a19ba4} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 7 tab
+argha	8979	8517	9044	0	29	10.7	1.8	3114044	293132	?	Sl	12:11	0:05	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44028 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {09eef9d1-8ad8-45fc-b1e7-fb3454a19ba4} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 7 tab
+argha	8979	8517	9045	0	29	10.7	1.8	3114044	293132	?	Sl	12:11	0:05	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44028 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {09eef9d1-8ad8-45fc-b1e7-fb3454a19ba4} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 7 tab
+argha	8979	8517	9046	0	29	10.7	1.8	3114044	293132	?	Sl	12:11	0:05	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44028 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {09eef9d1-8ad8-45fc-b1e7-fb3454a19ba4} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 7 tab
+argha	8979	8517	9056	0	29	10.7	1.8	3114044	293132	?	Sl	12:11	0:05	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44028 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {09eef9d1-8ad8-45fc-b1e7-fb3454a19ba4} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 7 tab
+argha	8979	8517	9057	0	29	10.7	1.8	3114044	293132	?	Sl	12:11	0:05	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44028 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {09eef9d1-8ad8-45fc-b1e7-fb3454a19ba4} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 7 tab
+argha	8979	8517	9058	0	29	10.7	1.8	3114044	293132	?	Sl	12:11	0:05	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44028 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {09eef9d1-8ad8-45fc-b1e7-fb3454a19ba4} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 7 tab
+argha	8979	8517	9059	0	29	10.7	1.8	3114044	293132	?	Sl	12:11	0:05	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44028 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {09eef9d1-8ad8-45fc-b1e7-fb3454a19ba4} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 7 tab
+argha	8979	8517	9060	0	29	10.7	1.8	3114044	293132	?	Sl	12:11	0:05	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44028 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {09eef9d1-8ad8-45fc-b1e7-fb3454a19ba4} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 7 tab
+argha	8979	8517	9061	0	29	10.7	1.8	3114044	293132	?	Sl	12:11	0:05	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44028 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {09eef9d1-8ad8-45fc-b1e7-fb3454a19ba4} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 7 tab
+argha	8979	8517	9062	0	29	10.7	1.8	3114044	293132	?	Sl	12:11	0:05	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44028 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {09eef9d1-8ad8-45fc-b1e7-fb3454a19ba4} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 7 tab
+argha	8979	8517	9063	0	29	10.7	1.8	3114044	293132	?	Sl	12:11	0:05	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44028 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {09eef9d1-8ad8-45fc-b1e7-fb3454a19ba4} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 7 tab
+argha	8979	8517	9109	0	29	10.7	1.8	3114044	293132	?	Sl	12:11	0:05	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44028 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {09eef9d1-8ad8-45fc-b1e7-fb3454a19ba4} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 7 tab
+argha	8979	8517	9123	0	29	10.7	1.8	3114044	293132	?	Sl	12:11	0:05	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44028 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {09eef9d1-8ad8-45fc-b1e7-fb3454a19ba4} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 7 tab
+argha	8981	8517	8981	0	27	0.1	0.5	2845408	89032	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44028 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {5929e163-bd25-4768-9dc0-448a41559f3f} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 8 tab
+argha	8981	8517	8990	0	27	0.1	0.5	2845408	89032	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44028 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {5929e163-bd25-4768-9dc0-448a41559f3f} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 8 tab
+argha	8981	8517	8992	0	27	0.1	0.5	2845408	89032	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44028 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {5929e163-bd25-4768-9dc0-448a41559f3f} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 8 tab
+argha	8981	8517	9000	0	27	0.1	0.5	2845408	89032	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44028 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {5929e163-bd25-4768-9dc0-448a41559f3f} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 8 tab
+argha	8981	8517	9003	0	27	0.1	0.5	2845408	89032	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44028 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {5929e163-bd25-4768-9dc0-448a41559f3f} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 8 tab
+argha	8981	8517	9006	0	27	0.1	0.5	2845408	89032	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44028 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {5929e163-bd25-4768-9dc0-448a41559f3f} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 8 tab
+argha	8981	8517	9009	0	27	0.1	0.5	2845408	89032	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44028 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {5929e163-bd25-4768-9dc0-448a41559f3f} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 8 tab
+argha	8981	8517	9012	0	27	0.1	0.5	2845408	89032	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44028 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {5929e163-bd25-4768-9dc0-448a41559f3f} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 8 tab
+argha	8981	8517	9013	0	27	0.1	0.5	2845408	89032	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44028 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {5929e163-bd25-4768-9dc0-448a41559f3f} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 8 tab
+argha	8981	8517	9016	0	27	0.1	0.5	2845408	89032	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44028 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {5929e163-bd25-4768-9dc0-448a41559f3f} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 8 tab
+argha	8981	8517	9023	0	27	0.1	0.5	2845408	89032	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44028 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {5929e163-bd25-4768-9dc0-448a41559f3f} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 8 tab
+argha	8981	8517	9025	0	27	0.1	0.5	2845408	89032	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44028 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {5929e163-bd25-4768-9dc0-448a41559f3f} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 8 tab
+argha	8981	8517	9028	0	27	0.1	0.5	2845408	89032	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44028 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {5929e163-bd25-4768-9dc0-448a41559f3f} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 8 tab
+argha	8981	8517	9031	0	27	0.1	0.5	2845408	89032	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44028 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {5929e163-bd25-4768-9dc0-448a41559f3f} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 8 tab
+argha	8981	8517	9047	0	27	0.1	0.5	2845408	89032	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44028 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {5929e163-bd25-4768-9dc0-448a41559f3f} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 8 tab
+argha	8981	8517	9050	0	27	0.1	0.5	2845408	89032	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44028 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {5929e163-bd25-4768-9dc0-448a41559f3f} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 8 tab
+argha	8981	8517	9052	0	27	0.1	0.5	2845408	89032	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44028 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {5929e163-bd25-4768-9dc0-448a41559f3f} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 8 tab
+argha	8981	8517	9053	0	27	0.1	0.5	2845408	89032	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44028 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {5929e163-bd25-4768-9dc0-448a41559f3f} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 8 tab
+argha	8981	8517	9054	0	27	0.1	0.5	2845408	89032	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44028 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {5929e163-bd25-4768-9dc0-448a41559f3f} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 8 tab
+argha	8981	8517	9068	0	27	0.1	0.5	2845408	89032	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44028 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {5929e163-bd25-4768-9dc0-448a41559f3f} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 8 tab
+argha	8981	8517	9069	0	27	0.1	0.5	2845408	89032	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44028 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {5929e163-bd25-4768-9dc0-448a41559f3f} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 8 tab
+argha	8981	8517	9070	0	27	0.1	0.5	2845408	89032	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44028 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {5929e163-bd25-4768-9dc0-448a41559f3f} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 8 tab
+argha	8981	8517	9071	0	27	0.1	0.5	2845408	89032	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44028 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {5929e163-bd25-4768-9dc0-448a41559f3f} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 8 tab
+argha	8981	8517	9072	0	27	0.1	0.5	2845408	89032	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44028 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {5929e163-bd25-4768-9dc0-448a41559f3f} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 8 tab
+argha	8981	8517	9073	0	27	0.1	0.5	2845408	89032	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44028 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {5929e163-bd25-4768-9dc0-448a41559f3f} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 8 tab
+argha	8981	8517	9074	0	27	0.1	0.5	2845408	89032	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44028 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {5929e163-bd25-4768-9dc0-448a41559f3f} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 8 tab
+argha	8981	8517	9075	0	27	0.1	0.5	2845408	89032	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44028 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {5929e163-bd25-4768-9dc0-448a41559f3f} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 8 tab
+argha	8993	8517	8993	0	27	0.0	0.5	2845408	89200	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44028 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {d93dd156-5291-4633-9811-e0d9fe208150} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 9 tab
+argha	8993	8517	8997	0	27	0.0	0.5	2845408	89200	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44028 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {d93dd156-5291-4633-9811-e0d9fe208150} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 9 tab
+argha	8993	8517	8999	0	27	0.0	0.5	2845408	89200	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44028 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {d93dd156-5291-4633-9811-e0d9fe208150} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 9 tab
+argha	8993	8517	9001	0	27	0.0	0.5	2845408	89200	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44028 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {d93dd156-5291-4633-9811-e0d9fe208150} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 9 tab
+argha	8993	8517	9004	0	27	0.0	0.5	2845408	89200	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44028 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {d93dd156-5291-4633-9811-e0d9fe208150} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 9 tab
+argha	8993	8517	9007	0	27	0.0	0.5	2845408	89200	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44028 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {d93dd156-5291-4633-9811-e0d9fe208150} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 9 tab
+argha	8993	8517	9008	0	27	0.0	0.5	2845408	89200	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44028 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {d93dd156-5291-4633-9811-e0d9fe208150} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 9 tab
+argha	8993	8517	9010	0	27	0.0	0.5	2845408	89200	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44028 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {d93dd156-5291-4633-9811-e0d9fe208150} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 9 tab
+argha	8993	8517	9011	0	27	0.0	0.5	2845408	89200	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44028 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {d93dd156-5291-4633-9811-e0d9fe208150} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 9 tab
+argha	8993	8517	9015	0	27	0.0	0.5	2845408	89200	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44028 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {d93dd156-5291-4633-9811-e0d9fe208150} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 9 tab
+argha	8993	8517	9022	0	27	0.0	0.5	2845408	89200	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44028 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {d93dd156-5291-4633-9811-e0d9fe208150} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 9 tab
+argha	8993	8517	9027	0	27	0.0	0.5	2845408	89200	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44028 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {d93dd156-5291-4633-9811-e0d9fe208150} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 9 tab
+argha	8993	8517	9029	0	27	0.0	0.5	2845408	89200	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44028 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {d93dd156-5291-4633-9811-e0d9fe208150} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 9 tab
+argha	8993	8517	9032	0	27	0.0	0.5	2845408	89200	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44028 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {d93dd156-5291-4633-9811-e0d9fe208150} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 9 tab
+argha	8993	8517	9055	0	27	0.0	0.5	2845408	89200	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44028 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {d93dd156-5291-4633-9811-e0d9fe208150} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 9 tab
+argha	8993	8517	9064	0	27	0.0	0.5	2845408	89200	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44028 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {d93dd156-5291-4633-9811-e0d9fe208150} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 9 tab
+argha	8993	8517	9065	0	27	0.0	0.5	2845408	89200	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44028 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {d93dd156-5291-4633-9811-e0d9fe208150} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 9 tab
+argha	8993	8517	9066	0	27	0.0	0.5	2845408	89200	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44028 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {d93dd156-5291-4633-9811-e0d9fe208150} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 9 tab
+argha	8993	8517	9067	0	27	0.0	0.5	2845408	89200	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44028 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {d93dd156-5291-4633-9811-e0d9fe208150} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 9 tab
+argha	8993	8517	9076	0	27	0.0	0.5	2845408	89200	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44028 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {d93dd156-5291-4633-9811-e0d9fe208150} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 9 tab
+argha	8993	8517	9077	0	27	0.0	0.5	2845408	89200	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44028 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {d93dd156-5291-4633-9811-e0d9fe208150} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 9 tab
+argha	8993	8517	9078	0	27	0.0	0.5	2845408	89200	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44028 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {d93dd156-5291-4633-9811-e0d9fe208150} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 9 tab
+argha	8993	8517	9079	0	27	0.0	0.5	2845408	89200	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44028 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {d93dd156-5291-4633-9811-e0d9fe208150} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 9 tab
+argha	8993	8517	9080	0	27	0.0	0.5	2845408	89200	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44028 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {d93dd156-5291-4633-9811-e0d9fe208150} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 9 tab
+argha	8993	8517	9081	0	27	0.0	0.5	2845408	89200	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44028 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {d93dd156-5291-4633-9811-e0d9fe208150} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 9 tab
+argha	8993	8517	9082	0	27	0.0	0.5	2845408	89200	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44028 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {d93dd156-5291-4633-9811-e0d9fe208150} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 9 tab
+argha	8993	8517	9083	0	27	0.0	0.5	2845408	89200	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44028 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {d93dd156-5291-4633-9811-e0d9fe208150} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 9 tab
+argha	9125	8517	9125	0	27	0.1	0.5	2845408	89184	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44028 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {a4162294-b3c7-4460-837f-72e85b3ada83} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 10 tab
+argha	9125	8517	9129	0	27	0.1	0.5	2845408	89184	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44028 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {a4162294-b3c7-4460-837f-72e85b3ada83} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 10 tab
+argha	9125	8517	9131	0	27	0.1	0.5	2845408	89184	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44028 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {a4162294-b3c7-4460-837f-72e85b3ada83} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 10 tab
+argha	9125	8517	9134	0	27	0.1	0.5	2845408	89184	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44028 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {a4162294-b3c7-4460-837f-72e85b3ada83} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 10 tab
+argha	9125	8517	9135	0	27	0.1	0.5	2845408	89184	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44028 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {a4162294-b3c7-4460-837f-72e85b3ada83} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 10 tab
+argha	9125	8517	9136	0	27	0.1	0.5	2845408	89184	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44028 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {a4162294-b3c7-4460-837f-72e85b3ada83} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 10 tab
+argha	9125	8517	9137	0	27	0.1	0.5	2845408	89184	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44028 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {a4162294-b3c7-4460-837f-72e85b3ada83} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 10 tab
+argha	9125	8517	9138	0	27	0.1	0.5	2845408	89184	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44028 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {a4162294-b3c7-4460-837f-72e85b3ada83} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 10 tab
+argha	9125	8517	9139	0	27	0.1	0.5	2845408	89184	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44028 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {a4162294-b3c7-4460-837f-72e85b3ada83} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 10 tab
+argha	9125	8517	9140	0	27	0.1	0.5	2845408	89184	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44028 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {a4162294-b3c7-4460-837f-72e85b3ada83} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 10 tab
+argha	9125	8517	9141	0	27	0.1	0.5	2845408	89184	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44028 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {a4162294-b3c7-4460-837f-72e85b3ada83} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 10 tab
+argha	9125	8517	9142	0	27	0.1	0.5	2845408	89184	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44028 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {a4162294-b3c7-4460-837f-72e85b3ada83} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 10 tab
+argha	9125	8517	9143	0	27	0.1	0.5	2845408	89184	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44028 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {a4162294-b3c7-4460-837f-72e85b3ada83} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 10 tab
+argha	9125	8517	9144	0	27	0.1	0.5	2845408	89184	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44028 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {a4162294-b3c7-4460-837f-72e85b3ada83} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 10 tab
+argha	9125	8517	9149	0	27	0.1	0.5	2845408	89184	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44028 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {a4162294-b3c7-4460-837f-72e85b3ada83} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 10 tab
+argha	9125	8517	9150	0	27	0.1	0.5	2845408	89184	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44028 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {a4162294-b3c7-4460-837f-72e85b3ada83} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 10 tab
+argha	9125	8517	9151	0	27	0.1	0.5	2845408	89184	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44028 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {a4162294-b3c7-4460-837f-72e85b3ada83} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 10 tab
+argha	9125	8517	9152	0	27	0.1	0.5	2845408	89184	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44028 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {a4162294-b3c7-4460-837f-72e85b3ada83} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 10 tab
+argha	9125	8517	9153	0	27	0.1	0.5	2845408	89184	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44028 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {a4162294-b3c7-4460-837f-72e85b3ada83} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 10 tab
+argha	9125	8517	9154	0	27	0.1	0.5	2845408	89184	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44028 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {a4162294-b3c7-4460-837f-72e85b3ada83} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 10 tab
+argha	9125	8517	9155	0	27	0.1	0.5	2845408	89184	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44028 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {a4162294-b3c7-4460-837f-72e85b3ada83} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 10 tab
+argha	9125	8517	9156	0	27	0.1	0.5	2845408	89184	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44028 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {a4162294-b3c7-4460-837f-72e85b3ada83} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 10 tab
+argha	9125	8517	9157	0	27	0.1	0.5	2845408	89184	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44028 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {a4162294-b3c7-4460-837f-72e85b3ada83} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 10 tab
+argha	9125	8517	9158	0	27	0.1	0.5	2845408	89184	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44028 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {a4162294-b3c7-4460-837f-72e85b3ada83} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 10 tab
+argha	9125	8517	9159	0	27	0.1	0.5	2845408	89184	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44028 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {a4162294-b3c7-4460-837f-72e85b3ada83} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 10 tab
+argha	9125	8517	9160	0	27	0.1	0.5	2845408	89184	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44028 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {a4162294-b3c7-4460-837f-72e85b3ada83} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 10 tab
+argha	9125	8517	9161	0	27	0.1	0.5	2845408	89184	?	Sl	12:11	0:00	/usr/lib64/firefox/firefox -contentproc -isForBrowser -prefsHandle 0:44028 -prefMapHandle 1:280959 -jsInitHandle 2:223968 -parentBuildID 20260206133811 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {a4162294-b3c7-4460-837f-72e85b3ada83} -parentPid 8336 -crashReporter 6 -crashHelper 7 -greomni /usr/lib64/firefox/omni.ja -appomni /usr/lib64/firefox/browser/omni.ja -appDir /usr/lib64/firefox/browser 10 tab
+argha	9242	6014	9242	0	1	0.0	0.0	3748	2372	?	S	12:12	0:00	bwrap --unshare-all --die-with-parent --chdir / --ro-bind /usr /usr --dev /dev --ro-bind-try /etc/ld.so.cache /etc/ld.so.cache --ro-bind-try /nix/store /nix/store --tmpfs /tmp-home --tmpfs /tmp-run --clearenv --setenv HOME /tmp-home --setenv XDG_RUNTIME_DIR /tmp-run --setenv XDG_RUNTIME_DIR /run/user/1000 --symlink /usr/lib /lib --symlink /usr/lib64 /lib64 --ro-bind-try /etc/fonts/conf.d /etc/fonts/conf.d --ro-bind-try /etc/fonts/fonts.conf /etc/fonts/fonts.conf --ro-bind-try /home/argha/.cache/fontconfig /home/argha/.cache/fontconfig --ro-bind-try /home/argha/.local/share/fonts /home/argha/.local/share/fonts --ro-bind-try /usr/lib/fontconfig/cache /usr/lib/fontconfig/cache --bind-try /home/argha/.cache/glycin/usr/libexec/glycin-loaders/2+/glycin-svg /home/argha/.cache/glycin/usr/libexec/glycin-loaders/2+/glycin-svg --setenv XDG_CACHE_HOME /home/argha/.cache/glycin/usr/libexec/glycin-loaders/2+/glycin-svg --seccomp 25 /usr/libexec/glycin-loaders/2+/glycin-svg --dbus-fd 24
+argha	9243	9242	9243	0	1	0.0	0.0	3748	1568	?	S	12:12	0:00	bwrap --unshare-all --die-with-parent --chdir / --ro-bind /usr /usr --dev /dev --ro-bind-try /etc/ld.so.cache /etc/ld.so.cache --ro-bind-try /nix/store /nix/store --tmpfs /tmp-home --tmpfs /tmp-run --clearenv --setenv HOME /tmp-home --setenv XDG_RUNTIME_DIR /tmp-run --setenv XDG_RUNTIME_DIR /run/user/1000 --symlink /usr/lib /lib --symlink /usr/lib64 /lib64 --ro-bind-try /etc/fonts/conf.d /etc/fonts/conf.d --ro-bind-try /etc/fonts/fonts.conf /etc/fonts/fonts.conf --ro-bind-try /home/argha/.cache/fontconfig /home/argha/.cache/fontconfig --ro-bind-try /home/argha/.local/share/fonts /home/argha/.local/share/fonts --ro-bind-try /usr/lib/fontconfig/cache /usr/lib/fontconfig/cache --bind-try /home/argha/.cache/glycin/usr/libexec/glycin-loaders/2+/glycin-svg /home/argha/.cache/glycin/usr/libexec/glycin-loaders/2+/glycin-svg --setenv XDG_CACHE_HOME /home/argha/.cache/glycin/usr/libexec/glycin-loaders/2+/glycin-svg --seccomp 25 /usr/libexec/glycin-loaders/2+/glycin-svg --dbus-fd 24
+argha	9244	9243	9244	0	3	0.0	0.1	302800	16756	?	Sl	12:12	0:00	/usr/libexec/glycin-loaders/2+/glycin-svg --dbus-fd 24
+argha	9244	9243	9245	0	3	0.0	0.1	302800	16756	?	Sl	12:12	0:00	/usr/libexec/glycin-loaders/2+/glycin-svg --dbus-fd 24
+argha	9244	9243	9246	0	3	0.0	0.1	302800	16756	?	Sl	12:12	0:00	/usr/libexec/glycin-loaders/2+/glycin-svg --dbus-fd 24
+argha	9300	6014	9300	0	1	0.0	0.0	3748	2360	?	S	12:12	0:00	bwrap --unshare-all --die-with-parent --chdir / --ro-bind /usr /usr --dev /dev --ro-bind-try /etc/ld.so.cache /etc/ld.so.cache --ro-bind-try /nix/store /nix/store --tmpfs /tmp-home --tmpfs /tmp-run --clearenv --setenv HOME /tmp-home --setenv XDG_RUNTIME_DIR /tmp-run --setenv XDG_RUNTIME_DIR /run/user/1000 --symlink /usr/lib /lib --symlink /usr/lib64 /lib64 --seccomp 27 /usr/libexec/glycin-loaders/2+/glycin-image-rs --dbus-fd 26
+argha	9301	9300	9301	0	1	0.0	0.0	3748	1420	?	S	12:12	0:00	bwrap --unshare-all --die-with-parent --chdir / --ro-bind /usr /usr --dev /dev --ro-bind-try /etc/ld.so.cache /etc/ld.so.cache --ro-bind-try /nix/store /nix/store --tmpfs /tmp-home --tmpfs /tmp-run --clearenv --setenv HOME /tmp-home --setenv XDG_RUNTIME_DIR /tmp-run --setenv XDG_RUNTIME_DIR /run/user/1000 --symlink /usr/lib /lib --symlink /usr/lib64 /lib64 --seccomp 27 /usr/libexec/glycin-loaders/2+/glycin-image-rs --dbus-fd 26
+argha	9302	9301	9302	0	3	0.0	0.0	211592	6656	?	Sl	12:12	0:00	/usr/libexec/glycin-loaders/2+/glycin-image-rs --dbus-fd 26
+argha	9302	9301	9303	0	3	0.0	0.0	211592	6656	?	Sl	12:12	0:00	/usr/libexec/glycin-loaders/2+/glycin-image-rs --dbus-fd 26
+argha	9302	9301	9304	0	3	0.0	0.0	211592	6656	?	Sl	12:12	0:00	/usr/libexec/glycin-loaders/2+/glycin-image-rs --dbus-fd 26
+argha	9327	4565	9327	2	4	2.0	0.3	610144	50656	?	SNl	12:12	0:00	/usr/libexec/localsearch-extractor-3 --socket-fd 3
+argha	9327	4565	9332	0	4	2.0	0.3	610144	50656	?	SNl	12:12	0:00	/usr/libexec/localsearch-extractor-3 --socket-fd 3
+argha	9327	4565	9333	0	4	2.0	0.3	610144	50656	?	SNl	12:12	0:00	/usr/libexec/localsearch-extractor-3 --socket-fd 3
+argha	9327	4565	9334	0	4	2.0	0.3	610144	50656	?	SNl	12:12	0:00	/usr/libexec/localsearch-extractor-3 --socket-fd 3
+argha	9340	6409	9340	0	1	0.0	0.0	2428	1548	pts/0	S+	12:12	0:00	./my-ps
