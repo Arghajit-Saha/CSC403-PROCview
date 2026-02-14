@@ -36,13 +36,20 @@ The program generates a tab-separated output containing the following columns:
 
 Follow these steps to compile and run the project:
 
-### Step 1: Compile and Setup Alias
+### Step 1: Clone and Navigate
+First, clone the repository and navigate into the project directory:
+```bash
+git clone https://github.com/Arghajit-Saha/CSC403-PROCview.git
+cd CSC403-PROCview
+```
+
+### Step 2: Compile and Setup Alias
 Run the following single-line command to compile the source code and create a temporary alias for ease of use:
 ```bash
 gcc main.c -o my-ps && alias my_ps='./my-ps'
 ```
 
-### Step 2: Run the Command
+### Step 3: Run the Command
 Once the alias is set, simply execute:
 ```bash
 my_ps
